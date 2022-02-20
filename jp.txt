@@ -126,16 +126,16 @@ ui.trade.buyonce.text	買取する
 ui.trade.buyonce.up-to	({qtyString}個まで売却可)
 ui.trade.buyonce.costvcash	価格: {price}.   現金: {cash}
 ui.trade.buysell	<sprite name="ui buy sell">
-ui.trade.delivery.sell	Sold {resdesc} to {bizdesc} per our scheduled order.
+ui.trade.delivery.sell	{resdesc}を{bizdesc}に予定通り販売しました。
 ui.trade.delivery.sinfo	{status} {extra}\n\n{cash}受け取った。
-ui.trade.delivery.buy	Bought {resdesc} from {bizdesc} per our scheduled order.
+ui.trade.delivery.buy	予定通り{bizdesc}から{resdesc}を購入しました
 ui.trade.delivery.binfo	{status} {extra}\n\n総コスト: {cash}.
 ui.trade.transfer	金の移動
 ui.qty	{qty}
 ui.percentage	{x}%
 ui.amt-full	({percentage} full)
-ui.trade.order.mo	Set up a one-time order
-ui.trade.trade.mo	Set up a recurring order， assuming you have a good enough relationship.
+ui.trade.order.mo	一回限りの注文を設定する
+ui.trade.trade.mo	定期的な注文を設定する、十分な関係がある場合。
 ui.trade.cancel.mo	命令のキャンセル
 ui.itempicker.one-time.buy	一度だけ購入
 ui.itempicker.one-time.sell	一度だけ販売
@@ -208,7 +208,7 @@ ui.rename.header.you	あなたはこのあたりではちょっと名のしれ�
 ui.rename.header.m	あなたの構成員{name}はこのあたりではちょっと名のしれた存在になった。今からストリートネームをつけよう：
 ui.rename.header.f	あなたの構成員{name}はこのあたりではちょっと名のしれた存在になった。今からストリートネームをつけよう：
 ui.rename.example-nickname	Scarface
-ui.rename.describe	The name will be displayed as:\n<align=center><b>{longname}</b></align>\nor "{shortname}" in your crew list.
+ui.rename.describe	名前は次のように表示されます:\n<align=center><b>{longname}</b></align>\nまたはクルーリストの"{shortname}"
 ui.rename.footer	一度しか付けられない名前なので、慎重に検討しよう。却下することも可能です。
 ui.name.simple	{title} {first} {last}
 ui.name.nicklong	{title} {first} "{nickname}" {last}
@@ -265,10 +265,10 @@ ui.personinfo.filter.cops	警察と連邦捜査官
 ui.personinfo.unemployed	未雇用
 ui.personinfo.age	{years} 歳
 ui.personinfo.dead	死者
-ui.personinfo.status.defiant	Demand status: <i>defiant</i>
-ui.personinfo.status.compliant	Demand status: <i>compliant</i>
+ui.personinfo.status.defiant	需要状況: <i>反抗的</i>
+ui.personinfo.status.compliant	需要状況: <i>準拠</i>
 ui.personinfo.occ.none	雇用されていない
-ui.personinfo.occ.unk	Occupation unknown
+ui.personinfo.occ.unk	職業不詳
 ui.personinfo.occ.info	{bizname}で働いている
 ui.personinfo.selected.human	あなたです
 ui.personinfo.selected.not-human	あなたのために働いています
@@ -285,7 +285,7 @@ ui.personinfo.selected.compose	{prefix}: {groupname} {compliance}
 ui.personinfo.dialog.header	<size=150%>{name}</size>\n{workplace}\n{details}
 ui.stationinfo.header	{groupname}\n{precinct}
 ui.stationinfo.loc	場所:\n{cornerinfo}
-ui.stationinfo.status.coop	Status:\nCooperating
+ui.stationinfo.status.coop	ステータス:\n協力的
 ui.stationinfo.status.noop	ステータス:\n非協力的
 ui.stationinfo.officers	巡回中の警官:
 ui.stationinfo.officers.card.influenced	\n<i>(あなたの影響下)</i>
@@ -1823,12 +1823,12 @@ ui.grants.target-selector.crew	Select crew to apply rewards to.
 ui.messagepopup.button.showme	Show Me
 ui.messagepopup.button.cancel	Cancel
 ui.ownedbiz.crew	Selected crew member:
-ui.viewaddmodule.available	This space is available.\nYou can set up a new operation here.
-ui.viewaddmodule.button.add	Click to set up a new operation here
-ui.viewaddmodule.button.addstorage	Convert this space into extra storage
-ui.viewaddmodule.button.add.mo	This unused space can be converted into a profitable new operation.
-ui.viewaddmodule.button.addstorage.mo	This unused space can be converted into a storage expansion. This is only available once you have two or more buildings under your control.
-ui.viewaddmodule.confirm.addstorage	<b>You can convert this back room into extra storage.</b>\n\nIf you choose to do so， your storage will be expanded to {futurevolume}， up from current volume of {currentvolume}.\n\nHowever， this will consume all space and you will not be able to install another operation here in the future.\n\nDo you want to reconfigure this space as storage expansion? This conversion is free but it cannot be undone.
+ui.viewaddmodule.available	このスペースは利用可能です。\nここから新しいオペレーションを設定できます。
+ui.viewaddmodule.button.add	クリックすると、こちらから新しいオペレーションを設定できます
+ui.viewaddmodule.button.addstorage	このスペースを収納に変える
+ui.viewaddmodule.button.add.mo	この未使用のスペースは、収益性の高い新しいオペレーションに転換することができます。
+ui.viewaddmodule.button.addstorage.mo	この未使用のスペースは、ストレージの拡張に変換することができます。これは、自分の支配下に2つ以上のビルがある場合にのみ利用可能です。
+ui.viewaddmodule.confirm.addstorage	<b>この奥の部屋は、追加の収納に転用できます。</b>\n\nこの場合，ストレージは現在の容量{currentvolume}から{futurevolume}に拡張されます．\n\nしかし、このままでは容量を消費してしまい、今後ここに別のオペレーションを追加することができなくなります。\n\nこのスペースをストレージ拡張として再構成しますか？この変換は無料ですが、元に戻すことはできません。
 ui.viewdescribemodule.opdetails.header	<size=16><align=center><b>{info}</b></align></size>
 ui.viewdescribemodule.opdetails.front	合法ビジネス
 ui.viewdescribemodule.opdetails.back	バックルームビジネス
@@ -2324,29 +2324,29 @@ convo.social.debtor-payother-inf.f	I heard about your chat with {$firstname} {$l
 convo.social.history.none.pc-npc.blurb	How's it going? I don't see a lot of folks around here.
 convo.social.history.none.npc-npc.blurb	I have no relatives. Don't know a soul in this town.
 convo.social.history.none.attackers-target.blurb	I don't know a lot about these folks. I mostly keep to myself
-convo.buysell-button	Let's talk about buying and selling.
+convo.buysell-button	売買の話をしよう
 convo.buysell-button.icon	<sprite name="ui buy sell">
-convo.buysell-button.dis.mo	You don't have enough <sprite name="ui action pts"> action points to do this.
-convo.buysell-failed-state	I don't do business with the likes of you.
-convo.buysell-failed-state-button	Very well.
-convo.buysell-failed-harassed	I'm sorry， but the shop is closed. It's those local troublemakers， they just won't leave me alone， every week it's one thing or another. I'm just going to close for a little while and wait for it all to blow over.\n<indent=15><i>(They are upset about harassment by local troublemakers. See their <sprite name="ui pip social"> connections and switch to the <sprite name="ui info"> history tab for more information.)</i></indent>
-convo.buysell-failed-harassed-button	That's inconvenient. Maybe I should go talk some sense into them.
-convo.buysell-tradelocked-territory	I'm really sorry， but I'm afraid {groupname} are in charge around here. I can't really do any business with anyone else， you know what I mean?
-convo.buysell-tradelocked-trade	I've already got a good business going with {groupname}. Maybe next time?
-convo.buysell-tradelocked-button	Very well.
-convo.buysell-tradelocked-forceclosed	I'm sorry， we're closed for a few months. For renovations. Please come back later.\n<indent=15><i>(They've been threatened by {groupname} into temporary closure.)</i></indent>
-convo.buysell-tradelocked-tiedhouse-npc	I'm sorry to say this， but I've got into an exclusive arrangement with {groupname}. I'm afraid I won't be able to help you for a while.
-convo.buysell-tradelocked-tiedhouse-say	Wait， what? They got you tied up?
-convo.buysell-tradelocked-tiedhouse-npc2	I'm sorry， this is not a deal that I can just walk away from. They won't let me.\nYou'd need to talk to {groupname}， and see if they're willing to let go of this? I'll let them know you're coming.
-convo.buysell-forceclosed-ask	I hear that you're doing business with our enemy?
-convo.buysell-forceclosed-npc1	Do you mean {groupname}? Sure， they come by here. But I don't stick my nose into anything.
-convo.buysell-forceclosed-say1	Then next time they come by， show them the door. This place is supporting their operation and I'm not going to allow that to continue.
-convo.buysell-forceclosed-npc2	Look， I don't know what beef you have with them， and I don't want to know. But refusing them， that's just asking for trouble， you know? And I don't want trouble.
-convo.buysell-forceclosed-say2	If you don't want to pick sides， there's another way. I'll need you to close down completely for a while. If anyone asks， you're doing renovations.\nConsider accepting this advice. Because if you don't， you'll be doing renovations for real.\n<indent=15><i>(<sprite name="ui convo random"> Threaten into temporary closure.)</i></indent>
-convo.buysell-forceclosed-later	It's okay. I won't make you choose - this time.
-convo.buysell-forceclosed-npcyes	What about my livelihood? My poor family? You're a monster!\n<indent=15><i>(Complies with temporary closure demand.)</i></indent>
-convo.buysell-forceclosed-epiyes	I'm glad you made the correct decision.
-convo.buysell-forceclosed-npcno	I can't be picking sides!\n<indent=15><i>(Refuses.)</i></indent>
+convo.buysell-button.dis.mo	<sprite name="ui action pts">のアクションポイントが足りないのでは？
+convo.buysell-failed-state	お前のような奴とは取引しない。
+convo.buysell-failed-state-button	とても良いですね。
+convo.buysell-failed-harassed	申し訳ありませんが、お店は閉まっています。毎週毎週、何かとトラブルが絶えません。しばらく店を閉めて、ほとぼりが冷めるのを待つことにするよ。\n<indent=15><i>(地元のトラブルメーカーによる嫌がらせに怒っているようだ。彼らの<sprite name="ui pip social">コネクションと<sprite name="ui info">履歴タブで、より詳しい情報を見ることができます。)</i></indent>
+convo.buysell-failed-harassed-button	それは不便ですね。ちょっと説得してこようかな。
+convo.buysell-tradelocked-territory	本当に申し訳ないのですが、この辺りは{groupname}が担当しています。他の人とは取引できないんだ、わかるだろ？
+convo.buysell-tradelocked-trade	すでに{groupname}で良いビジネスが出来ているんだ。次の機会でもいいかな？
+convo.buysell-tradelocked-button	とても良いですね。
+convo.buysell-tradelocked-forceclosed	申し訳ございませんが、数ヶ月間お休みさせていただきます。改装のためです。またのお越しをお待ちしております。\n<indent=15><i>({groupname}に脅されて一時的に閉鎖しています。)</i></indent>
+convo.buysell-tradelocked-tiedhouse-npc	申し訳ないのですが、{groupname}と専属契約を結んでしまいました。申し訳ありませんが、しばらくはお手伝いできません。
+convo.buysell-tradelocked-tiedhouse-say	待てよ、なんだ？縛られてるのか？
+convo.buysell-tradelocked-tiedhouse-npc2	申し訳ないのですが、このまま逃げられるような取引ではありません。彼らは私を許さないでしょう。\n{groupname}と話をして、彼らがこれを手放す気があるかどうかを確認する必要がありますね。あなたが来ることを伝えておきます。
+convo.buysell-forceclosed-ask	我々の敵と取引をしていると聞いたが？
+convo.buysell-forceclosed-npc1	{groupname}のことですか？もちろん、ここにも来ていますよ。でも、私は何にも首を突っ込まないわ。
+convo.buysell-forceclosed-say1	そして、次に彼らが来たら、ドアを見せることです。ここは彼らの活動を支援する場所であり、私はそれを続けることを許可するつもりはありません。
+convo.buysell-forceclosed-npc2	あなたがどんな不満があるのか知らないし、知りたくもない。だが断るのはトラブルの元だろ？私はトラブルを望んでいない
+convo.buysell-forceclosed-say2	もしどちらかに偏るのが嫌なら別の方法がある。しばらくは完全に休業してくれ。もし誰かに聞かれたら 改装中だと言え。そうしないと本当に改装することになるぞ？\n<indent=15><i>(<sprite name="ui convo random"> 臨時休業に追い込む。)</i></indent>
+convo.buysell-forceclosed-later	いいんです。選ばせたりはしない、今回は。
+convo.buysell-forceclosed-npcyes	私の暮らしはどうなる？私の貧しい家族は？お前は怪物だ！\n<indent=15><i>(一時的な閉鎖需要に対応。)</i></indent>
+convo.buysell-forceclosed-epiyes	正しい判断ができたようでよかったです。
+convo.buysell-forceclosed-npcno	どっちつかずではダメだ！\n<indent=15><i>(拒否する)</i></indent>
 convo.buysell-forceclosed-epino	後で対処します。
 convo.goodbye-npc	来てくれてありがとうございました。
 convo.goodbye-button	では、また。
@@ -2354,14 +2354,14 @@ convo.goodbye-button.any	とりあえず、さようなら。
 convo.goodbye-button.neg	後で対処します。
 convo.goodbye-button.pos	また、お会いしましょう
 convo.goodbye-button.mo	会話から離れる
-convo.buysell.notrust.m	<i>(He hesitates for a second. You get a feeling he trades in black market goods， but he doesn't trust you enough to say more. You would need to improve the relationship first.)</i>
-convo.buysell.notrust.f	<i>(She hesitates for a second. You get a feeling she trades in black market goods， but she doesn't trust you enough to say more. You would need to improve the relationship first.)</i>
-convo.buysell.notrust.mo	Improve your relationship with that person， in order to gain access to black market goods.
-convo.buysell.resunknown.m	<i>(You get a feeling he also trades in things you don't know about yet.)</i>
-convo.buysell.resunknown.f	<i>(You get a feeling she also trades in things you don't know about yet.)</i>
+convo.buysell.notrust.m	<i>(彼は一瞬ためらった。彼は闇取引をしているようだが、それ以上話すほどには、あなたを信用していないようだ。まずは関係を改善する必要がありそうです。)</i>
+convo.buysell.notrust.f	<i>(彼女は一瞬ためらった。闇取引をしているような気がするが、それ以上話すほどには、彼女はあなたを信用していない。まずは関係を改善する必要がありそうです。)</i>
+convo.buysell.notrust.mo	その人との関係を良くすることで、闇取引の商品を手に入れることができます。
+convo.buysell.resunknown.m	<i>(あなたがまだ知らないものも取引しているような気がするんです。)</i>
+convo.buysell.resunknown.f	<i>(あなたがまだ知らないものも取引しているような気がするんです。)</i>
 convo.buysell.resunknown.mo	この人は、あなたがまだアンロックしていない資源を取引している。これらの資源をアンロックするには、より多くのスキルを習得する必要がある。
-convo.buysell.notrust-resunknown.m	<i>(He hesitates for a second. You get a feeling he trades in black market goods， but doesn't trust you enough to say more. He might also have other things， things that you don't know about just yet.)</i>
-convo.buysell.notrust-resunknown.f	<i>(She hesitates for a second. You get a feeling she trades in black market goods， but doesn't trust you enough to say more. She might also have other things， things that you don't know about just yet.)</i>
+convo.buysell.notrust-resunknown.m	<i>(彼は一瞬ためらった。彼は闇取引をしているようだが、それ以上話すほどには、あなたを信用していないようだ。他にも、あなたがまだ知らないことを持っているかもしれない。)</i>
+convo.buysell.notrust-resunknown.f	<i>(彼女は一瞬ためらった。彼女は闇取引をしているようだが、それ以上話すほどには、あなたを信用していないようだ。他にも、あなたがまだ知らないことを持っているかもしれない。)</i>
 convo.buysell.notrust-resunknown.mo	人間関係を良くして、闇市の商品を手に入れよう。\nより多くのスキルを習得することで、現在未知の資源をアンロックすることができる。
 convo.buysell.buys	購入
 convo.buysell.sells	売却
@@ -2375,76 +2375,76 @@ convo.buysell-details-buysell	もし興味があれば、私は次のものを�
 convo.buysell-button-header.0	あまりないですね、ここは。
 convo.buysell-button-header.1	こちらはどうでしょう:
 convo.buysell-button-header	とても興味深いですな
-convo.buysell-button-sell	I want to sell <sprite name="ui sell">: {items}
-convo.buysell-button-buy	I want to buy <sprite name="ui buy">: {items}
-convo.buysell-button-footer	Never mind.
-convo.buysell-state-tied-start-npc1	What do you have in mind?
-convo.buysell-state-tied-start-say1	The way this works， is you agree to only do business with me， and no other outfit. Your connections are too valuable to me， to share them with competition.\nIn exchange， I'll pay you， and generously. But you'll have to commit for an extended period of time.
-convo.buysell-state-tied-start-npc2	And what happens if I say no?
-convo.buysell-state-tied-start-say2	What do you mean? Nothing happens. It's a free country， you can do as you please.\nBut I think you should at least think about it.
-convo.buysell-state-tied-start-npc3	I suppose I could start sending other customers away empty-handed for a while. But it will cost you {amt} for the business losses I'm going to incur.
-convo.buysell-state-tied-start-say3	I can work with that. Let's shake on this deal!\n<indent=15><i>(Pay {amt} for a trade exclusivity for {days} days.)</i></indent>
-convo.buysell-state-tied-start-say3epi	It will be a pleasure to do business with you.
-convo.buysell-state-tied-start-no	That's rather steep， don't you think?
-convo.buysell-state-tied-start-noepi	If you change your mind， I'll be here.
-convo.buysell-summary-bought	<i>You purchased {qty} x {items} for {money}</i>
-convo.buysell-summary-bought-continue	Anything else?
-convo.buysell-summary-sold	<i>You sold {qty} x {items} for {money}</i>
-convo.buysell-summary-sold-continue	Great! Anything else?
-convo.buy-select-npc	Yeah， I've got that. Are you interested?\n<indent=15><i>(Offers to sell at {unitprice} per {unitname}{priceshift}.)</i></indent>
-convo.buy-select-button-now	I'll pick some up right now.
-convo.buy-select-button-price	Let's talk about your price.
-convo.buy-select-button-tied	Let's talk about an exclusive trade arrangement. I think it might benefit us both.
-convo.buy-select-button-later	I changed my mind.
-convo.buy-select.discount	; {price} discount on standard price
-convo.buy-select-button-now.npc	Sounds good.
-convo.buy-select-button-pickup.npc	Not a problem， I'm here all day. I can get you {maxunits} {every-x-days}.
-convo.buy-select-button-pickup.say	Got it， I'll keep that in mind.
-convo.buy-price-state	The price is {unitprice} per {unitname}.
-convo.buy-price-any-button	Never mind， your price is fair. Nice doing business with you.\n<indent=15><i>(Agree to {unitprice} per {unitname}.)</i></indent>
-convo.buy-price-any-button.epilogue	Pleasure doing business with you. Anything else I can help with?
-convo.buy-price-any-button.mo	Buy at asking price
-convo.buy-price-neg-button	Say， would you cut a deal for a friend?\n<indent=15><i>(Get a {percentoff} discount from market price.)</i></indent>
-convo.buy-price-neg-button.epilogue	I got you a deal， let's shake on {unitprice} per {unitname}. But don't get used to this， you know. 
-convo.buy-price-neg-button.mo	Try to haggle the price down
-convo.buy-price-pos-button	I'll sweeten the deal because I'm a nice guy. I have a feeling we'll do a lot of business together.\n<indent=15><i>(Volunteer {percentoff} over market price.)</i></indent>
-convo.buy-price-pos-button.epilogue	{unitprice} per {unitname}? How charitable of you! People of valor are hard to find these days.
-convo.buy-price-pos-button.mo	Offer a price that's higher than asking
+convo.buysell-button-sell	売りたい <sprite name="ui sell">: {items}
+convo.buysell-button-buy	購入したい <sprite name="ui buy">: {items}
+convo.buysell-button-footer	気にするな。
+convo.buysell-state-tied-start-npc1	何か思い当たることはありますか？
+convo.buysell-state-tied-start-say1	この仕組みは、私とのみ取引することに同意していただき、他の企業とは取引しないことです。あなたの人脈は私にとってあまりにも貴重であり、競合他社と共有することはできません。\nその代わり報酬は手厚くする。ただし長期間のコミットメントが必要だ。
+convo.buysell-state-tied-start-npc2	もし断ったらどうなる？
+convo.buysell-state-tied-start-say2	どういうことですか？何も起きないよ。ここは自由の国なんだから 好きなように生きなさいよ。
+convo.buysell-state-tied-start-npc3	しばらくは、他のお客さんを手ぶらで帰すようにしてもいいかなと思います。でも、私が被るビジネスロスの分、{amt}がかかりますよ。
+convo.buysell-state-tied-start-say3	私はそれで仕事をすることができます。この取引で揺さぶりをかけよう!\n<indent=15><i>({days} の取引独占のために{amt}を支払う。)</i></indent>
+convo.buysell-state-tied-start-say3epi	これからもよろしくお願いします。
+convo.buysell-state-tied-start-no	それはかなり急な話だと思いませんか？
+convo.buysell-state-tied-start-noepi	もし気が変わったらまた来てください。
+convo.buysell-summary-bought	<i>あなたは{qty}×{items}を{money}で購入しました。</i>
+convo.buysell-summary-bought-continue	他には？
+convo.buysell-summary-sold	<i>{qty}×{items}を{money}で売りました。</i>
+convo.buysell-summary-sold-continue	素晴らしい！他に何か？
+convo.buy-select-npc	ええ、持っていますよ。興味ある？\n<indent=15><i>({unitname}{priceshift}ごとに{unitprice}で売りたいと提案する。)</i></indent>
+convo.buy-select-button-now	今すぐ手に入れる
+convo.buy-select-button-price	価格の話をしよう。
+convo.buy-select-button-tied	独占取引の取り決めについて話そう。お互いの利益になると思うんだ。
+convo.buy-select-button-later	気が変わったんだ。
+convo.buy-select.discount	; {price} 標準価格からの値引き
+convo.buy-select-button-now.npc	いい感じです。
+convo.buy-select-button-pickup.npc	問題ありません、私は一日中ここにいます。 {maxunits} {every-x-days}です。
+convo.buy-select-button-pickup.say	了解です、覚えておきます。
+convo.buy-price-state	価格は{unitname}あたり{unitprice}です。
+convo.buy-price-any-button	値段は妥当だと思います。この度はありがとうございました。\n<indent=15><i>({unitname}毎に{unitprice}に同意します。)</i></indent>
+convo.buy-price-any-button.epilogue	お取引いただきありがとうございます。他に何かお手伝いできることはありますか？
+convo.buy-price-any-button.mo	希望価格で購入する
+convo.buy-price-neg-button	あなたは友人のために取引をすることができますか？\n<indent=15><i>(市場価格から{percentoff}割引してもらう。)</i></indent>
+convo.buy-price-neg-button.epilogue	取引成立です、{unitname}につき、{unitprice}で振りましょう。しかしこれに慣れてはいけないよ。
+convo.buy-price-neg-button.mo	値切り交渉をしてみる
+convo.buy-price-pos-button	いい人だから甘くする。一緒にたくさん商売ができそうな予感がする。\n<indent=15><i>(市場価格より{percentoff}のボランティア。)</i></indent>
+convo.buy-price-pos-button.epilogue	{unitname}につき{unitprice}？なんて慈悲深いんだ！近頃、勇気のある人はなかなかいないものです。
+convo.buy-price-pos-button.mo	希望価格よりも高い価格を提示する
 convo.buy-territory-problem-npc	しかし、ここでひっかかることがある。今更、違法なものを買うのは不安だ。誤解しないでください、あなたを信頼しています、でも、外にはたくさんの詮索好きな人がいるんですよ、ね？あなたがこのコーナーを任されていないのなら、このままでは問題が起こるのではないかと心配しています。
-convo.buy-territory-problem-say	Let me see what I can do to make you feel safer.
+convo.buy-territory-problem-say	どうしたら安心してもらえるか、考えてみます。
 convo.buy-territory-problem-say.mo	彼らはあなたのテリトリーにこのコーナーが含まれない限り違法なアイテムを売りません。近くに<i>フロント</i>を作る必要があります
-convo.sell-select-npc	That sounds interesting.\n<indent=15><i>(Offers to buy at {unitprice} per {unitname}{priceshift}.)</i></indent>
-convo.sell-select-button-now	I might have some in the car right now.
-convo.sell-select-button-tied	Let's talk about an exclusive trade arrangement. I think it might benefit us both.
-convo.sell-select-button-price	Let's talk about the cost.
+convo.sell-select-npc	それは面白そうですね。\n<indent=15><i>({unitname}{priceshift}ごとに{unitprice}で購入することを提案する。)</i></indent>
+convo.sell-select-button-now	今、車の中にあるかもしれない。
+convo.sell-select-button-tied	独占取引の取り決めについて話そう。お互いの利益になると思うんだ。
+convo.sell-select-button-price	コストの話をしよう。
 convo.sell-select-button-later	気が変わったんです。
 convo.sell-select.gouge	; {price} 標準価格より高い
 convo.sell-select-button-now.npc	見てみよう。
-convo.sell-select-button-pickup.npc	I'll be looking forward to it. I'd be interested in {maxunits} {every-x-days}.
-convo.sell-select-button-pickup.say	Got it， I'll see what I can do.
-convo.sell-price-state	I believe we're set for {unitprice} per {unitname}.
-convo.sell-price-any-button	I'm okay with the average market price.\n<indent=15><i>(Settle on {unitprice} per {unitname}.)</i></indent>
-convo.sell-price-any-button.epilogue	You are an honest person who does not stand for price gouging， and I appreciate that.
-convo.sell-price-any-button.mo	Suggest a fair price
-convo.sell-price-neg-button	I need to ask you for a bit more than usual. Times are tough all around， you know how it is.\n<indent=15><i>(Get {percentoff} over market price.)</i></indent>
-convo.sell-price-neg-button.epilogue	This is not ideal. But fine. {unitprice} it is.
+convo.sell-select-button-pickup.npc	楽しみに待ってます。{maxunits}に興味があります。{every-x-days}です。
+convo.sell-select-button-pickup.say	わかりました、何とかしてみます。
+convo.sell-price-state	{unitname}につき、{unitprice}に設定されていると思うのですが。
+convo.sell-price-any-button	平均的な市場価格でいいんです。\n<indent=15><i>({unitname}ごとに{unitprice}で決めます。)</i></indent>
+convo.sell-price-any-button.epilogue	あなたは価格破壊を許さない誠実な方で、私はそれを高く評価しています。
+convo.sell-price-any-button.mo	適正な価格を提案する
+convo.sell-price-neg-button	いつもより少し多めにお願いしたいのですが。今はどこもかしこも大変な時期です。\n<indent=15><i>(市場価格より{percentoff}を得る。)</i></indent>
+convo.sell-price-neg-button.epilogue	これは理想的ではありません。でも、いいんです。{unitprice}です。
 convo.sell-price-neg-button.mo	予想以上に高い値段を要求する
-convo.sell-price-pos-button	I'm willing to let this go for cheap because I like you， but remember this moment.\n<indent=15><i>(Sell at {percentoff} discount from market price.)</i></indent>
-convo.sell-price-pos-button.epilogue	That was a generous gesture. Perhaps in the future I can return the favor.\nSo， can I buy any from you at {unitprice}?
-convo.sell-price-pos-button.mo	Offer them a good deal
+convo.sell-price-pos-button	好きだから安くてもいいんだけど、この瞬間を忘れないでね。\n<indent=15><i>(市場価格から{percentoff}の割引価格で売る。)</i></indent>
+convo.sell-price-pos-button.epilogue	それは寛大なジェスチャーだった。もしかしたら、将来的にお返しができるかもしれません。\nでは、{unitprice}で購入してもいいですか？
+convo.sell-price-pos-button.mo	お得なプランを提案する
 convo.sell-territory-problem-npc	でも、問題があるんです。今、違法なものを売るのは不安だ。あなたを信用していないわけではないのですが、噂好きな人がたくさんいて、誰かが警察にチクったりしたら、私は破滅してしまうかもしれないのです。あなたがこのコーナーを支配してくれたら安心なんですけどね。
-convo.sell-territory-problem-say	Let me see what I can do to make you feel safer.
+convo.sell-territory-problem-say	どうしたら安心してもらえるか、考えてみます。
 convo.sell-territory-problem-say.mo	彼らはあなたのテリトリーにこのコーナーが含まれない限り違法なアイテムを売りません。近くに<i>フロント</i>を作る必要があります
-convo.single-favor-owed	So， about that favor you owe me. Let's talk about how you can help me out today.
-convo.many-favors-owed	We've got a good relationship. And you've said that you'd be willing to help me out however you can. Let's talk about that.
-convo.goon-single-favor-owed	So， about that favor you owe me. Let's talk about how you can help me out today.
-convo.goon-many-favors-owed	We've got a good relationship. And I believe you owe me a favor or two. So let's talk about that.
+convo.single-favor-owed	それで、その借りのことなんだけど 今日はどうしたらいいか相談しよう。
+convo.many-favors-owed	私たちは良い関係を築いています。そして、あなたは、できる限り私を助けてくれると言っていますね。それについて話そう
+convo.goon-single-favor-owed	それで、その借りのことなんだけど 今日はどうしたらいいか相談しよう。
+convo.goon-many-favors-owed	私たちは良い関係を築いています。そして、あなたは私に1つや2つの借りがあると信じています。だから、その話をしよう。
 convo.tribute-button.icon	<sprite name="ui tribute">
 convo.first-tribute-button.pos	素晴らしいニュースがあります。このコーナーは我々が管理することになりました。これでこの辺りは良くなるでしょう。
 convo.first-tribute-button.neg	だから、このコーナーはもう私のものです。私の話をよく聞いてほしい。
 convo.first-tribute-button.any	このコーナーは、私たちが管理しています。ここから何か変わることもある。
-convo.later-tribute-button.pos	So， let's talk about that proposition I had for you.
-convo.later-tribute-button.neg	We need to finish our little chat from before.
+convo.later-tribute-button.pos	さて、ここで私の提案についてお話ししましょう。
+convo.later-tribute-button.neg	この前の雑談を終わらせる必要がある。
 convo.later-tribute-button.any	So， we didn't finish discussing our arrangement.
 convo.cancel-tribute-button.pos	Let's talk about our ongoing arrangement.
 convo.cancel-tribute-button.neg	I've changed my mind about our arrangement.
@@ -2541,7 +2541,7 @@ convo.tribute-reselect-button	Let's reconsider our arrangement.
 convo.tribute-later-button	I'll come back to this later.
 convo.outpost-cancel1-npc	What's on your mind?
 convo.outpost-cancel1-say	I'm rethinking this situation， and while you've been of great help， I don't think we need your help around here anymore.
-convo.outpost-cancel2-npc	Very well. I trust you will know how to cope with the consequences of this decision. People will stop their contributions without a strong presence in the area.
+convo.outpost-cancel2-npc	とても良いですね。 I trust you will know how to cope with the consequences of this decision. People will stop their contributions without a strong presence in the area.
 convo.outpost-cancel2-say	My mind is made up.\n<indent=15><i>(Close down this front.)</i></indent>
 convo.outpost-cancel2-say.mo	This will close the front， and cancel any payments being delivered here. Area of influence might also shrink.
 convo.outpost-cancel2-later	Tell you what， let's talk about this later.
@@ -4349,9 +4349,9 @@ module.desc.mo.cash	\nYou have: {textOnHand}
 module.desc.cash.symbol	$
 module.desc.locname	<b>{name}</b>
 module.desc.prod-details	\n<b>生産物詳細:</b>
-module.desc.op-details	\n<b>Operation details:</b>
+module.desc.op-details	\n<b>操作の詳細:</b>
 module.desc.sold	Sold last turn:
-module.desc.last-prod	\nLast production:
+module.desc.last-prod	\n最後の生産物:
 module.desc.nothing	nothing.
 module.desc.short.produces	\n<indent=15><i>Produces: {restext}.</i></indent>
 module.desc.short.uninteresting	\n<indent=15><i>Produces: nothing.</i></indent>
