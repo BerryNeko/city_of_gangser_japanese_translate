@@ -1596,206 +1596,206 @@ ui.requirements.skills.all	これらの特性をすべて持っていないと�
 ui.requirements.skills.any	これらの特性の一つを持っていないといけない
 ui.requirements.skills.none	これらの特性を持っていてはいけない
 ui.requirements.skill-num	オファーするには最低でも{value}の特性を持っていないといけない
-ui.requirements.insideterritory.human.expected	Must be inside player's territory
-ui.requirements.insideterritory.human.unexpected	Must not be inside player's territory
-ui.requirements.insideterritory.ai.expected	Must be inside someone else's territory
-ui.requirements.insideterritory.ai.unexpected	Must not be inside someone else's territory
-ui.requirements.insideterritory.gang.expected	Must be inside gang-controlled territory
-ui.requirements.insideterritory.gang.unexpected	Must not be inside gang-controlled territory
-ui.requirements.insideterritory.goon.expected	Must be inside goon-controlled territory
-ui.requirements.insideterritory.goon.unexpected	Must not be inside goon-controlled territory
-ui.requirements.insideterritory.any.expected	Must be inside someone's territory
-ui.requirements.insideterritory.any.unexpected	Must not be inside someone's territory
-ui.requirements.insideterritory.none.expected	Must be inside territory not controlled by anyone
-ui.requirements.insideterritory.none.unexpected	Must not be inside territory not controlled by anyone
-ui.requirements.controlled.expected	Must be at a player-controlled building
-ui.requirements.controlled.unexpected	Must not be at a player-controlled building
+ui.requirements.insideterritory.human.expected	プレイヤーのテリトリー内であること
+ui.requirements.insideterritory.human.unexpected	プレイヤーのテリトリー内であってはならない
+ui.requirements.insideterritory.ai.expected	他人のテリトリー内にあること
+ui.requirements.insideterritory.ai.unexpected	他人のテリトリーに入ってはいけない
+ui.requirements.insideterritory.gang.expected	ギャングのテリトリーであること
+ui.requirements.insideterritory.gang.unexpected	ギャングのテリトリーでないこと
+ui.requirements.insideterritory.goon.expected	グーンのテリトリーであること
+ui.requirements.insideterritory.goon.unexpected	グーンのテリトリーでないこと
+ui.requirements.insideterritory.any.expected	誰かのテリトリーであること
+ui.requirements.insideterritory.any.unexpected	誰かのテリトリーでないこと
+ui.requirements.insideterritory.none.expected	誰も支配していない領域内であること
+ui.requirements.insideterritory.none.unexpected	誰も支配していない領域内であってはならない。
+ui.requirements.controlled.expected	プレイヤーが管理する建物であること
+ui.requirements.controlled.unexpected	プレイヤーが管理する建物でないこと
 ui.requirements.controlled.corner.expected	プレイヤーがコントロールする建物があるコーナーであること
 ui.requirements.controlled.corner.unexpected	プレイヤーがコントロールする建物があるコーナーでないこと
 ui.requirements.hasoutpost.thisnode.expected	フロントと同じコーナーに存在すること
 ui.requirements.hasoutpost.thisnode.unexpected	フロントと同じコーナーに存在しないこと
 ui.requirements.hasoutpost.nearby.expected	フロントと同じコーナーもしくは近くのコーナーに存在すること
 ui.requirements.hasoutpost.nearby.unexpected	フロントと同じコーナーもしくは近くのコーナーに存在しないこと
-ui.requirements.hasoutpost.nonhuman.expected	Must be at someone else's front
-ui.requirements.hasoutpost.nonhuman.unexpected	Must not be at someone else's front
-ui.requirements.expansion.any.expected	Available while a territory expansion is active
-ui.requirements.expansion.any.unexpected	Not available while expanding territory somewhere else
-ui.requirements.expansion.expected	Front should be actively expanding your territory
-ui.requirements.expansion.unexpected	Front should not be actively expanding your territory
-ui.requirements.expansion-avail.expected	Front should be able to expand your territory
-ui.requirements.expansion-avail.unexpected	Front should not be able to expand your territory
+ui.requirements.hasoutpost.nonhuman.expected	他の誰かの前にいる必要があります
+ui.requirements.hasoutpost.nonhuman.unexpected	他人の前にいてはいけません
+ui.requirements.expansion.any.expected	テリトリー拡張がアクティブなときに使用可能
+ui.requirements.expansion.any.unexpected	他の場所で領土を拡大している間は利用できません
+ui.requirements.expansion.expected	フロントは積極的にあなたの領土を拡大する必要があります
+ui.requirements.expansion.unexpected	フロントは積極的にあなたの領土を拡大するべきではありません
+ui.requirements.expansion-avail.expected	フロントはあなたの領土を拡大することができるはずです
+ui.requirements.expansion-avail.unexpected	フロントはあなたの領土を拡大することができないはずです
 ui.requirements.copatnode.expected	近くのコーナーで警察官が活動している
 ui.requirements.copatnode.unexpected	近くのコーナーで警察官の活動がない
 ui.requirements.rivalatnode	このコーナーのライバルがあなたにこれを行うことをブロックしている
-ui.requirements.precinct-paidoff.expected	Precinct must be paid off
-ui.requirements.precinct-paidoff.unexpected	Precinct must not be paid off
-ui.requirements.items.none	none
+ui.requirements.precinct-paidoff.expected	管区の払い下げが必要
+ui.requirements.precinct-paidoff.unexpected	管区は払い下げられるべきではありません
+ui.requirements.items.none	なし
 ui.requirements.item.format	{key}: {names}
 ui.requirements.modules.skills.expected	事業に必要な技術
 ui.requirements.modules.skills.unexpected	事業に不要な技術
 ui.requirements.modules.skills.all	事業に必要な技術 (すべて)
 ui.requirements.modules.skills.any	事業に必要な技術 (どれか)
 ui.requirements.modules.skills.none	事業に技術は必要ない
-ui.requirements.modules.expected	Business requires module
-ui.requirements.modules.unexpected	Business does not require module
-ui.requirements.modules.all	Business requires modules (all)
-ui.requirements.modules.any	Business requires modules (any)
-ui.requirements.modules.none	Business does not require modules
-ui.requirements.modules.veh.expected	Business supports
-ui.requirements.modules.veh.unexpected	Business does not support
-ui.requirements.modules.veh.all	Business supports (all of)
-ui.requirements.modules.veh.any	Business supports (any of)
-ui.requirements.modules.veh.none	Business does not support
-ui.requirements.modules.veh.vehicle-repair	vehicle repair
-ui.requirements.modules.veh.vehicle-sell-to-player	vehicle sales
-ui.requirements.modules.veh.vehicle-buy-from-player	buying used vehicles
-ui.requirements.quests.expected	Must have finished mission
-ui.requirements.quests.unexpected	Must not have finished mission
-ui.requirements.quests.all	Must have finished missions (all)
-ui.requirements.quests.any	Must have finished missions (any)
-ui.requirements.quests.none	Must not have finished missions
-ui.requirements.deliveries	Required deliveries
-ui.requirements.questcount.withincap	Must have no more than {count} active missions
-ui.requirements.questcount.undercap	Must have fewer than {count} active missions
-ui.requirements.questcount.unexpected	Must not have any active missions with this person
-ui.requirements.questcount.unexpected.any	Must not have any active missions
-ui.requirements.questcount.expected	Required active missions with this person: {value}
+ui.requirements.modules.expected	ビジネスに必要なモジュール
+ui.requirements.modules.unexpected	ビジネスにはモジュールは必要ない
+ui.requirements.modules.all	ビジネスで必要なモジュール (すべて)
+ui.requirements.modules.any	ビジネスで必要なモジュール (どれか)
+ui.requirements.modules.none	ビジネスではモジュールを必要としない
+ui.requirements.modules.veh.expected	ビジネスサポート
+ui.requirements.modules.veh.unexpected	ビジネスではサポートしません
+ui.requirements.modules.veh.all	ビジネスサポート (すべて)
+ui.requirements.modules.veh.any	ビジネスサポート (どれか)
+ui.requirements.modules.veh.none	ビジネスではサポートしません
+ui.requirements.modules.veh.vehicle-repair	車両修理
+ui.requirements.modules.veh.vehicle-sell-to-player	車両販売
+ui.requirements.modules.veh.vehicle-buy-from-player	中古車買取り
+ui.requirements.quests.expected	ミッションが終了していること
+ui.requirements.quests.unexpected	ミッションが終了していないこと
+ui.requirements.quests.all	ミッションをクリアしていること (すべて)
+ui.requirements.quests.any	ミッションをクリアしていること (どれか)
+ui.requirements.quests.none	ミッションを終了していないこと
+ui.requirements.deliveries	必要な納品物
+ui.requirements.questcount.withincap	アクティブなミッションの数が{count}以下であること
+ui.requirements.questcount.undercap	アクティブなミッションが{count}未満であること
+ui.requirements.questcount.unexpected	この人物とアクティブなミッションを持っていないこと
+ui.requirements.questcount.unexpected.any	アクティブなミッションを持っていないこと
+ui.requirements.questcount.expected	この人とのアクティブなミッションが必要: {value}
 ui.requirements.player.skills.expected	必要な技術
 ui.requirements.player.skills.unexpected	技術を持っていてはいけない
 ui.requirements.player.skills.all	必要な技術 (すべて)
 ui.requirements.player.skills.any	必要な技術 (どれか)
 ui.requirements.player.skills.none	技術を持っていてはいけない
-ui.requirements.biz.player.territory.expected	Must have in player's territory
-ui.requirements.biz.player.territory.unexpected	Must not have in player's territory
-ui.requirements.biz.player.territory.all	Must have in player's territory (all)
-ui.requirements.biz.player.territory.any	Must have in player's territory (any)
-ui.requirements.biz.player.territory.none	Must not have in player's territory
-ui.requirements.modules.player.territory.expected	Must have in player's territory
-ui.requirements.modules.player.territory.unexpected	Must not have in player's territory
-ui.requirements.modules.player.territory.all	Must have in player's territory (all)
-ui.requirements.modules.player.territory.any	Must have in player's territory (any)
-ui.requirements.modules.player.territory.none	Must not have in player's territory
-ui.requirements.resource.expected	Must know about resource
-ui.requirements.resource.unexpected	Must not know about resource
-ui.requirements.resource.all	Must know resources (all)
-ui.requirements.resource.any	Must know resources (any)
-ui.requirements.resource.none	Must not know resources
-ui.requirements.cash.highwater	Must have had {value} at any point in the past
-ui.requirements.cash.total	Must have {value} in total
+ui.requirements.biz.player.territory.expected	プレイヤーのテリトリーで必須
+ui.requirements.biz.player.territory.unexpected	プレイヤーのテリトリーに置いてはいけない
+ui.requirements.biz.player.territory.all	プレイヤーのテリトリーで必須 (すべて)
+ui.requirements.biz.player.territory.any	プレイヤーのテリトリーで必須 (どれか)
+ui.requirements.biz.player.territory.none	プレイヤーのテリトリーに置いてはいけない
+ui.requirements.modules.player.territory.expected	プレイヤーのテリトリーで必須
+ui.requirements.modules.player.territory.unexpected	プレイヤーのテリトリーに置いてはいけない
+ui.requirements.modules.player.territory.all	プレイヤーのテリトリーで必須  (すべて)
+ui.requirements.modules.player.territory.any	プレイヤーのテリトリーで必須 (どれか)
+ui.requirements.modules.player.territory.none	プレイヤーのテリトリーに置いてはいけない
+ui.requirements.resource.expected	リソースについて知っておく必要がある
+ui.requirements.resource.unexpected	リソースについて知ってはいけないこと
+ui.requirements.resource.all	必要なリソース (すべて)
+ui.requirements.resource.any	必要なリソース (どれか)
+ui.requirements.resource.none	リソースを知らないこと
+ui.requirements.cash.highwater	過去のいずれかの時点で {value}を持っていなければならない
+ui.requirements.cash.total	合計で {value}を持つ必要がある
 ui.requirements.territory.size	必要なテリトリーのサイズ: {value} コーナー
-ui.requirements.crew.size	Required crew size: {value}
-ui.requirements.negconn.count	Required unfriendly connections: {value}
-ui.requirements.metgangs.count	Requires meeting {value} other outfits
-ui.requirements.in-jail	Crew awaiting trial
-ui.requirements.in-jail-bribed	Crew awaiting trial (paid off)
-ui.requirements.in-jail-not-bribed	Crew awaiting trial (not yet paid off)
-ui.requirements.capacity-overrun-crew	Manageable crew size
-ui.requirements.capacity-overrun-car	Manageable number of cars
-ui.requirements.capacity-overrun-truck	Manageable number of trucks
-ui.requirements.capacity-overrun-vehicle	Manageable number of vehicles
-ui.requirements.capacity-available-crew	Available crew spots
-ui.requirements.capacity-available-car	Available car spots
-ui.requirements.capacity-available-truck	Available truck spots
-ui.requirements.capacity-available-vehicle	Available vehicle spots
-ui.requirements.capacity-crew	Manageable crew size
-ui.requirements.capacity-car	Manageable number of cars
-ui.requirements.capacity-truck	Manageable number of trucks
-ui.requirements.capacity-vehicle	Manageable number of vehicles
-ui.requirements.ethnicity	Limited to specific ethnicities
-ui.requirements.ethnicity.same	Requires same ethnicity
-ui.requirements.immigrant.expected	Limited to immigrants
-ui.requirements.immigrant.unexpected	Limited to citizens
-ui.requirements.relationship.milestones	You don't have a good enough relationship (need {relNeeded} pts)
-ui.requirements.relationship.tickets	Need to accrue more favor
-ui.requirements.relationship.tickets.spent	Need to have used more favors
-ui.requirements.relationship.crew	You don't have a good enough relationship (need {relNeeded} pts)
-ui.requirements.connections.none	They don't know anyone worthy of introduction
-ui.requirements.connections.territory.size	Your territory is not big enough to take on more crew right now
-ui.requirements.biz.rent	Building for rent must be available
-ui.requirements.biz.family	Must know someone to run the business
+ui.requirements.crew.size	必要なクルーの人数: {value}
+ui.requirements.negconn.count	必要な非友好的なコネクション数: {value}
+ui.requirements.metgangs.count	他の組織との出会い {value}を必要とする。
+ui.requirements.in-jail	裁判を待つクルー
+ui.requirements.in-jail-bribed	裁判を待つクルー (払い済み)
+ui.requirements.in-jail-not-bribed	裁判を待つクルー (未払い)
+ui.requirements.capacity-overrun-crew	管理可能なクルーサイズ
+ui.requirements.capacity-overrun-car	管理可能な台数
+ui.requirements.capacity-overrun-truck	管理可能なトラック数
+ui.requirements.capacity-overrun-vehicle	管理可能な車両数
+ui.requirements.capacity-available-crew	クルー募集状況
+ui.requirements.capacity-available-car	車両の空き状況
+ui.requirements.capacity-available-truck	トラックの空き状況
+ui.requirements.capacity-available-vehicle	車両の空き状況
+ui.requirements.capacity-crew	管理可能なクルーサイズ
+ui.requirements.capacity-car	管理可能な台数
+ui.requirements.capacity-truck	管理可能なトラック数
+ui.requirements.capacity-vehicle	管理可能な車両数
+ui.requirements.ethnicity	特定の民族に限定される
+ui.requirements.ethnicity.same	同じ民族であることが必要
+ui.requirements.immigrant.expected	移民に限定される
+ui.requirements.immigrant.unexpected	市民に限定される
+ui.requirements.relationship.milestones	人間関係がうまくいっていない ({relNeeded} ポイント必要)
+ui.requirements.relationship.tickets	もっと好感度を上げる必要がある
+ui.requirements.relationship.tickets.spent	敬意をもっと使うべきだった
+ui.requirements.relationship.crew	人間関係がうまくいっていない ({relNeeded} ポイント必要)
+ui.requirements.connections.none	紹介できるような人を知らない
+ui.requirements.connections.territory.size	あなたのテリトリーは、今すぐクルーを増やすには十分な広さではありません。
+ui.requirements.biz.rent	貸しビルがあること
+ui.requirements.biz.family	ビジネスを運営するための知り合いがいること
 ui.requirements.skills.new	学習する技術がある
-ui.requirements.biz.intro	Needs to know someone useful to introduce
-ui.requirements.goon.boost	Needs to know some mutually acquainted criminals
-ui.requirements.gang-conflict-days	Truce available on: {date}
-ui.requirements.gang-conflict-truce-expected	Must be at war with a rival， with active truce
-ui.requirements.gang-conflict-truce-not-expected	Must be at war with a rival， and without an active truce 
-ui.requirements.check-cop-knows-aggro-gang.no-truce	They must know some rival outfit at war with you
-ui.requirements.check-cop-knows-aggro-gang.truce	They must know some rival outfit you have truce with
-ui.requirements.outpost.status.ready	Money is not yet ready
-ui.requirements.outpost.status.crew	Not enough cash on hand
-ui.requirements.outpost.status.default	This front is operating normally
-ui.requirements.tribute.paying	Agreed to pay for protection
-ui.requirements.tribute.refused	Refused your offer of protection
-ui.requirements.tribute.none	Has not been offered protection
-ui.requirements.player.history	They don't know you too well.
-ui.requirements.ai.history	They mostly keep to themselves and get left alone
-ui.requirements.player.history.element	They mostly keep to themselves and get left alone.
-ui.requirements.ai.notatsafehouse	You aren't at their safehouse
-ui.requirements.ai.hasnoloot	They don't have any items to give you
-ui.requirements.relationship.goon.goodterms	You need to be on good terms with them， a relationship of at least {thresh} pts
-ui.requirements.relationship.goon.badterms	You need to be on bad terms with them， a relationship less than {thresh} pts
-ui.requirements.ai.knowsgangorgoon.none	They don't know anyone of ill repute
-ui.requirements.ai.knowscommonfriend.none	You don't have any friends in common
-ui.requirements.ai.hasharrassed.none	They haven't caused any trouble
-ui.requirements.ai.trades.none	You don't have a standing order with them
-ui.requirements.ai.stoleoutpost.expected	They have not messed with your fronts recently
-ui.requirements.ai.stoleoutpost.unexpected	They recently messed with your fronts
-ui.requirements.biz.purchase.onperson	Must have {cash} on your person
-ui.requirements.biz.purchase.highwater	Must have had {cash} at any point in the past
-ui.requirements.resevent	Must have {cash} on your person
-ui.requirements.outpost.canpay	Must have {value} on your person
-ui.requirements.discount.expected	You do not have an active discount for this item
-ui.requirements.discount.unexpected	You have negotiated a discount for this item
-ui.requirements.cop-donation.expected	Must have a recent donation to this precinct
-ui.requirements.cop-donation.unexpected	Must not have a recent donation to this precinct
-ui.requirements.checkcrew.building	Crew must be managing a building
-ui.requirements.checkcrew.car	Crew must be in a car
-ui.requirements.checkcrew.truck	Crew must be in a truck
-ui.requirements.checkcrew.vehicle	Crew must be in a vehicle
-ui.requirements.checkcrew.working	Crew must be working， in a vehicle or managing a building
-ui.requirements.checkcrew.unassigned	Crew must be unassigned
-ui.requirements.checkcrew.crewxp	Crew experience required: {exp}
-ui.requirements.checkcrew.managerxp	Manager experience required: {exp}
-ui.requirements.checkcrew.levelups	Crew level increased {num} times
-ui.requirements.checkcrew.vehcond.is	Vehicle condition must be: {condition}
-ui.requirements.checkcrew.vehcond.isnot	Vehicle condition must not be: {condition}
-ui.requirements.checkvehicleforsale.only	Cannot sell your only vehicle
-ui.requirements.checkvehicleforsale.empty	Cannot sell a vehicle that contains any items or cash
-ui.requirements.manager.expected	Operation manager required
-ui.requirements.manager.unexpected	Operation manager not required
-ui.requirements.demands.compliant.expected	Stance: compliant
-ui.requirements.demands.compliant.unexpected	Stance: not compliant
-ui.requirements.demands.defiant.expected	Stance: defiant
-ui.requirements.demands.defiant.unexpected	Stance: not defiant
-ui.requirements.demands.neutral.expected	Stance: neutral
-ui.requirements.demands.neutral.unexpected	Stance: not neutral
-ui.requirements.demands.new.allowed	Can make a new demand
-ui.requirements.demands.new.unallowed	Cannot make a new demand
-ui.requirements.location.biz-req	This location does not have a business
-ui.requirements.location.res-req	This location does not have a residence
-ui.requirements.no-rewards	This person doesn't have rewards for you to consider
-ui.requirements.cost-exp.cost	Cash cost: {price}
-ui.requirements.cost-exp.current	\n(Current cash: {current})
-ui.requirements.vehicle.none	No vehicle available for sale
-ui.requirements.vehicle.cars-max	You can support up to {max} cars at this point
-ui.requirements.vehicle.trucks-max	You can support up to {max} trucks at this point
-ui.requirements.reveal.known	This person must know an unscoped building nearby that sells {items}
-ui.requirements.reveal.type.containers	containers
-ui.requirements.reveal.type.construction	construction materials
-ui.requirements.casinos-in-precinct	Can only have up to {numAllowed} gambling houses per precinct\nCurrently in this precinct: {numCurrent}
-ui.requirements.casinos-in-precinct.1	Can only have up to {numAllowed} gambling house per precinct\nCurrently in this precinct: {numCurrent}
+ui.requirements.biz.intro	紹介できる知り合いが必要
+ui.requirements.goon.boost	相互に知り合った犯罪者と知り合う必要がある
+ui.requirements.gang-conflict-days	停戦有効日: {date}
+ui.requirements.gang-conflict-truce-expected	ライバルと戦争中であり、停戦している
+ui.requirements.gang-conflict-truce-not-expected	ライバルと戦争中であり、停戦していない
+ui.requirements.check-cop-knows-aggro-gang.no-truce	彼らはあなたと争っているライバル会社を知っているに違いない
+ui.requirements.check-cop-knows-aggro-gang.truce	彼らはあなたが休戦しているライバル会社を知っているはずです
+ui.requirements.outpost.status.ready	お金の準備がまだできていない
+ui.requirements.outpost.status.crew	手持ちの現金が足りない
+ui.requirements.outpost.status.default	このフロントは正常に動作している
+ui.requirements.tribute.paying	保護の支払いに同意
+ui.requirements.tribute.refused	保護の申し出を拒否しました
+ui.requirements.tribute.none	保護が提供されていません
+ui.requirements.player.history	彼らはあなたをあまりよく知りません。
+ui.requirements.ai.history	彼らはほとんど自分たちだけで行動している
+ui.requirements.player.history.element	彼らはほとんど自分たちだけで行動しています。
+ui.requirements.ai.notatsafehouse	あなたは彼らの隠れ家にいません
+ui.requirements.ai.hasnoloot	渡すアイテムがない
+ui.requirements.relationship.goon.goodterms	あなたは彼らと仲良くする必要があります、少なくとも{thresh}ポイントの関係
+ui.requirements.relationship.goon.badterms	あなたは彼らと悪い関係にある必要があります、{thresh}ポイント未満の関係
+ui.requirements.ai.knowsgangorgoon.none	悪評のある人物を知らない
+ui.requirements.ai.knowscommonfriend.none	共通の友人がいない
+ui.requirements.ai.hasharrassed.none	特に問題はない
+ui.requirements.ai.trades.none	あなたは彼らとの取り引きがありません
+ui.requirements.ai.stoleoutpost.expected	彼らは最近あなたの前線を台無しにしていません
+ui.requirements.ai.stoleoutpost.unexpected	彼らは最近あなたの前線を台無しにしました
+ui.requirements.biz.purchase.onperson	 {cash} を所持していること
+ui.requirements.biz.purchase.highwater	過去に {cash}を所有していたことがあること
+ui.requirements.resevent	 {cash} を所持していること
+ui.requirements.outpost.canpay	身の回りに {value} があること
+ui.requirements.discount.expected	この商品には有効な割引がありません。
+ui.requirements.discount.unexpected	この商品の割引を交渉しました
+ui.requirements.cop-donation.expected	最近当管区に最近寄付された方
+ui.requirements.cop-donation.unexpected	最近当管区に寄付をしたことがない方
+ui.requirements.checkcrew.building	クルーが建物を管理していること
+ui.requirements.checkcrew.car	クルーは車に乗っていること
+ui.requirements.checkcrew.truck	クルーはトラックに乗っていること
+ui.requirements.checkcrew.vehicle	クルーは車に乗っていること
+ui.requirements.checkcrew.working	クルーが車内、または建物内で作業していること
+ui.requirements.checkcrew.unassigned	クルーは未配属であること
+ui.requirements.checkcrew.crewxp	クルー経験が必要: {exp}
+ui.requirements.checkcrew.managerxp	マネージャー経験が必要: {exp}
+ui.requirements.checkcrew.levelups	クルーレベルが{num}回上昇
+ui.requirements.checkcrew.vehcond.is	車両状態が良好であること: {condition}
+ui.requirements.checkcrew.vehcond.isnot	車両状態が次の通りであってはならない: {condition}
+ui.requirements.checkvehicleforsale.only	唯一の車を売却することはできない
+ui.requirements.checkvehicleforsale.empty	物品または現金が含まれる車両を売却することはできません
+ui.requirements.manager.expected	オペレーションマネージャー募集
+ui.requirements.manager.unexpected	オペレーションマネージャー不要
+ui.requirements.demands.compliant.expected	スタンス: コンプライアンス
+ui.requirements.demands.compliant.unexpected	スタンス: 非コンプライアンス
+ui.requirements.demands.defiant.expected	スタンス: 反抗的
+ui.requirements.demands.defiant.unexpected	スタンス: 反抗的ではない
+ui.requirements.demands.neutral.expected	スタンス: 中立
+ui.requirements.demands.neutral.unexpected	スタンス: 中立ではない
+ui.requirements.demands.new.allowed	新たな需要が生まれる
+ui.requirements.demands.new.unallowed	新たな需要は出せない
+ui.requirements.location.biz-req	この場所にはビジネスがありません
+ui.requirements.location.res-req	この場所には住居がありません
+ui.requirements.no-rewards	この人はあなたが考えるような報酬を持っていない
+ui.requirements.cost-exp.cost	現金費用: {price}
+ui.requirements.cost-exp.current	\n(現在の現金: {current})
+ui.requirements.vehicle.none	販売可能な車両はありません
+ui.requirements.vehicle.cars-max	現在最大{max}台の車をサポートできます
+ui.requirements.vehicle.trucks-max	現在最大{max}台のトラックをサポートできます。
+ui.requirements.reveal.known	この人は、近くにある{items}を売っている未探索の建物を知っているはずです。
+ui.requirements.reveal.type.containers	容器
+ui.requirements.reveal.type.construction	建設資材
+ui.requirements.casinos-in-precinct	1つの管区に{numAllowed}個のギャンブルハウスを持つことができます。\nこの管区では: {numCurrent}
+ui.requirements.casinos-in-precinct.1	1つの管区に{numAllowed}個のギャンブルハウスを持つことができます。\nこの管区では: {numCurrent}
 ui.requirements.casinos-hascorners	ギャンブル事業を始めるには{corners}コーナー支配におかないといけない
-ui.requirements.casinos-operational	All your gambling houses must be fully funded
-ui.requirements.can-pay-debt	Must have enough money in the vehicle to cancel this person's debt
-ui.requirements.can-pay-start-casino	Cash cost: {cost}\n(Current cash in vehicle: {onHand})
-ui.requirements.can-pay-upgrade-casino	Cash cost: {cost}\n(Current cash in building: {onHand})
-ui.requirements.none	Unknown
+ui.requirements.casinos-operational	すべてのギャンブルハウスに資金を投入すること
+ui.requirements.can-pay-debt	この人の借金を帳消しにするだけのお金が車内にあること
+ui.requirements.can-pay-start-casino	現金費用: {cost}\n(現在の車内の現金: {onHand})
+ui.requirements.can-pay-upgrade-casino	現金費用: {cost}\n(建物内の現金: {onHand})
+ui.requirements.none	不明
 ui.requirements.debug.disabled	Disabled (debug)
-req.check-rel-flag.building-takeover	You have close ties through one of your fronts. This is no longer an option.
-req.check-rel-flag.buysell-price	You can't renegotiate prices just yet.
-req.check-rel-flag.sold-vehicle	You purchased a vehicle from them.
-req.check-rel-flag.fixed-vehicle	They repaired a vehicle for you.
-ui.grants.unlockresource.describe	Discover: {iconAndName}
+req.check-rel-flag.building-takeover	フロントの1つを通じて密接な関係があるのですね。これはもう仕方がないことです。
+req.check-rel-flag.buysell-price	価格の再交渉はまだできない。
+req.check-rel-flag.sold-vehicle	そこから車両を購入した
+req.check-rel-flag.fixed-vehicle	車を修理してもらった
+ui.grants.unlockresource.describe	発見: {iconAndName}
 ui.grants.addskill.describe	技術獲得：{name}
 ui.grants.addcash.describe	Receive: {value}
 ui.grants.addresource.describe	Receive {value}
