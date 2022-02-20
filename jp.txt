@@ -1797,32 +1797,32 @@ req.check-rel-flag.sold-vehicle	そこから車両を購入した
 req.check-rel-flag.fixed-vehicle	車を修理してもらった
 ui.grants.unlockresource.describe	発見: {iconAndName}
 ui.grants.addskill.describe	技術獲得：{name}
-ui.grants.addcash.describe	Receive: {value}
-ui.grants.addresource.describe	Receive {value}
-ui.grants.addtickets.describe	Gain +{count} favor(s)
-ui.grants.revealnodes.describe.makevisited	Reveal neighboring area
-ui.grants.revealnodes.describe.default	Scope out neighboring area
-ui.grants.addrelbuff.describe	Improve relationship with: {name}
-ui.grants.removerelbuff.describe	Change relationship with: {name}
+ui.grants.addcash.describe	受取: {value}
+ui.grants.addresource.describe	受取 {value}
+ui.grants.addtickets.describe	利益 +{count} 好意
+ui.grants.revealnodes.describe.makevisited	近隣の地域を公開
+ui.grants.revealnodes.describe.default	周辺地域の調査
+ui.grants.addrelbuff.describe	関係を改善: {name}
+ui.grants.removerelbuff.describe	関係を変更: {name}
 ui.grants.addrelbuffatnode.describe	このコーナーの関係が増える
-ui.grants.addrelbuff-allfam.describe	Increased relationships with family of: {name}
-ui.grants.addrelbuff-closefam.describe	Increased relationships with close family of: {name}
+ui.grants.addrelbuff-allfam.describe	家族との関係が深まる: {name}
+ui.grants.addrelbuff-closefam.describe	親しい家族との関係が深まる: {name}
 ui.grants.addrespectbuffatnode	このコーナーのリスペクトが増える
-ui.grants.addsocialaction.describe	Change social history with: {name}
-ui.grants.forcestartquest.describe	Start mission: {name}
+ui.grants.addsocialaction.describe	社会の歴史を変える: {name}
+ui.grants.forcestartquest.describe	ミッション開始: {name}
 ui.grants.grantskillfromquest.describe	技術獲得：{name}
-ui.grants.grantvehicle.describe	Gain a new vehicle: {name}
-ui.grants.grantbuilding.describe	Gain control of a new building
-ui.grants.introtousefulfriend.describe	Meet: {name}
-ui.grants.starttutorial.describe	Start tutorial lesson: {name}
-ui.grants.teleportgoods.describe	Move resources per agreement
-ui.grants.startoutpost.message	You have started a new front in this part of town!\n\nYour reputation is starting to spread - and with it， your ability to offer 'protection' to surrounding businesses.
-ui.grants.target-selector.building	Select drop-off location.
-ui.grants.target-selector.vehicle	Select drop-off vehicle.
-ui.grants.target-selector.crew	Select crew to apply rewards to.
-ui.messagepopup.button.showme	Show Me
-ui.messagepopup.button.cancel	Cancel
-ui.ownedbiz.crew	Selected crew member:
+ui.grants.grantvehicle.describe	新しい車を手に入れる: {name}
+ui.grants.grantbuilding.describe	新ビルの支配権を獲得
+ui.grants.introtousefulfriend.describe	出会い: {name}
+ui.grants.starttutorial.describe	チュートリアルレッスン開始: {name}
+ui.grants.teleportgoods.describe	契約通りのリソースを移動
+ui.grants.startoutpost.message	この街で新たな戦線をスタートさせましたね!\n\nあなたの評判が広がり始めています - それに伴い、周囲の企業を「保護」する能力も向上します。
+ui.grants.target-selector.building	預かり場所を選択します。
+ui.grants.target-selector.vehicle	降車する車両を選択します。
+ui.grants.target-selector.crew	特典を適用するクルーを選択する。
+ui.messagepopup.button.showme	見せて
+ui.messagepopup.button.cancel	キャンセル
+ui.ownedbiz.crew	クルーを選択する:
 ui.viewaddmodule.available	このスペースは利用可能です。\nここから新しいオペレーションを設定できます。
 ui.viewaddmodule.button.add	クリックすると、こちらから新しいオペレーションを設定できます
 ui.viewaddmodule.button.addstorage	このスペースを収納に変える
@@ -1834,32 +1834,32 @@ ui.viewdescribemodule.opdetails.front	合法ビジネス
 ui.viewdescribemodule.opdetails.back	バックルームビジネス
 ui.viewdescribemodule.frontpage.header	支配下の建物
 ui.viewdescribemodule.frontpage.text	このビルはあなたのコントロール下にある。書面上では<b>{owner}</b>がオーナーになっているが、本当の所有者はあなただ。
-ui.viewdescribemodule.frontpage.frontbiz	·<indent=10>The front of the building says: <b>"{name}"</b>. This is the official business registered at this address， and {owner} is managing it for you. It's not really profitable， but its role is to provide cover.</indent>
-ui.viewdescribemodule.frontpage.backbiz	·<indent=10><b>{name}</b> is the less-than-legal operation you set up in the back， away from prying eyes.</indent>
-ui.viewdescribemodule.frontpage.empty	·<indent=10>There is <b>empty space in the back</b> to set up your own illegal operation.</indent>
-ui.viewdescribemodule.frontpage.inventory	·<indent=10><b>{desc}</b> You can use it as you see fit.</indent>
-ui.viewdescribemodule.frontpage.footer	Click on the tabs to the right to inspect.
-ui.viewdescribemodule.opdesc.none	None.\n\n<i>Hiring business operators is not yet implemented.</i>
+ui.viewdescribemodule.frontpage.frontbiz	·<indent=10>建物の正面にはこう書かれています。: <b>"{name}"</b>. この住所で登記されている正式な事業で、{owner}があなたのために管理しているものです。儲かるわけではありませんが、その役割はカバーすることです。</indent>
+ui.viewdescribemodule.frontpage.backbiz	·<indent=10><b>{name}</b> というのは、人目につかない裏側で、あまり合法的でないオペレーションを行うことです。</indent>
+ui.viewdescribemodule.frontpage.empty	·<indent=10>奥には<b>空きスペース</b>があり、違法な作戦を立てることができる。</indent>
+ui.viewdescribemodule.frontpage.inventory	·<indent=10><b>{desc}</b> 自由に使っていただいて結構です。</indent>
+ui.viewdescribemodule.frontpage.footer	右のタブをクリックして検査します。
+ui.viewdescribemodule.opdesc.none	なし。\n\n<i>ビジネスオペレーターの雇用は未実施。</i>
 ui.viewdescribemodule.opdesc	{name}\n{relstr}\n\n<size=75%>{traits}</size>
 ui.viewdescribemodule.oprel	{value} <sprite name="ui peep" tint=1>
-ui.viewdescribemodule.upgrade.available	Upgrades:\n<b>Available</b>
-ui.viewdescribemodule.upgrade.unavailable	Upgrades:\nNot available
-ui.viewdescribemodule.expansion.available	Expansions:\n<b>Available</b>
-ui.viewdescribemodule.expansion.unavailable	Expansions:\nNot available
-ui.viewdescribemodule.expansion.default	Expansions: 
-ui.viewdescribemodule.expansion.delete.confirm	Would you like to remove this expansion?\n\nPlease note that your construction costs will not be refunded.
+ui.viewdescribemodule.upgrade.available	アップグレード:\n<b>利用可能</b>
+ui.viewdescribemodule.upgrade.unavailable	アップグレード:\n使用不可
+ui.viewdescribemodule.expansion.available	拡張:\n<b>利用可能</b>
+ui.viewdescribemodule.expansion.unavailable	拡張:\n使用不可
+ui.viewdescribemodule.expansion.default	拡張: 
+ui.viewdescribemodule.expansion.delete.confirm	この拡張機能を削除しますか？\n\n工事代金は返金されません。
 ui.viewdescribemodule.expansion.icon	+
-ui.viewdescribemodule.expansion.select	Select an expansion
-ui.viewdescribemodule.expansion.select.header	The following expansions are available:
+ui.viewdescribemodule.expansion.select	拡張機能を選択する
+ui.viewdescribemodule.expansion.select.header	以下の拡張機能があります:
 ui.viewdescribemodule.expansion.desc.req	必要条件:\n
-ui.viewdescribemodule.expansion.desc.req.none	None
-ui.viewdescribemodule.expansion.desc.cost	Cost:\n
+ui.viewdescribemodule.expansion.desc.req.none	なし
+ui.viewdescribemodule.expansion.desc.cost	コスト:\n
 ui.viewdescribemodule.expansion.desc.format	<b>{name}</b>\n\n{describe}\n\n{explainReqs}\n{explainCost}
-ui.viewdescribemodule.module.mo	Expansion installed:\n<b>{name}</b>\n\n{desc}.\n\n<b>Click on this expansion to remove it.</b>
-ui.viewdescribemodule.module.mo.none	An expansion slot is available
+ui.viewdescribemodule.module.mo	Expansion 拡張済み:\n<b>{name}</b>\n\n{desc}.\n\n<b>この拡張をクリックすると削除できます。</b>
+ui.viewdescribemodule.module.mo.none	拡張スロットが利用可能
 ui.viewdescribemodule.expansion-line	{name}: {percent}\n
-ui.viewdescribemodule.levelup-line	{delta} from: {name}\n
-ui.viewinventory.h1	Items in storage
+ui.viewdescribemodule.levelup-line	{delta} から: {name}\n
+ui.viewinventory.h1	保管中の商品
 ui.viewinventory.h2	{name}\n({capacity} {percent} full)
 ui.viewinventory.capacity-simple	({capacity} {percent} full)
 ui.viewinventory.cash.h1	{cash} in cash
@@ -2206,8 +2206,8 @@ convo.social.violence-inf.m	あなたがどれだけ{$firstname} {$lastname}を�
 convo.social.violence-inf.f	あなたがどれだけ{$firstname} {$lastname}を傷つけたか知ってるわ。あの子はいい子なんだ、わかるだろ。恥ずかしくないの？
 convo.social.violence-inf.acquaintance.m	お前は俺の友人{$firstname} {$lastname}をボコボコにした役立たずだ! お前やその親族とは一切関わりたくない。
 convo.social.violence-inf.acquaintance.f	お前は俺の友人{$firstname} {$lastname}をボコボコにした役立たずだ! お前やその親族とは一切関わりたくない。
-convo.social.violence-inf.sibling.m	弟 {$firstname} {$lastnameにしたこと見たぞ！私が聞いてないとでも？聞いたよ、出てってくれ 今すぐだ
-convo.social.violence-inf.sibling.f	姉妹 {$firstname} {$lastnameにしたこと見たぞ！私が聞いてないとでも？聞いたよ、出てってくれ 今すぐだ
+convo.social.violence-inf.sibling.m	弟 {$firstname} {$lastname}にしたこと見たぞ！私が聞いてないとでも？聞いたよ、出てってくれ 今すぐだ
+convo.social.violence-inf.sibling.f	姉妹 {$firstname} {$lastname}にしたこと見たぞ！私が聞いてないとでも？聞いたよ、出てってくれ 今すぐだ
 convo.social.violence-inf.sibchild.m	甥っ子{$firstname} {$lastname}が、あなたに殴られて立ち直るのに、長い時間がかかりました。どうしてそんなに残酷なことができるのですか？すぐにでも出て行ってください。
 convo.social.violence-inf.sibchild.f	It took a long time for my niece {$firstname} {$lastname} to get over the beating you gave her. How can you be so cruel? You should leave right away.
 convo.social.violence-inf.cousin.m	I saw my cousin {$firstname} {$lastname} the other day. He told me about your cruel beating. I don't think you're the type I'd like to do business with.
@@ -2221,14 +2221,14 @@ convo.social.killing-inf.child.m	かわいそうな息子！誰が何と言お�
 convo.social.killing-inf.child.f	かわいそうな娘！誰が何と言おうとお前は怪物だ！{$firstname}に何をした？
 convo.social.killing-inf.sibling.m	私の兄{$firstname}{$lastname}に起きたことは、あなたの責任だというのは本当ですか？出て行ってください。今すぐ
 convo.social.killing-inf.sibling.f	私の甥{$firstname}{$lastname}に起きたことは、あなたの責任だというのは本当ですか？出て行ってください。今すぐ
-convo.social.killing-inf.sibchild.m	My poor nephew! Whatever beef you had with {$firstname} {$lastname}， you two should have patched up differently. You better leave now.
-convo.social.killing-inf.sibchild.f	My poor niece! Whatever beef you had with {$firstname} {$lastname}， you two should have patched up differently. You better leave now.
-convo.social.killing-inf.cousin.m	I saw my cousin {$firstname} {$lastname} the other day. Who knew that would be the last time I would see him.
-convo.social.killing-inf.cousin.f	I saw my cousin {$firstname} {$lastname} the other day. Who knew that would be the last time I would see her.
-convo.social.demand-attack	You here to start a fight again?
-convo.social.propdamage	You here to bust up my stuff again?
-convo.social.propdamage-inf.m	I heard that {$firstname} {$lastname} had been rather unlucky lately. But you wouldn't know anything about it， right?
-convo.social.propdamage-inf.f	I heard that {$firstname} {$lastname} had been rather unlucky lately. But you wouldn't know anything about it， right?
+convo.social.killing-inf.sibchild.m	かわいそうな甥っ子！{$firstname}{$lastname}とどんな揉め事があったにせよ、二人は違う形で仲直りするべきだったんだ。もう帰った方がいい。
+convo.social.killing-inf.sibchild.f	かわいそうな姪っ子！{$firstname}{$lastname}とどんな揉め事があったにせよ、二人は違う形で仲直りするべきだったんだ。もう帰った方がいい。
+convo.social.killing-inf.cousin.m	先日、いとこの{$firstname} {$lastname}を見かけました。それが彼に会う最後の機会になるとは。
+convo.social.killing-inf.cousin.f	先日、いとこの{$firstname} {$lastname}を見かけました。それが彼女に会う最後の機会になるとは。
+convo.social.demand-attack	また喧嘩をしに来たのか？
+convo.social.propdamage	また、私の物を壊しに来たのか？
+convo.social.propdamage-inf.m	最近、{$firstname} {$lastname}の運が悪いと聞いています。でも、あなたは何も知らないんでしょう？
+convo.social.propdamage-inf.f	最近、{$firstname} {$lastname}の運が悪いと聞いています。でも、あなたは何も知らないんでしょう？
 convo.social.propdamage-inf.sibling.m	兄{$firstname}からあなたがしたことを聞きました。
 convo.social.propdamage-inf.sibling.f	姉{$firstname}からあなたがしたことを聞きました。
 convo.social.propdamage-inf.sibchild.m	甥{$firstname}からあなたがしたことを聞きました。
@@ -2240,17 +2240,17 @@ convo.social.propdamage-inf.acquaintance.f	友人の{$firstname} {$lastname}か�
 convo.social.forceclose-cause	やっぱり、お前と取引するんじゃなかった。今じゃヤクザが来て、ここをぶっ壊すって脅されてるんだ。
 convo.social.forceclose-cause-inf.m	君のせいで、{$firstname} {$lastname}が他のギャングに絡まれたって聞いたんだけど？
 convo.social.forceclose-cause-inf.f	君のせいで、{$firstname} {$lastname}が他のギャングに絡まれたって聞いたんだけど？
-convo.social.quest.complete	I know I can always count on you.
-convo.social.quest.complete-inf.m	You're reliable. You helped out {$firstname} {$lastname} with a bit of labor the other day.
-convo.social.quest.complete-inf.f	You're reliable. You helped out {$firstname} {$lastname} with a bit of labor the other day.
-convo.social.quest.complete-inf.acquaintance.m	You're reliable. You helped out my friend {$firstname} {$lastname} with a bit of labor the other day.
-convo.social.quest.complete-inf.acquaintance.f	You're reliable. You helped out my friend {$firstname} {$lastname} with a bit of labor the other day.
-convo.social.quest.complete-inf.sibling.m	You're reliable. You helped out my brother {$firstname} {$lastname} with a bit of labor the other day.
-convo.social.quest.complete-inf.sibling.f	You're reliable. You helped out my sister {$firstname} {$lastname} with a bit of labor the other day.
-convo.social.quest.complete-inf.sibchild.m	You're reliable. You helped out my nephew {$firstname} {$lastname} with a bit of labor the other day.
-convo.social.quest.complete-inf.sibchild.f	You're reliable. You helped out my niece {$firstname} {$lastname} with a bit of labor the other day.
-convo.social.quest.complete-inf.cousin.m	You're reliable. You helped out my cousin {$firstname} {$lastname} with a bit of labor the other day.
-convo.social.quest.complete-inf.cousin.f	You're reliable. You helped out my cousin {$firstname} {$lastname} with a bit of labor the other day.
+convo.social.quest.complete	いつでもあなたを頼りにしています。
+convo.social.quest.complete-inf.m	あなたは頼もしい。先日も{$firstname} {$lastname}を少し手伝ってくれましたね。
+convo.social.quest.complete-inf.f	あなたは頼もしい。先日も{$firstname} {$lastname}を少し手伝ってくれましたね。
+convo.social.quest.complete-inf.acquaintance.m	あなたは頼もしい。先日も私の友人{$firstname} {$lastname}のちょっとした労働を助けてくれましたね。
+convo.social.quest.complete-inf.acquaintance.f	あなたは頼もしい。先日も私の友人{$firstname} {$lastname}のちょっとした労働を助けてくれましたね。
+convo.social.quest.complete-inf.sibling.m	あなたは頼もしい。この間、弟の{$firstname} {$lastname}をちょっと手伝ってくれたんだよね。
+convo.social.quest.complete-inf.sibling.f	あなたは頼もしい。この間、妹の{$firstname} {$lastname}をちょっと手伝ってくれたんだよね。
+convo.social.quest.complete-inf.sibchild.m	あなたは頼もしい。先日も甥っ子の{$firstname} {$lastname}を少し手伝ってくれましたね。
+convo.social.quest.complete-inf.sibchild.f	あなたは頼もしい。先日も姪っ子{$姓}{$名}の手伝いをしてくれて、ちょっとした労働を手伝ってくれましたね。
+convo.social.quest.complete-inf.cousin.m	あなたは頼もしい。先日、私のいとこの{$firstname} {$lastname}を少し手伝ってくれましたね。
+convo.social.quest.complete-inf.cousin.f	あなたは頼もしい。先日、私のいとこの{$firstname} {$lastname}を少し手伝ってくれましたね。
 convo.social.ethnic.help	I know I can always count on you.
 convo.social.ethnic.help-inf.m	I heard about your generous contribution to help the disaster victims in your homeland. I'd like to help someone so charitable.
 convo.social.ethnic.help-inf.f	I heard about your generous contribution to help the disaster victims in your homeland. I'd like to help someone so charitable.
@@ -2375,8 +2375,8 @@ convo.buysell-details-buysell	もし興味があれば、私は次のものを�
 convo.buysell-button-header.0	あまりないですね、ここは。
 convo.buysell-button-header.1	こちらはどうでしょう:
 convo.buysell-button-header	とても興味深いですな
-convo.buysell-button-sell	売りたい <sprite name="ui sell">: {items}
-convo.buysell-button-buy	購入したい <sprite name="ui buy">: {items}
+convo.buysell-button-sell	買って欲しい <sprite name="ui sell">: {items}
+convo.buysell-button-buy	売って欲しい <sprite name="ui buy">: {items}
 convo.buysell-button-footer	気にするな。
 convo.buysell-state-tied-start-npc1	何か思い当たることはありますか？
 convo.buysell-state-tied-start-say1	この仕組みは、私とのみ取引することに同意していただき、他の企業とは取引しないことです。あなたの人脈は私にとってあまりにも貴重であり、競合他社と共有することはできません。\nその代わり報酬は手厚くする。ただし長期間のコミットメントが必要だ。
@@ -2516,22 +2516,22 @@ convo.cash-boost-accept	I was thinking that $750 would really help me get things
 convo.cash-boost-later	Know what? I don't like owing anyone anything. Nothing personal， you understand.
 convo.cash-boost-outro-npc	Consider it done. Take this envelope and we'll talk later.
 convo.cash-boost-outro-accept	Wonderful. Now onto other matters.
-convo.at-outpost-button.active	How is our front doing?
-convo.at-outpost-button.expanding	How is our expansion coming along?
-convo.at-outpost-npc.support	We're doing well， but running short on cash! {costs}
-convo.at-outpost-npc.expanding	We're working on winning over the locals. It shouldn't be long. {costs}
-convo.at-outpost-npc.can-expand	We had some ideas for how to boost the locals' respect for your outfit. {costs}
-convo.at-outpost-npc.active	We're doing well， everybody's playing ball. {costs}
-convo.at-outpost-npc.costs	<i>Current costs:</i>
-convo.at-outpost-npc.costline	·<indent=10><i>{desc}: {cost}/month</i></indent>
-convo.at-outpost-can-expand-button	Let's talk about the locals. I need to expand my territory out here.
-convo.tribute-ready-button.support	And it looks like we haven't collected enough?
-convo.tribute-ready-button.default	Good. I believe you have something for me?
-convo.tribute-collect-npc	Yes， I have {delta} for you.\nWe collected {collected}， minus {expenses} in costs.
-convo.tribute-collect-ok	Good job. I'll be back next month.\n<indent=15><i>(Collect {delta})</i></indent>
-convo.tribute-collect-later	Hold on to it， I'll pick it up later.
-convo.tribute-collect-other	This is good， but I need to revisit our agreement.
-convo.tribute-collect-npc-epilogue	Sounds good.
+convo.at-outpost-button.active	フロントの調子はどう？
+convo.at-outpost-button.expanding	事業展開の進捗はどうだ？
+convo.at-outpost-npc.support	順調に推移していますが、資金が不足しています！{costs}
+convo.at-outpost-npc.expanding	現地の人たちを味方につけるために努力しています。長くはかからないでしょう。 {costs}
+convo.at-outpost-npc.can-expand	現地の人のリスペクトを高めるにはどうしたらいいのか、そのため組織の工夫がありました。 {costs}
+convo.at-outpost-npc.active	我々はうまくいっているし、みんなボール遊びをしている。 {costs}
+convo.at-outpost-npc.costs	<i>現在のコスト:</i>
+convo.at-outpost-npc.costline	·<indent=10><i>{desc}: {cost}/月</i></indent>
+convo.at-outpost-can-expand-button	地元の人たちの話をしよう。私はここで自分のテリトリーを広げなければならない。
+convo.tribute-ready-button.support	まだ十分に回収できていないようですね？
+convo.tribute-ready-button.default	よかった、私に何か用があるのでは？
+convo.tribute-collect-npc	はい、私はあなたのために{delta}を持っています。\n{collected}から{expenses}を差し引いた費用を収集しました。
+convo.tribute-collect-ok	よくできた。 来月また来るよ。\n<indent=15><i>(Collect {delta})</i></indent>
+convo.tribute-collect-later	後で取りに行くから、持っていてくれ。
+convo.tribute-collect-other	これはいいことなのですが、契約を見直す必要があります。
+convo.tribute-collect-npc-epilogue	いい感じですね。
 convo.tribute-support-npc	I'm afraid we're in the red by {delta}.\nWe have collected {collected}， but had to take out {expenses} to cover ongoing costs.
 convo.tribute-support-ok	A temporary setback. I'll find us more contributors.\n<indent=15><i>(Pay {delta}.)</i></indent>
 convo.tribute-support-later	I don't have that kind of cash on me， but I'll come back.
@@ -2659,205 +2659,205 @@ convo.skill-favor-button.delivery-driving	君はここの経営でトラック�
 convo.skill-favor-button.crock-return	この法律ができる前は、地元の蒸留所や醸造所で働いているお客さんがたくさんいたんでしょう。その時はスチームで除菌するのが主流だったんです。そこで、彼らから学んだ<i>衛生対策</i>を教えていただけるとありがたいです。いかがでしょうか？
 convo.skill-favor-outro-npc	今までお世話になったので、恩返しができてよかったです。
 convo.skill-favor-outro-player	きっとそうなりますよ。さて、このあたりで何か新しいことはありますか？
-convo.ticket-back-button	Actually I have another idea.
-convo.ticket-group-soc-npc.acquaintance.m	Anything for a friend. What can I help with?
-convo.ticket-group-soc-npc.acquaintance.f	Anything for a friend. What can I help with?
-convo.ticket-group-soc-npc.sibchild.m	Anything for my dear nephew. What can I help with?
-convo.ticket-group-soc-npc.sibchild.f	Anything for my dear niece. What can I help with?
-convo.ticket-group-soc-npc.sibling.m	For my brother， of course. How can I help you out?
-convo.ticket-group-soc-npc.sibling.f	For my sister， sure. I'd be happy to help you. What do you need today?
-convo.ticket-group-soc-npc.cousin.m	We're family， right? How can I help?
-convo.ticket-group-soc-npc.cousin.f	We're family， right? How can I help?
-convo.ticket-group-soc-npc	I know people， and people know me. What are you looking for?
-convo.ticket-group-help-npc.acquaintance.m	Friend， I'd love to help in some way if I can. What are you looking for?
-convo.ticket-group-help-npc.acquaintance.f	Friend， I'd love to help in some way if I can. What are you looking for?
-convo.ticket-group-help-npc	I'd love to help in some way if I can. What are you looking for?
-convo.ticket-building-button	I could use a <i>new building</i> to expand our outfit's operations. Heard of anything available nearby?
-convo.ticket-building-button.mo	Check on opportunities to take control of a new business.
-convo.ticket-hirecrew-button	I'm looking to <i>hire</i> someone for my crew.
-convo.ticket-hirecrew-button.mo	See if they know of someone looking for work.
-convo.ticket-moduleintro-button	Do you know anyone <i>buying</i> what I've got for sale or <i>selling</i> anything I need?
-convo.ticket-moduleintro-button.mo	Get an introduction to someone useful.
-convo.ticket-resevent-button	Do you know about any interesting <i>events</i> in the neighborhood?
-convo.ticket-resevent-button.mo	See if they want to tell you about any interesting private events.
+convo.ticket-back-button	実はもう一つアイデアがあるんです。
+convo.ticket-group-soc-npc.acquaintance.m	友達のためなら何でも。何かお手伝いできることはありますか？
+convo.ticket-group-soc-npc.acquaintance.f	友達のためなら何でも。何かお手伝いできることはありますか？
+convo.ticket-group-soc-npc.sibchild.m	愛する甥っ子のためなら何でも 何かお手伝いできることはありますか？
+convo.ticket-group-soc-npc.sibchild.f	愛する姪のためなら何でも。何かお手伝いできることはありますか？
+convo.ticket-group-soc-npc.sibling.m	もちろん、弟のためです。どうされましたか？
+convo.ticket-group-soc-npc.sibling.f	妹のために喜んでお手伝いしますよ。今日は何が必要ですか？
+convo.ticket-group-soc-npc.cousin.m	私たちは家族でしょう？どうすればいいんだ？
+convo.ticket-group-soc-npc.cousin.f	私たちは家族でしょう？どうすればいいんだ？
+convo.ticket-group-soc-npc	私は人を知っているし、人は私を知っている。何を探しているのですか？
+convo.ticket-group-help-npc.acquaintance.m	友人として、何かお手伝いできることはないでしょうか。何を探しているのですか？
+convo.ticket-group-help-npc.acquaintance.f	友人として、何かお手伝いできることはないでしょうか。何を探しているのですか？
+convo.ticket-group-help-npc	できることがあれば、何らかの形で協力したい。何を探しているのですか？
+convo.ticket-building-button	会社の事業を拡大するために、<i>新しいビル</i>が必要なんだ。近くで何か利用できるものはないですか？
+convo.ticket-building-button.mo	新規事業の主導権を握る機会をチェックする。
+convo.ticket-hirecrew-button	クルーに<i>雇う</i>人を探しています。
+convo.ticket-hirecrew-button.mo	仕事を探している人を知っているかどうかを確認する。
+convo.ticket-moduleintro-button	私が売りに出しているものを<i>購入</i>したり、必要なものを<i>販売</i>したりする人を知っていますか？
+convo.ticket-moduleintro-button.mo	役に立つ人を紹介してもらう。
+convo.ticket-resevent-button	近隣の面白い<i>イベント</i>をご存じですか？
+convo.ticket-resevent-button.mo	何か面白いプライベートなイベントがあれば、教えてもらうようにしましょう。
 convo.ticket-skills-button	新しい技術を <i>学ぼう</i> と思っている
 convo.ticket-skills-button.mo	新しい技術を教えてくれるかどうかを確認。
-convo.ticket-intro-button	I would love to <i>meet</i> some of your friends.
-convo.ticket-intro-button.mo	Get an introduction to someone they know.
-convo.ticket-npcboost-button	I could use a bit of <i>support</i> with a common friend. I know a word from you would improve my standing with them.
-convo.ticket-npcboost-button.mo	Improve your relationship with a common friend， if you have one in common.
-convo.ticket-gambling-house.button	I've been thinking of getting into <i>gambling</i>. Do you know of any space that would be suitable?
-convo.ticket-gambling-house.button.mo	Check on opportunities to start up a new gambling house.
-convo.ticket-gambling-house.npc	I'm guessing some space in a quiet， non-descript apartment building? Something that won't attract attention? I can think of one or two in this precinct.
-convo.ticket-gambling-house.say	Yes， exactly. Show me the locations on the map.
-convo.ticket-gambling-house.cancel	Good to know there are some options. Let's come back to this later.
-convo.ticket-gambling-house.type-choose.npc	How much space do you think you'll need?
-convo.ticket-gambling-house-confirm-npc	Yes， this building at {name} would be very suitable. Should I contact the owner， let them know the outfit wants to "rent" some space? I'm sure they won't refuse.\n\n<indent=15><i>This gambling house configuration will have {amenitySlots} slots to fill with features. {influencetext}.</i></indent>
-convo.ticket-gambling-house-confirm-button	Please do. Tell them their lucky number just came up.\n<indent=15><i>(Pay {cost}. Gain a new gambling house. Use up 1 <sprite name="ui tickets"> favor.)</i></indent>
-convo.ticket-gambling-house-epilogue-npc	Consider it done. Feel free to head over and start the build out.
-convo.ticket-gambling-house-none-npc	There's not a whole lot of gamblers around here. I'll keep an eye out.
-convo.ticket-gambling-house-none-button	You do that.
-convo.ticket-gambling-house.population	<sprite name="ui peep info"> Potential Walk-in Customers: {population}
-convo.ticket-gambling-house.influence-small	It will also attract a small number of walk-in customers from the nearby area.
-convo.ticket-gambling-house.influence-medium	It will also attract a medium number of walk-in customers from the neighborhood.
-convo.ticket-gambling-house.influence-large	It will also attract a significant number of walk-in customers from the neighborhood.
-convo.resources-reveal.request	I could use some information about who's selling what in the neighborhood. Would you be able to help me out?
-convo.resources-reveal.request.mo	See if they can inform you of any suppliers nearby.
-convo.ticket-resources-reveal-npc	I do business around here， so I know a couple of names. What're you looking for?
-convo.ticket-resources-reveal-containers-button	My operations are running low on containers at the moment. See if you can find me some willing sellers.
-convo.ticket-resources-reveal-construction-button	Right now I'm looking at some additions to our operations. Know anybody who deals in construction materials?
-convo.ticket-resources-reveal-cancel-button	Never mind.
-convo.ticket-resources-reveal-epilogue-npc	Will do.\n<indent=15><i>(Check your resources overlay for newly scoped out buildings.)</i></indent>
-convo.ticket.imported-booze-reveal-same-same	Since we come from the same place， perhaps you have some ideas about where a taste of home might be in demand? 
-imported-booze-reveal-same-same.mo	Leverage your ethnic bonds to reveal a new type of illegal alcohol on the map.
-convo.ticket.imported-booze-reveal-takeover	Our families， they're in business together. I know that bonds of ethnicity are deep， but I would hope that you would trust me enough to tell me where your countrymen go when they're hankering for a taste of home.
-imported-booze-reveal-takeover.mo	Leverage the trust from taking over a neighboring business to reveal a new type of illegal alcohol on the map.
-convo.ticket.imported-booze-reveal-crew	You connected me with a member of my crew a while back. Have anything else interesting to share? Like where your countrymen might go when they need a taste of home?
-imported-booze-reveal-crew	Engage them to reveal a new type of illegal alcohol on the map.
-convo.ticket.imported-booze-reveal-front	You've been running a front for me. Any bits of gossip or valuable information that your countrymen are discussing when you get together?
-imported-booze-reveal-front.mo	Leverage your front owner's relationships with those of the same ethnicity to learn about some interesting sales opportunities.
+convo.ticket-intro-button	ぜひともお友達にお会いしたいです。
+convo.ticket-intro-button.mo	知り合いを紹介してもらう。
+convo.ticket-npcboost-button	共通の友人と一緒に、ちょっとした<i>サポート</i>を受けることができました。あなたの一言で、彼らとの関係が良くなることは分かっています。
+convo.ticket-npcboost-button.mo	共通の友人がいる場合、その友人との関係を改善する。
+convo.ticket-gambling-house.button	<i>ギャンブル</i>を始めようと思っているのですが、どうしたらいいですか？どこか適当なスペースはないでしょうか？
+convo.ticket-gambling-house.button.mo	新しいギャンブル場の立ち上げの機会を確認する。
+convo.ticket-gambling-house.npc	静かな何もないマンションの一室とか？人目につかないような？この地区で1つか2つ思いつくわ
+convo.ticket-gambling-house.say	はい、その通りです。地図で場所を示してください。
+convo.ticket-gambling-house.cancel	選択肢があることが分かってよかった。また後日、この話に戻りましょう。
+convo.ticket-gambling-house.type-choose.npc	どれくらいのスペースが必要だと思いますか？
+convo.ticket-gambling-house-confirm-npc	そうですね、{name}のこのビルはとても適していますね。オーナーに連絡して、この会社がスペースを借りたいことを伝えましょうか？きっと断られないと思いますよ。\n\n<indent=15><i>このギャンブルハウスの構成では、{amenitySlots}のスロットが機能で満たされることになります。{influencetext}となります。</i></indent>
+convo.ticket-gambling-house-confirm-button	お願いします。 ラッキーナンバーが出たばかりだと伝えてください。\n<indent=15><i>(Pay {cost}. 新しいギャンブルハウスを獲得する。1を使い切る <sprite name="ui tickets"> favor.)</i></indent>
+convo.ticket-gambling-house-epilogue-npc	完了したと思ってください。遠慮なく向かって、ビルドアウトを始めてください。
+convo.ticket-gambling-house-none-npc	この辺はギャンブル好きが少ないから。目を光らせておくよ
+convo.ticket-gambling-house-none-button	そうしてくれ。
+convo.ticket-gambling-house.population	<sprite name="ui peep info"> 潜在的なウォークインカスタマー: {population}
+convo.ticket-gambling-house.influence-small	また、近隣の地域からウォークインで来店されるお客様も少なからずいらっしゃるでしょう。
+convo.ticket-gambling-house.influence-medium	近隣からのウォークイン客も中程度に集まります。
+convo.ticket-gambling-house.influence-large	近隣のウォークイン客を相当数呼び込むことができます。
+convo.resources-reveal.request	近所で誰が何を売っているのか、情報が欲しいのですが。ご協力いただけないでしょうか？
+convo.resources-reveal.request.mo	近くのサプライヤーを教えてもらえるかどうか確認してください。
+convo.ticket-resources-reveal-npc	この辺りで商売をしているので、何人か名前は知っています。何をお探しですか？
+convo.ticket-resources-reveal-containers-button	私の業務では、今容器が不足しているんです。売ってくれる人を探してくれないか。
+convo.ticket-resources-reveal-construction-button	今、事業の追加を検討しているところです。誰か建材を扱っている人はいないかな？
+convo.ticket-resources-reveal-cancel-button	気にしないでください。
+convo.ticket-resources-reveal-epilogue-npc	そうします。\n<indent=15><i>(新たにスコープされた建物がないか、リソースオーバーレイを確認してください。)</i></indent>
+convo.ticket.imported-booze-reveal-same-same	同じ出身地ということで、「故郷の味」を求めている方もいらっしゃるのではないでしょうか？
+imported-booze-reveal-same-same.mo	民族の絆を活かして、地図上に新しいタイプの違法酒を出現させよう。
+convo.ticket.imported-booze-reveal-takeover	私たちの家族は、一緒に商売をしているのです。民族の絆は深いと思うが、同胞が故郷の味を求めるとき、どこへ行くのか、私を信頼してほしいものである。
+imported-booze-reveal-takeover.mo	近隣の企業を買収したことによる信用を活用し、地図上に新たなタイプの違法酒を出現させる。
+convo.ticket.imported-booze-reveal-crew	以前、私とクルーのメンバーをつないでくれたのはあなたです。他に何か面白いことはないですか？あなたの国の人が故郷の味を求める時に行くような場所とか？
+imported-booze-reveal-crew	地図上に新しいタイプの違法なアルコールを明らかにするために、彼らを巻き込みます。
+convo.ticket.imported-booze-reveal-front	あなたは私のために前線を張ってくれている。同胞が集まって話しているような ゴシップや貴重な情報はないか？
+imported-booze-reveal-front.mo	フロント・オーナーの同じ民族の人たちとの関係を活用し、興味深い販売機会を知ることができます。
 convo.imported-booze-reveal-canadian-whiskey	ええ、もちろんです。本物のカナディアンウイスキーが飲める場所を教えてあげよう。
-convo.imported-booze-reveal-scotch-whiskey	Yeah， sure. Let me clue you in on some spots where we go to get some real Scotch whisky.
-convo.imported-booze-reveal-caribbean-rum	Yeah， sure. Let me clue you in on some spots where we go to get some real Caribbean rum.
-convo.imported-booze-reveal-irish-whiskey	Yeah， sure. Let me clue you in on some spots where we go to get some real Irish whisky.
-convo.imported-booze-reveal-english-gin	Yeah， sure. Let me clue you in on some spots where we go to get some real English gin.
-convo.imported-booze-reveal-german-schnapps	Yeah， sure. Let me clue you in on some spots where we go to get some real German schnapps.
-convo.imported-booze-reveal	I would appreciate that. And then who knows what we can do with that information from here.
-convo.imported-booze-reveal-nope	Good to know that you've got that information. But not interested right now. Maybe later.
+convo.imported-booze-reveal-scotch-whiskey	ええ、もちろんです。本物のスコッチウイスキーを飲める場所をいくつか紹介しましょう。
+convo.imported-booze-reveal-caribbean-rum	ええ、もちろんです。本場のカリブ海のラム酒が飲めるお店を紹介しましょう。
+convo.imported-booze-reveal-irish-whiskey	ええ、もちろんです。本物のアイリッシュウイスキーが飲めるスポットを紹介しましょう。
+convo.imported-booze-reveal-english-gin	ええ、もちろんです。本場のイングリッシュ・ジンが飲めるお店をいくつか紹介しましょうか。
+convo.imported-booze-reveal-german-schnapps	ええ、もちろんです。本場のドイツのシュナップスを飲める場所を教えてあげよう。
+convo.imported-booze-reveal	それはありがたいことです。そして、ここから先、その情報を使って何ができるかは誰にもわかりません。
+convo.imported-booze-reveal-nope	情報が得られてよかったです。でも、今は興味がない。後でね。
 convo.ticket.imported-booze-drop-select-canadian	私たちのような組織が、カナディアンウイスキーを手に入れるにはどうしたらいいか、何か手がかりはないでしょうか。
 res.canadian-whiskey	<sprite name="res canadian whiskey">
-convo.ticket.imported-booze-drop-select-scottish	Any leads on where an outfit like ours might acquire some Scotch whisky?
+convo.ticket.imported-booze-drop-select-scottish	私たちのような企業がスコッチウイスキーを手に入れるには、どうしたらいいでしょうか？
 res.scotch-whiskey	<sprite name="res scotch-whiskey">
-convo.ticket.imported-booze-drop-select-caribbean	Any leads on where an outfit like ours might acquire some Caribbean rum?
+convo.ticket.imported-booze-drop-select-caribbean	私たちのような企業がカリブ海のラム酒を手に入れるにはどうしたらいいでしょうか？
 res.caribbean-rum	<sprite name="res carribean-rum">
-convo.ticket.imported-booze-drop-select-irish	Any leads on where an outfit like ours might acquire some Irish whisky?
+convo.ticket.imported-booze-drop-select-irish	私たちのような企業がアイリッシュウイスキーを手に入れるには、どうしたらいいでしょうか？
 res.irish-whiskey	<sprite name="res irish-whiskey">
-convo.ticket.imported-booze-drop-select-english	Any leads on where an outfit like ours might acquire some English gin?
+convo.ticket.imported-booze-drop-select-english	私たちのような企業がイングリッシュ・ジンを手に入れるには、どうしたらいいでしょうか？
 res.english-gin	<sprite name="res english-gin">
-convo.ticket.imported-booze-drop-select-german	Any leads on where an outfit like ours might acquire some German schnapps?
+convo.ticket.imported-booze-drop-select-german	私たちのような企業がドイツのシュナップスを手に入れるにはどうしたらいいか、何か手がかりはないでしょうか？
 res.german-schnapps	<sprite name="res german-schnapps">
 convo.imported-booze-drop-npc-canadian	面白いことを言うね。いとこがカナダから持ち帰ったのが 奥の部屋にあるんだ。君に少し渡せるよ。そして 君の組織への 恩義を清算しよう。どうだ？
-convo.imported-booze-drop-npc-scottish	Funny you should mention that. I've got some in the back room that a cousin recently brought back in a steamer trunk from a trip back to the Highlands. I can give you some and then we'll call it square for one of the favors I owe your organization. Deal?
-convo.imported-booze-drop-npc-caribbean	Funny you should mention that. I've got some downstairs that my aunt recently brought back on her boat while taking some tourists to the Islands back home. I can give you some and then we'll call it square for one of the favors I owe your organization. Deal?
-convo.imported-booze-drop-npc-irish	Funny you should mention that. I've got some in the back room that my uncle stuffed into a steamer trunk or two on his last crossing from Ireland. I can give you some and then we'll call it square for one of the favors I owe your organization. Deal?
-convo.imported-booze-drop-npc-english	Funny you should mention that. I've got some in the shed out back that a cousin recently brought back from a trip back to Britain. I can give you some and then we'll call it square for one of the favors I owe your organization. Deal?
-convo.imported-booze-drop-npc-german	Funny you should mention that. I've got some in the cold cellar that a cousin recently brought back from a trip back to Germany. I can give you some and then we'll call it square for one of the favors I owe your organization. Deal?
+convo.imported-booze-drop-npc-scottish	面白いことを言うね。奥の部屋に、いとこが最近ハイランド地方に戻った時に蒸し器で持ち帰ったのがあるんだ。君に少しあげようそれから、君の組織への借りのひとつにしよう。どうだ？
+convo.imported-booze-drop-npc-caribbean	面白いことを言うね。叔母が船で持ち帰ったものがあるんだ故郷の島へ観光客を案内している間にね 君に少しあげようそれから、君の組織への借りのひとつにしよう。どうだ？
+convo.imported-booze-drop-npc-irish	面白いことを言うね。奥の部屋に少しあるんだ 叔父がアイルランドから 最後の航海に出る時に 蒸し器のトランクに詰めたものだ 君に少しあげようそれから、君の組織への借りのひとつにしよう。どうだ？
+convo.imported-booze-drop-npc-english	面白いことを言うね。最近いとこが英国旅行から持ち帰ったのが裏の小屋にあるんだ。君に少しあげようそれから、君の組織への借りのひとつにしよう。どうだ？
+convo.imported-booze-drop-npc-german	面白いことを言うね。いとこがドイツ旅行から持ち帰ったのが地下にあるんだ。君に少しあげようそれから、君の組織への借りのひとつにしよう。どうだ？
 convo.imported-booze-drop-player-canadian	カナディアンウイスキー。本場のやつ。はい、出来るだけ早く送ってください。ありがとうございました。
-convo.imported-booze-drop-player-scottish	Scotch whisky. The real stuff. Yes， have it sent over as soon as your able. Good doing business with you.
-convo.imported-booze-drop-player-caribbean	Ah. Fine Caribbean rum. The real stuff. Yes， have it sent over as soon as your able. Good doing business with you.
-convo.imported-booze-drop-player-irish	Irish whisky. The real stuff. Yes， have it sent over as soon as your able. Good doing business with you.
-convo.imported-booze-drop-player-english	I know people dreaming of a gin and tonic with the real stuff. Yes， have it sent over as soon as your able. Good doing business with you.
-convo.imported-booze-drop-player-german	Prost! I know many who would relish a toast with the real stuff. Yes， have it sent over as soon as your able. Good doing business with you.
+convo.imported-booze-drop-player-scottish	スコッチウイスキー。本場のやつ。はい、出来るだけ早く送ってください。ありがとうございました。
+convo.imported-booze-drop-player-caribbean	ああ。上質なカリブ海のラム酒。本場のやつ。はい、出来るだけ早く送ってください。ありがとうございました。
+convo.imported-booze-drop-player-irish	アイリッシュウイスキー。本場のやつ。はい、出来るだけ早く送ってください。ありがとうございました。
+convo.imported-booze-drop-player-english	本物を使ったジントニックを夢見る人がいるんですね。はい、出来るだけ早く送ってください。よろしくお願いします
+convo.imported-booze-drop-player-german	プロスト! 本物を使って乾杯したい人はたくさんいるはずです。はい、出来るだけ早く送ってください。よろしくお願いします
 convo.imported-booze-drop-player-canadian.mo	このオーナーとは恩義をカナディアンウイスキーの配達と引き換えにできる。引き換え量は関係度を改善することで増えていく。
-convo.imported-booze-drop-player-scottish.mo	Spend a favor with this owner in exchange for a delivery of Scotch whisky. Amounts will increase as you improve your relationship with them.
-convo.imported-booze-drop-player-caribbean.mo	Spend a favor with this owner in exchange for a delivery of Caribbean rum. Amounts will increase as you improve your relationship with them.
-convo.imported-booze-drop-player-irish.mo	Spend a favor with this owner in exchange for a delivery of Irish whisky. Amounts will increase as you improve your relationship with them.
-convo.imported-booze-drop-player-english.mo	Spend a favor with this owner in exchange for a delivery of English gin. Amounts will increase as you improve your relationship with them.
-convo.imported-booze-drop-player-german.mo	Spend a favor with this owner in exchange for a delivery of German schnapps. Amounts will increase as you improve your relationship with them.
-convo.imported-booze-favor-option-confirm	Indeed. See you around soon.
-convo.imported-booze-favor-option-confirm.mo	Begin a mission to help your friend's compatriots back home and earn further favor with them.
-convo.imported-booze-drop-nope	We'll see. Perhaps later or perhaps you can help in another way.
+convo.imported-booze-drop-player-scottish.mo	このオーナーに好意を持つと、スコッチウィスキーの配達と引き換えになる。金額は関係を良くすることで増えていく。
+convo.imported-booze-drop-player-caribbean.mo	カリブ海のラム酒を配達してもらう代わりに、このオーナーに恩を売ってください。金額は関係を良くすることで増えていく。
+convo.imported-booze-drop-player-irish.mo	このオーナーに好意を持つと、アイリッシュウィスキーの配達と引き換えになる。金額は関係を良くすることで増えていく。
+convo.imported-booze-drop-player-english.mo	この店主に好意を持つと、イングリッシュ・ジンの配達と引き換えになる。金額は関係を良くすることで増えていく。
+convo.imported-booze-drop-player-german.mo	このオーナーに好意を持つと、ドイツのシュナップスの配達を受けることができます。金額は関係を良くすることで増えていく。
+convo.imported-booze-favor-option-confirm	確かに。では、また近々お会いしましょう。
+convo.imported-booze-favor-option-confirm.mo	友人の故郷の同胞を助け、さらに好意を得るためのミッションを開始します。
+convo.imported-booze-drop-nope	見てみよう。おそらく後で、あるいは別の方法で手助けができるかもしれません。
 convo.imported-booze-favor-option-npc-canadian	その配送を手配する。でも、もうひとつだけ。私の家族への好意がどれほど有益かはお分かりでしょう。そこで、またお世話になることをお願いしたい。いとこが急病でカナダに帰りたいんだ もし旅費を援助していただけるなら、今お手元にあるものと同じような積荷でお返しできると思います。
-convo.imported-booze-favor-option-npc-scottish	I'll arrange that delivery. But now， one more thing. You've seen how useful a favor with my family is. So allow me to ask for something that would again put me in your debt. I'd like to arrange for an additional family member to join us in the New World from Scotland. If you could help fund their move， well， we can make sure that more than just clothing and essentials are in the steamer trunks on the crossing.
-convo.imported-booze-favor-option-npc-caribbean	I'll arrange that delivery. But now， one more thing. You've seen how useful a favor with my family is. So allow me to ask for something that would again put me in your debt. We run fishing boats all over the Islands. And they're constantly breaking down from age. A new boat， well， that would help enormously. And with its extended range， well， I'm sure that more rum could make its way to our fair New Jersey shores.
-convo.imported-booze-favor-option-npc-irish	I'll arrange that delivery. But now， one more thing. You've seen how useful a favor with my family is. So allow me to ask for something that would again put me in your debt. My family， well， we're involved with what we call a Patriotic Association back home in Ireland. They fund things like parades and picnics and that's all. They're surprisingly expensive. If you could fund an， um， picnic， well， then I'm sure we can get more Irish whisky.
-convo.imported-booze-favor-option-npc-english	I'll arrange that delivery. But now， one more thing. You've seen how useful a favor with my family is. So allow me to ask for something that would again put me in your debt. We've got cousins who make the crossing from England regularly on the steam ships. If you could help us pay off the local guards at the docks， they could probably arrange for some additional cargo to find its way to you.
-convo.imported-booze-favor-option-npc-german	I'll arrange that delivery. But now， one more thing. You've seen how useful a favor with my family is. So allow me to ask for something that would again put me in your debt. We Germans， well， our reputation in this land has suffered since the unpleasantness that ended in 1918. We're looking to recover some of our image. I'm sure if you helped fund some of our local German civic organization， we've got members who can help bring things along from the homeland.
-convo.imported-booze-favor-option-pass	Interesting. But I think that I prefer not to help at this time， regardless of the potential for future favors.
-convo.imported-booze-favor-active	I'm currently helping someone else， but I might be back once I'm done.
-convo.imported-booze-favor-friends-npc	Merchandise is en route， my friend. I've come to value your friendship. And I know if I should need your help， I can come to you and you'd lend what help you're able to render.
-convo.imported-booze-favor-friends	I'm always open to do what I can to help a friend of mine.
+convo.imported-booze-favor-option-npc-scottish	配送の手配をします。でも、もうひとつ。私の家族への好意がどれほど 役に立つか分かっただろう そこで、またお世話になることをお願いしたい。スコットランドから新世界に来る家族をもう一人手配したい。移動の資金を援助していただけるなら...衣類や必需品だけでなく、渡航の際のトランクの中身を確認することができるのですが...
+convo.imported-booze-favor-option-npc-caribbean	配送の手配をします。でも、もうひとつ。私の家族への好意がどれほど 役に立つか分かっただろう そこで、またお世話になることをお願いしたい。うちは島中で漁船を動かしている。老朽化で故障が絶えない。新しい船があれば助かります 航続距離も伸びるしな ニュージャージーにもっとラム酒が届くはずだ
+convo.imported-booze-favor-option-npc-irish	配送の手配をします。でも、もうひとつ。私の家族への好意がどれほど 役に立つか分かっただろう そこで、またお世話になることをお願いしたい。私の家族はアイルランドで 愛国者協会と呼ばれるものに 参加しています パレードやピクニックの資金を提供しているんだ。意外とお金がかかるんですよ。ピクニックの資金になれば アイリッシュウイスキーが飲めるぞ
+convo.imported-booze-favor-option-npc-english	配送の手配をします。でも、もうひとつ。私の家族への好意がどれほど 役に立つか分かっただろう そこで、またお世話になることをお願いしたい。いとこたちが英国から定期的に蒸気船で渡っているんです。もしあなたが港の警備員に 支払うのを手伝ってくれるなら きっと追加の貨物を 手配してくれるでしょう
+convo.imported-booze-favor-option-npc-german	配送の手配をします。でも、もうひとつ。私の家族への好意がどれほど 役に立つか分かっただろう そこで、またお世話になることをお願いしたい。我々ドイツ人は... この国での評判は 1918年に終わった不愉快な出来事から 落ちぶれています 我々はそのイメージを少しでも回復したいのです。もしあなたが地元のドイツ人市民団体に資金援助してくれれば、本国から持ち帰ることができるメンバーがいると思うのですが。
+convo.imported-booze-favor-option-pass	面白いですね。しかし、私は、将来的な好意に関係なく、現時点では手助けをしない方が良いと思います。
+convo.imported-booze-favor-active	今は他の人の手伝いをしていますが、終わったらまた戻ってくるかもしれません。
+convo.imported-booze-favor-friends-npc	商品はこれからです。私はあなたの友情を大切にするようになりました。そして、もし私があなたの助けを必要とするとき、あなたのところに来れば、あなたができる限りの手助けをしてくれることもわかっています。
+convo.imported-booze-favor-friends	私はいつでも、友人のためにできることをしたいと思っています。
 ;; goon intros	;; goon intros
-convo.ticket-boost.goon.button	Can you get me an in with some local troublemakers?
-convo.ticket-boost.goon.button.mo	Improve your relationship with local troublemakers.
-convo.ticket-boost.goon.start.blurb	{relationship} I can put in a good word. {outofcharacter}
-convo.ticket-boost.goon.start.button	Tell me more about that crew.
+convo.ticket-boost.goon.button	地元のトラブルメーカーと接触させてくれないか？
+convo.ticket-boost.goon.button.mo	地元のトラブルメーカーとの関係を改善する。
+convo.ticket-boost.goon.start.blurb	{relationship} 良い言葉をかけることができる {outofcharacter}
+convo.ticket-boost.goon.start.button	そのクルーについて詳しく教えてください。
 convo.ticket-boost.goon.tell-more.blurb	{introflavor}
-convo.ticket-boost.goon.tell-more.button	Your good word will be appreciated.\n<indent=15><i>(Use up 1 <sprite name="ui tickets"> favor.)</i></indent>
-convo.ticket-boost.goon.leader	\n<indent=15><i>({name} leads local troublemakers named {groupname}.)</i></indent>
-convo.ticket-boost.goon.flavor.business	They know about all the shipments coming and going， and if something falls of the back of a truck， it usually ends up in their hands， you know what I mean?
-convo.ticket-boost.goon.flavor.resource	They know these streets like nobody else. They might get you leads on some hard to find items， if that's something you're interested in.
-convo.ticket-boost.goon.flavor.obstacle-goon	They're just a bunch of loafers that would spend every day at the pool hall if they could. But if they like you， maybe you can get them to help you out. Goodness knows they've got nothing better to do.
+convo.ticket-boost.goon.tell-more.button	あなたの良い言葉をお待ちしています。\n<indent=15><i>(1枚の <sprite name="ui tickets"> チケットを使用)</i></indent>
+convo.ticket-boost.goon.leader	\n<indent=15><i>({name} という地元の問題児を率いる {groupname}.)</i></indent>
+convo.ticket-boost.goon.flavor.business	トラックの荷台から何か落ちると、たいてい彼らの手に渡るんです。
+convo.ticket-boost.goon.flavor.resource	彼らは他の誰よりもこの街を知っています。もし興味があるなら、入手困難なアイテムの情報を教えてくれるかもしれません。
+convo.ticket-boost.goon.flavor.obstacle-goon	彼らは、できることなら毎日プール場で過ごすような、ただのローファーの集まりです。でも、もし彼らに気に入られたら、協力してもらうことができるかもしれない。それ以外にすることがないんだ。
 ;; npc intros	;; npc intros
-convo.ticket-intro-none-npc	I can't think of anyone that you don't already know.
-convo.ticket-intro-none-button	Never mind then.
-convo.ticket-intro-confirm-npc	{introflavor} {relationship} I suspect you two will hit it off.{outofcharacter}
-convo.ticket-intro-confirm-button	Please put in a good word for me.\n<indent=15><i>(Use up 1 <sprite name="ui tickets"> favor.)</i></indent>
+convo.ticket-intro-none-npc	あなたがまだ知らない人はいないと思います。
+convo.ticket-intro-none-button	それなら気にしないでください。
+convo.ticket-intro-confirm-npc	{introflavor} {relationship} お二人は意気投合するのではないでしょうか。{outofcharacter}
+convo.ticket-intro-confirm-button	よろしくお伝えください。\n<indent=15><i>(1枚の <sprite name="ui tickets"> チケットを使用)</i></indent>
 convo.ticket-moduleintro-start-npc	{introflavor}\n{relationship}
-convo.ticket-moduleintro-start-button	Tell me more.
+convo.ticket-moduleintro-start-button	もっと教えてくれ。
 convo.ticket-moduleintro-tellmore-npc	{outofcharacter}
-convo.ticket-moduleintro-tellmore-button	I trust your judgment. Please put in a good word for me.\n<indent=15><i>(Use up 1 <sprite name="ui tickets"> favor.)</i></indent>
-convo.ticket-moduleintro-maybe-later	Good to know that's an option， but don't worry about it right now. Perhaps I'll ask you later.
-convo.ticket-moduleintro-maybe-later-npc	Anytime. My friends are your friends. Or they can be.
+convo.ticket-moduleintro-tellmore-button	あなたの判断を信じます。よろしくお願いします。\n<indent=15><i>(1枚の <sprite name="ui tickets"> チケットを使用)</i></indent>
+convo.ticket-moduleintro-maybe-later	でも、今すぐは心配しないでください。でも、今は気にしないでください。
+convo.ticket-moduleintro-maybe-later-npc	いつでもいい。私の友人はあなたの友人です。あるいはそうなれるはずだ。
 convo.social-cancel	Thanks.
-convo.ticket-resevent-intro-confirm-button	Please put in a good word for me.\n<indent=15><i>(Use up 1 <sprite name="ui tickets"> favor.)</i></indent>
-convo.ticket-resevent-intro-confirm-epilogue	Glad to be able to help. Anything else?
-convo.ticket-resevent-intro-cancel-button	I'll think about it.
-convo.ticket-resevent-missing-npc	I can't think of any， but I'll keep an eye out for you.
-convo.ticket-resevent-missing-button	You do that.
-convo.ticket-intro-flavor.generic	I have someone in mind.
-convo.ticket-intro-flavor.buys	buys
-convo.ticket-intro-flavor.sells	sells
+convo.ticket-resevent-intro-confirm-button	よろしくお伝えください。\n<indent=15><i>(1枚の <sprite name="ui tickets"> チケットを使用)</i></indent>
+convo.ticket-resevent-intro-confirm-epilogue	お役に立ててうれしいです。他に何かありますか？
+convo.ticket-resevent-intro-cancel-button	考えておくよ。
+convo.ticket-resevent-missing-npc	思いつきませんが、今後ともよろしくお願いします。
+convo.ticket-resevent-missing-button	そうしてください。
+convo.ticket-intro-flavor.generic	思い当たる人がいるんです。
+convo.ticket-intro-flavor.buys	購入
+convo.ticket-intro-flavor.sells	販売
 convo.ticket-intro-flavor.justification	({name} {buysorsells} {resource})
-convo.ticket-intro-flavor.relationship.m	You should meet {$firstname}.
-convo.ticket-intro-flavor.relationship.f	You should meet {$firstname}.
-convo.ticket-intro-flavor.relationship.acquaintance.m	You should meet my friend {$firstname}.
-convo.ticket-intro-flavor.relationship.acquaintance.f	You should meet my friend {$firstname}.
-convo.ticket-intro-flavor.relationship.spouse.m	Have you met my husband， {$firstname}?
-convo.ticket-intro-flavor.relationship.spouse.f	Have you met my wife， {$firstname}?
-convo.ticket-intro-flavor.relationship.sibling.m	You ought to meet my brother {$firstname}.
-convo.ticket-intro-flavor.relationship.sibling.f	You ought to meet my sister {$firstname}.
-convo.ticket-intro-flavor.relationship.sibchild.m	You should meet my nephew {$firstname}.
-convo.ticket-intro-flavor.relationship.sibchild.f	You should meet my niece {$firstname}.
-convo.ticket-intro-flavor.relationship.cousin.m	You should meet my cousin {$firstname}.
-convo.ticket-intro-flavor.relationship.cousin.f	You should meet my cousin {$firstname}.
-convo.ticket-boost-flavor.relationship.m	Do you know {$firstname} {$lastname}?
-convo.ticket-boost-flavor.relationship.f	Do you know {$firstname} {$lastname}?
-convo.ticket-boost-flavor.relationship.acquaintance.m	I believe you've met {$firstname} {$lastname}.
-convo.ticket-boost-flavor.relationship.acquaintance.f	I believe you've met {$firstname} {$lastname}.
-convo.ticket-boost-flavor.relationship.spouse.m	I think you've already met my husband， {$firstname}?
-convo.ticket-boost-flavor.relationship.spouse.f	I think you've already met my wife， {$firstname}?
-convo.ticket-boost-flavor.relationship.sibling.m	I think you've already met my brother {$firstname}.
-convo.ticket-boost-flavor.relationship.sibling.f	I think you've already met my sister {$firstname}.
-convo.ticket-boost-flavor.relationship.sibchild.m	I think you've already met my nephew {$firstname}.
-convo.ticket-boost-flavor.relationship.sibchild.f	I think you've already met my niece {$firstname}.
-convo.ticket-boost-flavor.relationship.cousin.m	I think you've already met my cousin {$firstname}.
-convo.ticket-boost-flavor.relationship.cousin.f	I think you've already met my cousin {$firstname}.
-convo.ticket-intro-flavor.transaction.intro-flavor	{resource}， eh?.
-convo.ticket-intro-flavor.module.brick-wine.starter	I see that you've got a connection to a bit of brick wine from your family. Let me know if you're looking for anywhere else to sell that.
-convo.ticket-intro-flavor.module.cider.starter	I remember hearing that your family makes just a bit of cider. If you ever need to move just a bit of cider， I might know someone.
-convo.ticket-intro-flavor.module.home-brew.starter	I've heard that your family has got a bit of homemade beer coming in. If you ever need help with some homemade beer going out， I think I know someone.
-convo.ticket-intro-flavor.module.moonshine.starter	Yeah， everyone around here knows that your relatives have a connection to get a bit of moonshine. If you or your relatives are ever looking for a connection to get rid of a bit of moonshine， I can probably help.
-convo.ticket-intro-flavor.module.conversion-apple-juice	You say that you're making apple juice? Well， maybe I can help.
-convo.ticket-intro-flavor.module.conversion-grape-juice	Crushing grapes， you say? Well， I think I can probably help you out.
-convo.ticket-intro-flavor.module.production-homebooze-moonshine	From what I gather， it looks like you're making moonshine. Interesting.
-convo.ticket-intro-flavor.module.production-homebooze-cider	Making cider? Why didn't you say so， my friend. I know just the person!
-convo.ticket-intro-flavor.module.production-homebooze-home-brew	How's the homemade beer operation going? Perhaps you could use some assistance?
-convo.ticket-intro-flavor.module.production-homebooze-brick-wine	Looking for any help with making your homemade wine?
-convo.ticket-intro-flavor.module.production-homebooze-apple-jack	Need any assistance making applejack?
+convo.ticket-intro-flavor.relationship.m	{$firstname}に会ってみてください。
+convo.ticket-intro-flavor.relationship.f	{$firstname}に会ってみてください。
+convo.ticket-intro-flavor.relationship.acquaintance.m	私の友人{$firstname}に会ってください。
+convo.ticket-intro-flavor.relationship.acquaintance.f	私の友人{$firstname}に会ってください。
+convo.ticket-intro-flavor.relationship.spouse.m	私の夫{$firstname}に会ったことがありますか？
+convo.ticket-intro-flavor.relationship.spouse.f	私の妻{$firstname}に会ったことがありますか？
+convo.ticket-intro-flavor.relationship.sibling.m	私の兄{$firstname}に会ってみてください。
+convo.ticket-intro-flavor.relationship.sibling.f	私の妹{$firstname}に会ってみてください。
+convo.ticket-intro-flavor.relationship.sibchild.m	私の甥っ子{$firstname}に会ってみてください。
+convo.ticket-intro-flavor.relationship.sibchild.f	私の姪っ子{$firstname}に会ってみてください。
+convo.ticket-intro-flavor.relationship.cousin.m	私のいとこ{$firstname}に会ってみてください。
+convo.ticket-intro-flavor.relationship.cousin.f	私のいとこ{$firstname}に会ってみてください。
+convo.ticket-boost-flavor.relationship.m	{$firstname} {$lastname}をご存知ですか？
+convo.ticket-boost-flavor.relationship.f	{$firstname} {$lastname}をご存知ですか？
+convo.ticket-boost-flavor.relationship.acquaintance.m	{$firstname} {$lastname}にお会いになったことがあると思います。
+convo.ticket-boost-flavor.relationship.acquaintance.f	{$firstname} {$lastname}にお会いになったことがあると思います。
+convo.ticket-boost-flavor.relationship.spouse.m	私の主人{$firstname}にはもう会われましたか？
+convo.ticket-boost-flavor.relationship.spouse.f	私の妻{$firstname}にはもう会われましたか？
+convo.ticket-boost-flavor.relationship.sibling.m	私の弟{$firstname}にはもう会っていると思います。
+convo.ticket-boost-flavor.relationship.sibling.f	私の妹{$firstname}にはもう会っていると思います。
+convo.ticket-boost-flavor.relationship.sibchild.m	私の甥っ子{$firstname}にはもう会っていると思います。
+convo.ticket-boost-flavor.relationship.sibchild.f	私の姪っ子{$firstname}にはもう会っていると思うのですが。
+convo.ticket-boost-flavor.relationship.cousin.m	私のいとこ{$firstname}にはもう会っていると思います。
+convo.ticket-boost-flavor.relationship.cousin.f	私のいとこ{$firstname}にはもう会っていると思います。
+convo.ticket-intro-flavor.transaction.intro-flavor	{resource}、ええ？
+convo.ticket-intro-flavor.module.brick-wine.starter	家系的にレンガワインに少し縁があるんですね。どこか売っているところがあったら教えてください。
+convo.ticket-intro-flavor.module.cider.starter	あなたの家ではほんの少しサイダーをつくっていると聞いた覚えがあります。もし、リンゴ酒を移動させる必要があるのなら、私は誰かを知っているかもしれません。
+convo.ticket-intro-flavor.module.home-brew.starter	ご実家では自家製ビールが少しずつ入ってきているそうですね。自家製ビールの製造に 助けが必要なら- 知り合いがいるよ
+convo.ticket-intro-flavor.module.moonshine.starter	そう、この辺りの人はみんな、あなたの親戚がちょっとした密造酒を手に入れるコネクションを持っていることを知っているんだ。もし、あなたやあなたの親戚が密造酒を取り除くコネクションを探しているのなら、私はきっとお役に立てると思います。
+convo.ticket-intro-flavor.module.conversion-apple-juice	リンゴジュースを作っているそうですね？それなら、私も手伝えるかもしれません。
+convo.ticket-intro-flavor.module.conversion-grape-juice	ブドウをつぶすと言うのですか？それなら、私がお手伝いできると思います。
+convo.ticket-intro-flavor.module.production-homebooze-moonshine	お話を伺っていると、どうやら密造酒を作っているようですね。面白いですね。
+convo.ticket-intro-flavor.module.production-homebooze-cider	サイダー作り？どうして言ってくれなかったの、私の友達。ちょうどいい人物を知っているんだ！
+convo.ticket-intro-flavor.module.production-homebooze-home-brew	自家製ビール作戦はどうなっているのでしょうか？何かお手伝いできることはないでしょうか？
+convo.ticket-intro-flavor.module.production-homebooze-brick-wine	自家製ワインの作り方でお困りですか？
+convo.ticket-intro-flavor.module.production-homebooze-apple-jack	アップルジャック作りのお手伝いが必要ですか？
 convo.ticket-intro-flavor.module.corner-speakeasy	あなたの小さな酒場は、この辺りではかなり有名になってきていますね。もっと自家製の酒が欲しいところだな。
-convo.ticket-intro-flavor.module.small-speakeasy	I've been hearing good things about your speakeasy. In fact， I was talking about it with a friend who may want to help out.
-convo.ticket-intro-flavor.module.production-sparkling-cider	How's the sparkling cider coming along? If you need anything else， I may know someone.
-convo.ticket-intro-flavor.module.production-bathtub-gin	If you need anything to increase your production of bathtub gin， I'm sure I can help.
-convo.ticket-intro-flavor.module.conversion-booze-barrels-small-whiskey	Barrels of whiskey? Now that's some work I support. In fact， I may be able to help you out.
-convo.ticket-intro-flavor.module.conversion-booze-barrels-small-brandy	Brandy? Very special， indeed. Need any materials?
-convo.ticket-intro-flavor.module.conversion-booze-barrels-small-vodka	Still making vodka over there? I'd be delighted to help. 
-convo.ticket-intro-flavor.module.conversion-booze-barrels-small-rum	We were just talking about a good rum cocktail the other day. So if you need any help making rum， I know someone who can help.
-convo.ticket-intro-flavor.module.production-bottled-booze-small	I hear you've got a bottling operation up and running. I might know some interested parties you could talk to about that.
-convo.ticket-intro-flavor.module.conversion-labels	Heard talk around the neighborhood that you've set up a kind of makeshift printing operation. I might know where you can get more materials to help out there if you're interested.
-convo.ticket-intro-flavor.module.production-fruit-brandy	I hear that you're making some plum-based liquor. I might know a person or two you should talk with.
+convo.ticket-intro-flavor.module.small-speakeasy	あなたの酒場のことはよく聞いています。実は、手伝ってくれるかもしれない友人とその話をしていたんです。
+convo.ticket-intro-flavor.module.production-sparkling-cider	スパークリングサイダーはどうですか？何か必要なものがあれば、誰か知っているかもしれません。
+convo.ticket-intro-flavor.module.production-bathtub-gin	バスタブジンの生産量を増やすために何か必要であれば、きっとお役に立てると思います。
+convo.ticket-intro-flavor.module.conversion-booze-barrels-small-whiskey	ウィスキーの樽？それは私がサポートする仕事です。実は、私はあなたを助けることができるかもしれません。
+convo.ticket-intro-flavor.module.conversion-booze-barrels-small-brandy	ブランデー？とても特別なものです。何か材料が必要ですか？
+convo.ticket-intro-flavor.module.conversion-booze-barrels-small-vodka	まだそっちでウォッカを作ってるのか？喜んでお手伝いしますよ。
+convo.ticket-intro-flavor.module.conversion-booze-barrels-small-rum	先日、美味しいラムカクテルの話をしていたところです。もし、ラム酒作りのお手伝いが必要でしたら、お手伝いできる人がいますよ。
+convo.ticket-intro-flavor.module.production-bottled-booze-small	ボトリング事業を立ち上げているそうですね。そのことについては、興味のある人たちを知っているかもしれませんね。
+convo.ticket-intro-flavor.module.conversion-labels	近所で聞いた話ですが、仮設の印刷所みたいなものを作っているそうですね。もし興味があれば、もっと多くの材料を入手できる場所を知っているかもしれません。
+convo.ticket-intro-flavor.module.production-fruit-brandy	梅酒をつくっているそうですね。お知り合いの方がいらっしゃるかもしれませんので、一度お話を伺ってみてはいかがでしょうか。
 convo.ticket-intro-flavor.module.production-corn-whiskey	すごい量のコーンを使っていますね。もし、私が思うような使い方をしてるなら、会って欲しい人がいるんだ。
-convo.ticket-intro-flavor.module.tobacco-small-illegal	How's the tobacco business these days? I also know someone in that area.
-convo.ticket-intro-flavor.conversion-malt-syrup	You need malt? I may know someone who makes malt for baking.
-convo.ticket-intro-flavor.conversion-ice-house	Need to chill out? Or put something on ice? I might know someone who can help you get some ice.
-convo.ticket-intro-flavor.module.production-champagne	How did you get your hands on champagne? If you're making it， I may know someone you should meet.
-convo.ticket-intro-flavor.module.production-dark-rum	About your dark rum operation， I think I know someone who would like to meet you.
+convo.ticket-intro-flavor.module.tobacco-small-illegal	最近、タバコの商売はどうなんだ？私もその方面に知り合いがいます。
+convo.ticket-intro-flavor.conversion-malt-syrup	麦芽が必要ですか？製パン用のモルトを作る人を知っているかもしれない。
+convo.ticket-intro-flavor.conversion-ice-house	冷やす必要がありますか？それとも何かを凍らせる？氷を手に入れるのを手伝ってくれる人を知っているかもしれない。
+convo.ticket-intro-flavor.module.production-champagne	どうやってシャンパンを手に入れたんですか？もし、作っているのなら、会うべき人を知っているかもしれません。
+convo.ticket-intro-flavor.module.production-dark-rum	ダークラムの件ですが、お会いしたい方がいらっしゃるようです。
 convo.ticket-intro-flavor.module.production-beer-kegs	ビール樽醸造の運用で何かお困りですか？私はあなたを紹介できる人を知っています。
 convo.ticket-intro-flavor.module.production-aged-whiskey	あなたが作っている熟成ウイスキーについては、良い評判を聞いています。実は、あなたが更に良くするために相談するために会うべき人を知っています。
-convo.ticket-intro-flavor.module.production-cordials	Your cordials are really putting the swing into a lot cocktails around here. You should meet my friend and discuss how they might assist you.
-convo.ticket-intro-flavor.module.production-gin	Need assistance with your gin making operation? If so， I have someone you should meet.
+convo.ticket-intro-flavor.module.production-cordials	あなたのコーディアルは、この辺りのカクテルにとてもよく合うんですよ。私の友人と会って、彼らがどのような手助けをするか相談してみてはどうだろう。
+convo.ticket-intro-flavor.module.production-gin	ジン作りのお手伝いが必要ですか？もしそうなら、ぜひ会ってほしい人がいます。
 convo.ticket-intro-flavor.module.supper-club-player	あなたの酒場の一角で販売するものをお探しですか？
-convo.moduleintro.inventory	I do indeed know someone who would buy that booze you have laying around.
+convo.moduleintro.inventory	確かに、その辺に転がっている酒を買ってくれる人を知っていますよ。
 convo.moduleintro.unknown-consumes.m	I'll take care of things for you， so just show up over there and I'm sure he'll be happy to buy some of your， um， inventory.
 convo.moduleintro.unknown-consumes.f	I'll take care of things for you， so just show up over there and I'm sure she'll be happy to buy some of your， um， inventory.
 convo.moduleintro.unknown-produces.m	You should really meet him， he's got inventory you might be interested in.
@@ -3142,20 +3142,20 @@ convo.expired-poker-night.finish.blurb	I fronted the cash for these permits for 
 convo.expired-poker-night.finish.button	I'm a busy person and have other priorities. If you don't get that， maybe it's best we don't speak for a bit.
 convo.expired-poker-night.post.blurb	That's the most sense you've made this whole time. Good bye， then.
 convo.outpost-info	新しいフロントを開くと、あなたの<i>領域</i>がこの一角まで広がる。あなたの領土内のビジネスは、お金を強要することができる。\nまた、この新しいフロントを使って、近くのコーナーに領土を拡大することができる。\nこの戦線の運営資金が十分にあるかどうか、毎月チェックする必要がある。
-convo.outpost.cost-startup	\n\nSetup cost:\n{startup}
-convo.outpost.cost-monthly	\n\nMonthly cost:\n{monthly}
-convo.start-outpost-outside.mo	Start a conversation to set up a new front
-convo.start-outpost-outside.new	Our outfit wants to expand our territory and take over this part of the city. I want you to run a <i>front</i> for us in your fine establishment.
-convo.outpost-outside1-npc.new	What exactly is involved with running one of these fronts for you?
-convo.outpost-outside1-say.new	It's pretty simple. First， we need to get locals on our side， and gain some <i>respect</i> as benevolent protectors.\nSo keep your ear to the ground for any opportunities to throw some money around for a good cause. Got it so far?
-convo.outpost-outside1-later	I'll come back with more details later.
-convo.outpost-outside2-npc	I sure do. What happens then， once your respect has spread?
+convo.outpost.cost-startup	\n\nセットアップコスト:\n{startup}
+convo.outpost.cost-monthly	\n\n月々のコスト:\n{monthly}
+convo.start-outpost-outside.mo	新しいフロントを設定するために会話を開始する
+convo.start-outpost-outside.new	私たちの組織は私たちのテリトリーを拡大し、街のこの部分を引き継ぐことを望んでいます。 立派な施設で私たちのために<i>フロント</i>を運営してほしい
+convo.outpost-outside1-npc.new	このようなフロントを運営するためには、具体的にどのようなことが必要なのでしょうか？
+convo.outpost-outside1-say.new	とても簡単です。 まず、地元の人々を味方につけ、慈悲深い保護者として<i>尊敬</i>を得る必要があります。\nこのように、お金を使う機会がないか、耳を傾けてみてください。ここまではわかりましたか？
+convo.outpost-outside1-later	詳しくはまた後ほど。
+convo.outpost-outside2-npc	確かにそうですね。リスペクトが広まったら、どうするのですか？
 convo.outpost-outside2-say	私たちのことが知られ、新しいコーナーを<i>支配</i>するようになれば、私たちの組織は地元の店舗に対して保護の申し出をするようになります。私たちの友人を災難から守る手助けをするのです。\nそれと引き換えに、各店舗はここに封筒を置きに来るでしょう。その際、何も聞かずに封筒を回収してほしい。その後我々が回収しに来る。\n躊躇しているようだから、取引を後押しするために{install}も渡しておくよ。
-convo.outpost-outside3-npc	I see what you mean.\n<indent=15><i>(Hesitates.)</i></indent>\nI'm sorry， I don't think I'm the person you're looking for.
-convo.outpost-outside3-say	It appears I misjudged you and your abilities. That's a shame.
-convo.outpost-outside4-npc	It would be an honor to work for you.
-convo.outpost-outside4-more	Let's talk details.
-convo.outpost-outside4-say	Then let's shake on it!\n<indent=15><i>(New front opens. Spend {install}. Use up 1 <sprite name="ui tickets"> favor.)</i></indent>
+convo.outpost-outside3-npc	なるほど、そういうことだったんですね。\n<indent=15><i>(躊躇している)</i></indent>\n申し訳ありませんが、私はあなたが探しているような人間ではないと思います。
+convo.outpost-outside3-say	どうやら私は、あなたとあなたの能力を見誤っていたようです。それは残念だ。
+convo.outpost-outside4-npc	あなたの下で働けることを光栄に思います。
+convo.outpost-outside4-more	詳しい話を聞かせてください。
+convo.outpost-outside4-say	それで握手しましょう!\n<indent=15><i>(新フロントがオープン 使用方法 {install}. <sprite name="ui tickets"> 1枚使用する)</i></indent>
 convo.outpost-outside4-say.mo	これにより、このコーナーに領地が拡大し、その周辺にさらなる拡張を開始することができる。\n毎月、資金が十分にあるかどうか確認する必要がある。
 convo.outpost-outside4-later	Let me think it over and I'll get back to you.
 convo.outpost-outside5-npc	It will be a pleasure. I will take care of our neighbors and their envelopes.
@@ -3206,7 +3206,7 @@ convo.goons.stopstealing-npc	Oh yeah? What are you gonna do?
 convo.goons.stopstealing-say	Trust me， you don't want to find out.\n<indent=15><i>(<sprite name="ui convo random"> Threaten.)</i></indent>
 convo.goons.defiant-npc	Oh yeah?
 convo.goons.defiant-say	尊敬の念を教えなければならないようだ。
-convo.goons.defiant-later	I'll deal with you later.
+convo.goons.defiant-later	後で対処する。
 convo.goons.later	I'll be back.
 convo.goons.compliant-npc	You look like you mean business. Fine. I don't want any trouble from the likes of you.\n<indent=15><i>(They comply with your demand. You will be able to do business at nearby corners once owners feel confident they'll be left alone.)</i></indent>
 convo.goons.compliant-say	I thought you would see things my way.
@@ -3256,28 +3256,28 @@ convo.goons.hirehitman-3-npc	Oh， you want me to go and rough them up a bit? Wh
 convo.goons.hirehitman-3-agree	Let's shake on it. And remember， not a word to anyone.\n<indent=15><i>(Pay {amt}. {thisgroup} become aggressive towards {targetgroup}.)</i></indent>
 convo.goons.hirehitman-3-fail	I'll have to see about that cash.
 convo.goons.hirehitman-3-fail-epilogue	I'll be here.
-convo.goons.fight.button	You know what? I don't like the way you're looking at me.
+convo.goons.fight.button	あのさぁ...。私を見る目が曇ってるわ
 convo.goons.fight.icon	<sprite name="ui weapon fist">
-convo.goons.fight.blurb	Oh yeah? You wanna rumble? This isn't going to work out well for you.
-convo.goons.fight.confirm	Now you're just asking for trouble.\n<indent=15><i>(Attack immediately.)</i></indent>
-convo.goons.fight.confirm.mo	Attack with the crew currently at this location. This might turn them against you， or have other consequences.
-convo.goons.fight.cancel	I'll deal with you later.
-convo.goons.fight-defiant.button	I asked you nicely before， but you don't respond to kindness. Let's see what you respond to.
-convo.goons.fight-defiant.blurb	Oh? What was that? Was that a threat?
-convo.goons.fight-defiant.confirm	You're about to learn some respect.\n<indent=15><i>(Attack immediately.)</i></indent>
-convo.goons.fight-defiant.confirm.mo	Start a fight. This has a chance of bending them toward your will， but it might also carry other consequences.
-convo.goons.fight-defiant.cancel	I'll deal with you later.
-convo.goons.hatchetman.button	I hear you're up for a little dirty work.
-convo.goons.hatchetman.blurb	I could be convinced. Depends on who， and what you've got to offer.
-convo.goons.loot-drop.button	I know you do business around these parts. Got anything for me?
+convo.goons.fight.blurb	そうか？やり合う気か？あんたにとって良い結果にはならないですよ。
+convo.goons.fight.confirm	今、あなたはトラブルを求めているだけだ。\n<indent=15><i>(すぐに攻撃する。)</i></indent>
+convo.goons.fight.confirm.mo	現在この場所にいるクルーで攻撃する。その結果、敵に回されたりする可能性があります。
+convo.goons.fight.cancel	後で対処する。
+convo.goons.fight-defiant.button	以前、親切にお願いしたことがあるのですが、あなたに応えてくれません。どんな反応をするか見てみよう。
+convo.goons.fight-defiant.blurb	今のは何だ？今のは脅し？
+convo.goons.fight-defiant.confirm	尊敬の念を学ぶことになるぞ。\n<indent=15><i>(すぐに攻撃する。)</i></indent>
+convo.goons.fight-defiant.confirm.mo	喧嘩を売る。相手を自分の意に沿わせることができる可能性がありますが、別の結果を招くかもしれません。
+convo.goons.fight-defiant.cancel	後で対処する。
+convo.goons.hatchetman.button	汚れ仕事はお手の物らしいな。
+convo.goons.hatchetman.blurb	納得することができた。あなたが誰で、何を提供するかによりますが。
+convo.goons.loot-drop.button	この辺で商売してるのは知ってる 何か持ってきたか？
 convo.goons.loot-drop.icon.qmark	<sprite name="ui goon op available">
-convo.goons.loot-drop.blurb	Why， yes I do! What would you say to some {icon} {item}? This is a gift， from me to my friends， and I insist you take it.
-convo.goons.loot-drop.accept	Don't mind if I do.
-convo.goons.loot-drop.accept.mo	Accept their offered goods
-convo.goons.loot-drop.decline	I'm not interested in that. You can keep it for yourself.
-convo.goons.loot-drop.decline.mo	Decline their offered goods
-convo.goons.loot-drop.later	That's generous， but I'll have to come back later.
-convo.goons.loot-drop.post.accept.blurb	Share and enjoy， I always say.\n<indent=15><i>(Added {received} {icon} {item} to your vehicle.)</i></indent>
+convo.goons.loot-drop.blurb	なぜかというと、そうなんです。あなたは、ある{icon}{item}に何と言いますか？これは私から友人への贈り物です。
+convo.goons.loot-drop.accept	気にしないでください。
+convo.goons.loot-drop.accept.mo	提供された商品を受け取る
+convo.goons.loot-drop.decline	私は興味がない。自分のために取っておくといい
+convo.goons.loot-drop.decline.mo	提供された商品を拒否する
+convo.goons.loot-drop.later	それはそれで気前がいいのですが、また後日。
+convo.goons.loot-drop.post.accept.blurb	いつも言っていることですが、「Share and enjoy」です。\n<indent=15><i>({received} {icon} {item} をあなたの車両に追加)</i></indent>
 convo.goons.loot-drop.post.decline.blurb	Suit yourself. More for me， then.
 convo.goons.loot-drop.post.goodbye	Thanks for looking out for a friend.
 convo.goons.rewards.cooldown.say	Say， if there was some interesting opportunity in this neighborhood， I imagine you'd be the first to know?
@@ -3330,7 +3330,7 @@ convo.gangs.fight.icon	<sprite name="ui weapon fist">
 convo.gangs.fight.blurb	Oh yeah? And what are you going to do about it?
 convo.gangs.fight.confirm	I'm not going to tolerate it any more.\n<indent=15><i>(Attack immediately.)</i></indent>
 convo.gangs.fight.confirm.mo	Attack with the crew currently at this location. This might turn them against you， or have other consequences.
-convo.gangs.fight.cancel	I'll deal with you later.
+convo.gangs.fight.cancel	後で対処する。
 convo.gangs.cop-effect.at-node.button	Hmm， there's police sniffing around. I wanted to talk business but maybe I should come back some other time.
 convo.gangs.cop-effect.at-node.button.mo	Discuss the current police presence
 convo.gangs.cop-effect.at-node.blurb	That would be better. The last thing we need is to catch their attention.
@@ -4339,27 +4339,27 @@ module.row.purchase.cost	\n<b>費用と材料</b>\nこの事業を導入する�
 module.row.purchase.text	{buildDays} days\n({buildTurns} turns)
 module.row.purchase.text.mo	Construction time: {buildDays} days ({buildTurns} turns)
 module.row.purchase.ready-location	\n<i>(Materials and cash need to be ready <b>in storage inside this building</b> for installation to proceed.)</i>
-module.row.construction.text	{daysleft} days\n({turnsleft} turns)
-module.row.vehicle-repair.empty	Contains repair bays. You will be able to repair your vehicles here.
-module.desc.mo.produce	Produces: {restext}
-module.desc.mo.consume	Consumes: {restext}
-module.desc.mo.result	Result: {cashtext}
-module.desc.mo.cost	Cost: {cashtext}
-module.desc.mo.cash	\nYou have: {textOnHand}
+module.row.construction.text	{daysleft} 日数\n({turnsleft} ターン)
+module.row.vehicle-repair.empty	リペアベイ（修理室）ここで車の修理ができるようになります。
+module.desc.mo.produce	生産: {restext}
+module.desc.mo.consume	消費: {restext}
+module.desc.mo.result	結果: {cashtext}
+module.desc.mo.cost	コスト: {cashtext}
+module.desc.mo.cash	\n持っている: {textOnHand}
 module.desc.cash.symbol	$
 module.desc.locname	<b>{name}</b>
 module.desc.prod-details	\n<b>生産物詳細:</b>
 module.desc.op-details	\n<b>操作の詳細:</b>
-module.desc.sold	Sold last turn:
+module.desc.sold	最終ターンの販売:
 module.desc.last-prod	\n最後の生産物:
-module.desc.nothing	nothing.
-module.desc.short.produces	\n<indent=15><i>Produces: {restext}.</i></indent>
-module.desc.short.uninteresting	\n<indent=15><i>Produces: nothing.</i></indent>
+module.desc.nothing	なし
+module.desc.short.produces	\n<indent=15><i>生産: {restext}.</i></indent>
+module.desc.short.uninteresting	\n<indent=15><i>生産: なし</i></indent>
 module.desc.short.name	\n<indent=15><i>{name}.</i></indent>
-module.desc.inventory	\n<indent=15><i>Capacity: {capacity}.</i></indent>
+module.desc.inventory	\n<indent=15><i>容量: {capacity}.</i></indent>
 module.desc.vehicle.increase-car	増えた車の総容量:
 module.desc.vehicle.increase-truck	増えたトラックの総容量:
-module.flavor.details	Do you show up anywhere?
+module.flavor.details	どこにでも現れるのか？
 module.flavor-newspapers.name	ニューススタンド
 module.flavor-newspapers.desc	この建物の前面には、小さな控えめなニューススタンドがある。
 module.flavor-candy-store.name	キャンディーショップ
@@ -6083,8 +6083,8 @@ trait-unkind.desc	時には、ちょっとした汚れ仕事も必要です。
 trait-unkind.short	"<sprite name=""trait unkind""> 戦闘の効果を高め、社会的な否定的な行動の影響を高める。"
 trait-unkind.gambling	<sprite name="trait unkind"> ギャンブルには影響なし
 trait-unkind.icon	<sprite name="trait unkind">
-trait-nervous.name	Nervous
-trait-nervous.desc	Always looking over a shoulder. Always worried. But they're not always wrong. They'll help keep the cops from prying too much.
+trait-nervous.name	神経質
+trait-nervous.desc	いつも肩越しに見ている。常に不安で しかし、彼らは常に間違っているわけではありません。警察が詮索するのを防いでくれるんだ
 trait-nervous.short	<sprite name="trait nervous"> Nervous types are bit more expensive to bribe and take a bit more finesse to involve in illegal activity.
 trait-nervous.gambling	<sprite name="trait nervous"> Unlikely to spend big money all at once. Very bad at bluffing games.
 trait-nervous.icon	<sprite name="trait nervous">
@@ -6118,10 +6118,10 @@ trait-aggressive.desc	Having trouble getting people to accept the necessity of y
 trait-aggressive.short	<sprite name="trait aggressive"> Increases weapon effectiveness and likelihood that others will accept demands.
 trait-aggressive.gambling	<sprite name="trait aggressive"> No effect on gambling.
 trait-aggressive.icon	<sprite name="trait aggressive">
-trait-friendly.name	Friendly
-trait-friendly.desc	Running a speakeasy? Doing some deliveries? Really anything that involves dealing with people? This may be a choice crew member.
-trait-friendly.short	<sprite name="trait friendly"> Decreases cost of gaining control of a new building; decreases impact of negative social actions.
-trait-friendly.gambling	<sprite name="trait friendly"> No effect on gambling.
+trait-friendly.name	フレンドリー
+trait-friendly.desc	酒場を経営している？配達の仕事？人と接する仕事なら何でも？これは選ばれたクルーかもしれませんね。
+trait-friendly.short	<sprite name="trait friendly"> 新しいビルの支配権を得るためのコストを削減し、社会的なネガティブアクションの影響を低減する。
+trait-friendly.gambling	<sprite name="trait friendly"> ギャンブル性への影響なし。
 trait-friendly.icon	<sprite name="trait friendly">
 trait-irritable.name	Irritable
 trait-irritable.desc	Want to pick a fight? Tired of a local goon not listening? This may be the person you need.
@@ -6765,108 +6765,108 @@ quest.neighborhood-opportunity-med-reveal.beforechoice	I gather neither you nor 
 quest.neighborhood-opportunity-med-six.beforechoice	Your generosity has allowed us to keep our business growing and to keep the building we recently acquired for expansion. Feel free to use part of that building for whatever your outfit might need. And to use this truck that we have out front.
 quest.neighborhood-opportunity.afterchoice	Our pleasure! Our neighborhood is made better by upstanding individuals such as you.
 quest.neighborhood-opportunity.c1	Generosity is its own reward， but I graciously accept.
-levelup.asnumber	{icon} {name}: Level {num}
-levelup.actions.name	Smart Opportunist
-levelup.actions.desc	Increase the number of action points per turn
+levelup.asnumber	{icon} {name}: レベル {num}
+levelup.actions.name	スマートな日和見主義者
+levelup.actions.desc	1ターンあたりのアクションポイント数を増加させる
 levelup.actions.icon	<sprite name="ui action pts">
-levelup.driving.name	Efficient Driver
-levelup.driving.desc	Increase the number of movement points per turn
+levelup.driving.name	効率的なドライバー
+levelup.driving.desc	1ターンあたりの移動ポイント数を増加させる
 levelup.driving.icon	<sprite name="ui movement pts">
-levelup.combat.name	Well-Known Brawler
-levelup.combat.desc	Increase combat effectiveness
+levelup.combat.name	有名な喧嘩屋
+levelup.combat.desc	戦闘力の向上
 levelup.combat.icon	<sprite name="res cat weapons">
 levelup.management.name	製造責任者
-levelup.management.desc	Increase performance of any business under their management
+levelup.management.desc	管理下にあるすべての事業の業績を向上させる
 levelup.management.icon	<sprite name="ui gear">
-levelup.builder.name	Methodical Organizer
-levelup.builder.desc	Gain an extra expansion spot
+levelup.builder.name	几帳面な整理屋
+levelup.builder.desc	拡張スポットを追加で獲得
 levelup.builder.icon	<sprite name="ui gear">
-levelup.homemade-boozemaker.name	Distillation: Booze Manufacture
-levelup.homemade-boozemaker.desc	Decrease the amount of time needed to make booze
+levelup.homemade-boozemaker.name	蒸留方法: 酒類の製造
+levelup.homemade-boozemaker.desc	酒造りに必要な時間を短縮することができる
 levelup.homemade-boozemaker.icon	<sprite name="res jugs">
-levelup.brick-wine-maker.name	Winemaking: Brick Wine
-levelup.brick-wine-maker.desc	Increase the amount of brick wine made from each batch of grape concentrate
+levelup.brick-wine-maker.name	ワイン製造: ブリックワイン
+levelup.brick-wine-maker.desc	各バッチの濃縮ぶどう酒から作られるブリックワインの量を増やす
 levelup.brick-wine-maker.icon	<sprite name="res brick-wine">
-levelup.cider-maker.name	Brewing: Cider
-levelup.cider-maker.desc	Increase the amount of cider made from each batch of apple juice
+levelup.cider-maker.name	醸造: サイダー
+levelup.cider-maker.desc	りんごジュースから作るシードルの量を増やす
 levelup.cider-maker.icon	<sprite name="res cider">
-levelup.home-brew-maker.name	Brewing: Homemade Beer
-levelup.home-brew-maker.desc	Increase the amount of home brew made from each batch of malt syrup
+levelup.home-brew-maker.name	醸造: 自家製ビール
+levelup.home-brew-maker.desc	麦芽シロップ1回あたりの自家製ビールの製造量を増加させる
 levelup.home-brew-maker.icon	<sprite name="res home-brew">
-levelup.moonshine-maker.name	Distillation: Moonshine
-levelup.moonshine-maker.desc	Increase the amount of moonshine made from each batch of materials
+levelup.moonshine-maker.name	蒸留方法: 密造酒
+levelup.moonshine-maker.desc	各原料から作られる密造酒の量を増やす
 levelup.moonshine-maker.icon	<sprite name="res moonshine">
-levelup.apple-jack-maker.name	Jacking: Applejack
-levelup.apple-jack-maker.desc	Increase the amount of applejack made from each batch of apples or apple juice
+levelup.apple-jack-maker.name	ジャッキー: アップルジャック
+levelup.apple-jack-maker.desc	リンゴやリンゴジュースから作られるアップルジャックの量を増やす。
 levelup.apple-jack-maker.icon	<sprite name="res apple-jack">
-levelup.fruit-wine-maker.name	Winemaking: Fruit Wine
-levelup.fruit-wine-maker.desc	Increase the amount fruit wine made from each batch of fruit and sugar
+levelup.fruit-wine-maker.name	ワイン製造: 果実酒
+levelup.fruit-wine-maker.desc	1回の果実と糖分からできる果実酒の量を増やす
 levelup.fruit-wine-maker.icon	<sprite name="res fruit-wine">
-levelup.fake-wine-maker.name	Winemaking: Counterfeit Wine
-levelup.fake-wine-maker.desc	Increase the amount of counterfeit wine made during each production cycle
+levelup.fake-wine-maker.name	ワイン製造: ニセモノのワイン
+levelup.fake-wine-maker.desc	各生産サイクルで作られる偽造ワインの量を増加させる。
 levelup.fake-wine-maker.icon	<sprite name="res fake-wine">
-levelup.sparking-cider-maker.name	Fermentation: Sparkling Cider
-levelup.sparking-cider-maker.desc	Increase the amount of sparkling cider made during each production cycle
+levelup.sparking-cider-maker.name	発酵: スパークリングサイダー
+levelup.sparking-cider-maker.desc	各生産サイクルでのスパークリングシードルの製造量を増やす
 levelup.sparking-cider-maker.icon	<sprite name="res sparkling-cider">
-levelup.fake-beer-maker.name	Brewing: Backroom Beer
-levelup.fake-beer-maker.desc	Increase the amount of backroom beer made during each production cycle
+levelup.fake-beer-maker.name	醸造: バックルームビール
+levelup.fake-beer-maker.desc	各生産サイクルにおけるバックルームビールの製造量を増加させる。
 levelup.fake-beer-maker.icon	<sprite name="res fake-beer">
-levelup.bathtub-gin-maker.name	Infusion: Bathtub Gin
-levelup.bathtub-gin-maker.desc	Increase the amount of bathtub gin made during each production cycle
+levelup.bathtub-gin-maker.name	インフュージョン: バスタブジン
+levelup.bathtub-gin-maker.desc	各生産サイクルでのバスタブジンの製造量を増加させる。
 levelup.bathtub-gin-maker.icon	<sprite name="res bathtub-gin">
-levelup.fruit-brandy-maker.name	Distillation: Rakija
-levelup.fruit-brandy-maker.desc	Increase the amount of rakija made during each production cycle
+levelup.fruit-brandy-maker.name	蒸留方法: ラキヤ
+levelup.fruit-brandy-maker.desc	各生産サイクルでのラキヤの製造量を増やす
 levelup.fruit-brandy-maker.icon	<sprite name="res rakija">
-levelup.corn-whiskey-maker.name	Distillation: Corn Whiskey
-levelup.corn-whiskey-maker.desc	Increase the amount of corn whiskey made during each production cycle
+levelup.corn-whiskey-maker.name	蒸留方法: コーンウイスキー
+levelup.corn-whiskey-maker.desc	各生産サイクルでのコーンウイスキー製造量の増加
 levelup.corn-whiskey-maker.icon	<sprite name="res corn whiskey">
-levelup.still-master.name	Still Master
-levelup.still-master.desc	Decrease the amount of time required for your stills to produce alcohol
+levelup.still-master.name	スティルマスター
+levelup.still-master.desc	アルコール製造に必要な時間を短縮することができます。
 levelup.still-master.icon	<sprite name="res industrial alcohol">
-levelup.whiskey-stills.name	Skill at the Still: Whiskey
-levelup.whiskey-stills.desc	Increase the amount of whiskey produced by your still from raw materials
+levelup.whiskey-stills.name	蒸留器の技術: ウイスキー
+levelup.whiskey-stills.desc	スチルによる原料からのウイスキー生産量を増加させる。
 levelup.whiskey-stills.icon	<sprite name="res whisky">
-levelup.brandy-stills.name	Skill at the Still: Brandy
-levelup.brandy-stills.desc	Increase the amount of brandy produced by your still from raw materials
+levelup.brandy-stills.name	蒸留器の技術: ブランデー
+levelup.brandy-stills.desc	原料からのスチルによるブランデーの生産量を増やすことができます。
 levelup.brandy-stills.icon	<sprite name="res brandy">
-levelup.rum-stills.name	Skill at the Still: Rum
-levelup.rum-stills.desc	Increase the amount of rum produced by your still from raw materials
+levelup.rum-stills.name	蒸留器の技術: ラム
+levelup.rum-stills.desc	原材料からスチルで生産されるラム酒の量を増やす。
 levelup.rum-stills.icon	<sprite name="res rum">
-levelup.vodka-stills.name	Skill at the Still: Vodka
-levelup.vodka-stills.desc	Increase the amount of whiskey produced by your still from raw materials
+levelup.vodka-stills.name	蒸留器の技術: ウォッカ
+levelup.vodka-stills.desc	スチルによる原料からのウイスキー生産量を増加させる。
 levelup.vodka-stills.icon	<sprite name="res vodka">
-levelup.champagne-maker.name	Master of the Craft: Champagne
-levelup.champagne-maker.desc	Increase the amount of champagne produced by your manufacturing operation from raw materials
+levelup.champagne-maker.name	マスターオブザクラフト: シャンパーニュ
+levelup.champagne-maker.desc	原材料から製造するシャンパンの生産量を増加させる。
 levelup.champagne-maker.icon	<sprite name="res champagne">
-levelup.dark-rum-maker.name	Master of the Craft: Spiced Rum
-levelup.dark-rum-maker.desc	Increase the amount of spiced rum produced by your manufacturing operation from raw materials
+levelup.dark-rum-maker.name	マスターオブザクラフト: スパイス・ラム酒
+levelup.dark-rum-maker.desc	原材料から製造するスパイス・ラム酒の生産量を増やす。
 levelup.dark-rum-maker.icon	<sprite name="res dark rum">
-levelup.beer-keg-maker.name	Master of the Craft: Beer Kegs
-levelup.beer-keg-maker.desc	Increase the amount of beer kegs produced by your manufacturing operation from raw materials
+levelup.beer-keg-maker.name	マスターオブザクラフト: ビール樽
+levelup.beer-keg-maker.desc	原材料から製造するビール樽の生産量を増加させる。
 levelup.beer-keg-maker.icon	<sprite name="res beer-keg">
-levelup.aged-whiskey-maker.name	Master of the Craft: Aged Whiskey
-levelup.aged-whiskey-maker.desc	Increase the amount of aged whiskey produced by your manufacturing operation from raw materials
+levelup.aged-whiskey-maker.name	マスターオブザクラフト: 熟成ウイスキー
+levelup.aged-whiskey-maker.desc	原料からの製造工程における熟成ウイスキーの生産量を増やす
 levelup.aged-whiskey-maker.icon	<sprite name="res aged whiskey">
-levelup.cordial-maker.name	Master of the Craft: Cordials
-levelup.cordial-maker.desc	Increase the amount of cordials produced by your manufacturing operation from raw materials
+levelup.cordial-maker.name	マスターオブザクラフト: コーディアル
+levelup.cordial-maker.desc	原材料から生産するコーディアルの生産量を増加させる。
 levelup.cordial-maker.icon	<sprite name="res cordials">
-levelup.gin-maker.name	Master of the Craft
-levelup.gin-maker.desc	Increase the amount of gin produced by your manufacturing operation from raw materials
+levelup.gin-maker.name	マスターオブザクラフト: ジン
+levelup.gin-maker.desc	原材料から製造工程で生産するジンの量を増やす
 levelup.gin-maker.icon	<sprite name="res gin">
-levelup.fruit-converter.name	Manufacturing: Juice
-levelup.fruit-converter.desc	Increase the amount of apple juice or grape concentrate made from each batch of fruit
+levelup.fruit-converter.name	製造: ジュース
+levelup.fruit-converter.desc	りんごジュースやぶどうの濃縮果汁の製造量を増やす。
 levelup.fruit-converter.icon	<sprite name="res fruit">
-levelup.fermenter.name	Manufacturing: Fermentation
-levelup.fermenter.desc	モルトシロップや中性アルコールの生産量を増やす
+levelup.fermenter.name	製造: 発酵
+levelup.fermenter.desc	麦芽シロップや中性アルコールの生産量を増やす
 levelup.fermenter.icon	<sprite name="biz cooper">
 levelup.bartending.name	おしゃべりカウンター
 levelup.bartending.desc	1日の酒類販売量を増やす
 levelup.bartending.icon	<sprite name="biz speakeasy">
 levelup.faster-consume.name	スピークイージー マネージャー
-levelup.faster-consume.desc	Increase daily take from your joint
+levelup.faster-consume.desc	ジョイントからの毎日の摂取量を増やす
 levelup.faster-consume.icon	<sprite name="biz book store">
-levelup.city-driver.name	Delivery Dash
-levelup.city-driver.desc	A professional delivery driver. Businesses like dealing with them. Increased relationship for each pickup or drop off.
+levelup.city-driver.name	デリバリーダッシュ
+levelup.city-driver.desc	配達のプロであるドライバー。扱うのが好きな企業 集荷・配達のたびに関係性アップ。
 levelup.city-driver.icon	<sprite name="ui delivery route">
 levelup.alley-master.name	路地のエース
 levelup.alley-master.desc	気づかれずに積み下ろしをするエキスパート。違法な物品を売買するたびに熱量を下げる。
@@ -6880,9 +6880,9 @@ levelup.captain.icon	<sprite name="ui player captain">
 levelup.gambling.icon	<sprite name="exp gambling">
 levelup.pitboss.name	ピットボス
 levelup.pitboss.desc	各ゲームで客が賭ける最低額と最高額を増やす
-levelup.house-manager.name	House Manager
+levelup.house-manager.name	ハウスマネージャー
 levelup.house-manager.desc	客のヒート量を減らし、各ゲームの週単位のメンテナンスコストを削減します。
-levelup.mechanic.name	Mechanically Minded
+levelup.mechanic.name	メカニックマインド
 levelup.mechanic.desc	メカのノウハウを使って、プレイヤーの勝率を下げたり、新ゲームの構築コストを下げたりする。
 levelup.boardwalk.name	ボードウォーク男爵
 levelup.boardwalk.desc	ギャンブラー候補を増やし、ゲームのスロットを追加する。この焦点は、他のタイプのギャンブルの経験値稼ぎを締め出すことになる。
