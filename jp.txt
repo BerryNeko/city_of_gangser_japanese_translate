@@ -617,13 +617,13 @@ ui.fight-unhurt.3	{name}は今回、より傷つくことがなかった
 ui.fight-unhurt.4	{name}が殺された
 ui.fight	{aname} ({agroup})\nattacked {tname} ({tgroup})
 ui.fight.quotewrap	<b><i>{quote}</i></b>
-ui.fight.quote	""This town ain't big enough for the two of us""
-ui.fight.damage.miss	Miss
+ui.fight.quote	""この街は俺たち二人が住むには狭すぎる""
+ui.fight.damage.miss	ミス
 ui.fight.damage.total	{dealt}
 ui.fight.crewdeath.header	<b>構成員の死亡: {name}</b>\n\nあなたの構成員の一人が勤務中に死亡した。\n\nその家族は取り乱して、静かにあなたを責めている。あなたは彼らの絶望を和らげるために何かする必要がある。
-ui.fight.crewdeath.support	Of course I will support the family in this difficult time\n<i>(Pay {cost} per turn in perpetuity)</i>
-ui.fight.crewdeath.quest	I will make it right in some other way\n<i>(Start a mission that benefits their family)</i>
-ui.fight.crewdeath.ignore	People who work for me know they're getting into.\n<i>(Do nothing)</i>
+ui.fight.crewdeath.support	もちろん、私はこの困難な時期に家族をサポートするつもりです。\n<i>(永続的に1ターンごとに {cost} を支払う。)</i>
+ui.fight.crewdeath.quest	私は他の方法でそれを正します。\n<i>(家族のためになるミッションを始める)</i>
+ui.fight.crewdeath.ignore	私の下で働いている人たちは、自分で望んでいたことです。\n<i>(何もしない)</i>
 ui.fight.crewdeath.support-epilogue	しかし、少なくとも、あなたが不在の間、家族が楽に過ごせるようにすることはできるはだ。\n\nあなたが定期的に支払っている{cost}は、正しい行為であったと記録さる。
 ui.fight.crewdeath.quest-epilogue	でも、少なくとも、困っている家族のために何かできることはあるはずだ。\n\n新しい任務: {name}\n\n家族のためにこれをすることは、正しいことであったと評価されるだろう。
 ui.fight.crewdeath.ignore-epilogue	あなたの決断は、必ずや広まるはず。
@@ -631,18 +631,18 @@ ui.humandeath.title	<b>{name}， レクウィエスカト・イン・パーチ�
 ui.humandeath.title.simple	<b>\n\nレクウィエスカト・イン・パーチェ（安らかに眠れ）</b>
 ui.humandeath.line.m	あなたは{date}日にわずか{years}歳の若さで亡くなりましたが、これもギャングの暴力の犠牲者だ。\n\n禁酒法が廃止され、金ぴかの時代が終わるのを見届けることができなかった。引退して労働の成果を享受することもできなかった。\n\nあなたは{enddate}日にあなたが故郷の{cityname}市営墓地埋葬された。
 ui.humandeath.line.f	あなたは{date}日にわずか{years}歳の若さで亡くなりましたが、これもギャングの暴力の犠牲者だ。\n\n禁酒法が廃止され、金ぴかの時代が終わるのを見届けることができなかった。引退して労働の成果を享受することもできなかった。\n\nあなたは{enddate}日にあなたが故郷の{cityname}市営墓地埋葬された。
-ui.demodone.title	<b>Thank you for playing the demo of City of Gangsters!</b>
+ui.demodone.title	<b>Thank you for playing the demo of City of Gangsters のデモをプレイしていただき、ありがとうございました。!</b>
 ui.demodone.line	Thank you for playing the demo of <b>City of Gangsters!</b> This is the end of the time-limited demo session. You are well on your way to ruling this town!\n\nIn the full game you will have until the end of Prohibition， in December 1933， to establish your criminal empire， deal with eager competition， take over the city， and cement your legacy.\n\nIn the full game you will also find:\n· New city maps， each with various unique resources and opportunities\n· Procedurally generated city layouts， histories， and rivals\n· Customization of your character and starting situation\n· Deluxe edition also includes the Cincinnati map， unique operations， endgame goals， and more!\n\n<i>Pre-purchase <b>City of Gangsters</b> now to get 15% off and an exclusive bonus content pack.</i>\n\nFor more details， please see our Steam page!
 ui.demodone.button	Close and visit Steam
 ui.cornerinfo.corner.bold	<b>コーナー:</b> {hname} & {vname}
-ui.cornerinfo.street.bold	<b>場所:</b> {name} Street
+ui.cornerinfo.street.bold	<b>場所:</b> {name} ストリート
 ui.cornerinfo.corner.short	{hname} & {vname}のコーナー
 ui.cornerinfo.street.short	{name} ストリート
 ui.cornerinfo.corner.shorter	{hname} & {vname}
 ui.cornerinfo.control.yours	このコーナーはあなたのテリトリーの一部です
 ui.cornerinfo.control.npc	このコーナーは {owner}によって支配されている
-ui.inventory.header	Collect Items
-ui.inventory.summary.scavenge	Collect items left behind by {name}， as many as you can fit in your car.
+ui.inventory.header	収集アイテム
+ui.inventory.summary.scavenge	{name}が残したものを、車に積めるだけ集めてください。
 ui.inventory.yourcar	あなたの車\n{percent} 積載中
 ui.inventory.theircar	彼らの車\n{percent} 積載中
 ui.inventory.yourbldg	あなたの倉庫\n{percent} 積載中
@@ -651,7 +651,7 @@ ui.inventory.item	{name}\n<size=75%>{units}</size>
 ui.inventory.move.mo	押すとアイテムが移動。\n<b>ctrl</b> キーで10ずつ増減\n <b>shift</b> キーで100ずつ増減.\n <b>ctrl + shift</b> キーで1000ずつ増減
 ui.inventory.moveall.mo	全てのアイテムを移動
 ui.itemorder.move.mo	Press to move item.\nHold <b>ctrl</b> key to move 10 per click.\nHold <b>shift</b> to move 100 per click.\nHold <b>ctrl + shift</b> to move 1000 per click.
-ui.itemorder.movefail.mo	This item will not fit!
+ui.itemorder.movefail.mo	この商品は適合しません!
 ui.command.heal.icon	<sprite name="ui health" tint=1>
 ui.command.heal.action	(回復中)
 ui.command.heal.mo	ヘルスポイントを回復
@@ -737,7 +737,7 @@ ui.pip.kb-delivery-insufficient	最新の配達は一部成功
 ui.pip.kb-delivery-failed	配達が失敗
 ui.pip.kb-controlled-empty-slot	ここで新しい事業を開始することができる
 ui.pip.kb-controlled-upgrade-available	事業をアップグレードできる
-ui.pip.kb-has-resevent-this-turn	There is an event happening here right now， and you committed to attend
+ui.pip.kb-has-resevent-this-turn	今ここでイベントが行われていて、あなたはそれに参加することを約束しました。
 ui.pip.kb-corner-territory-owned	このコーナーはあなたのテリトリーの一部
 ui.pip.kb-corner-territory-expanded	あなたのテリトリーはこのコーナーに広がったばかりだ！
 ui.pip.kb-corner-territory-contracted	あなたはこのコーナーの支配を失った！
@@ -747,13 +747,13 @@ ui.pip.kb-corner-cops-heat-down	このコーナーのヒートが高まってる
 ui.pip.kb-corner-cops-heat-up	このコーナーのヒートは低いが、注意はしたほうがいいだろう
 ui.pip.kb-corner-cops-imminent	警察からの注意喚起が目立つ、何かが起きている
 ui.pip.kb-corner-cops-recent	最近の警察の捜査は、地元を震撼させている
-ui.pip.kb-can-start-goon-action	This local loafer might have something of interest for you.
-ui.pip.kb-can-get-goon-reward	Stop by to see the results of your mutual scheming.
-ui.pip.kb-cash-boost	They'd like to help with your current cash flow limitations
-ui.pip.kb-civic-building	This building contains numerous and significant opportunities if you can get an in with the people running the place
-ui.pip.cop-paidoff	You have paid off the officers that work at this precinct.
-ui.pip.heal-prompt	You can recover your health here - start a conversation with the owner.
-ui.pip.kb-casino-needs-money	Your gambling house cannot run with the amount of money currently in its coffers!
+ui.pip.kb-can-start-goon-action	この地元のローファーなら、何か興味を惹かれるものがあるかもしれない。
+ui.pip.kb-can-get-goon-reward	お互いの策略の成果を見るために、ぜひお立ち寄りください。
+ui.pip.kb-cash-boost	現在の資金繰りの限界に手を貸してくれる
+ui.pip.kb-civic-building	このビルには、経営者に取り入ることができれば、数多くの大きなチャンスがある。
+ui.pip.cop-paidoff	あなたはこの署で働く警官を買収しましたね。
+ui.pip.heal-prompt	ここで健康を回復することができます - オーナーと会話する。
+ui.pip.kb-casino-needs-money	あなたの賭博場は、現在の金庫の金額では運営できないですよ。
 ui.pipicon.biz	<sprite name="ui pip biz">
 ui.pipicon.biz-expand	<sprite name="ui pip biz">
 ui.pipicon.biz-stalled	<sprite name="ui pip biz stalled">
@@ -1264,44 +1264,44 @@ ui.reports.gangs.icon-dead	X
 ui.reports.gangs.icon-unknown	?
 ui.reports.gangs.name-unknown	An Unknown Outfit
 ui.reports.gangs.rel	<b>Relationship: {pts} pts.</b>
-ui.reports.gangs.aggro	\nStatus: <b>hostile</b>
-ui.reports.gangs.truce	\nStatus: hostile; truce in effect
-ui.reports.gangs.info	This outfit is actively vying for control over the city.
-ui.reports.gangs.info-dead	This outfit has been eliminated.
-ui.reports.gangs.info-unknown	We heard about other outfits in the city， but have not met them yet.
+ui.reports.gangs.aggro	\nステータス: <b>敵対的</b>
+ui.reports.gangs.truce	\nステータス: 敵対的; 休戦状態
+ui.reports.gangs.info	この勢力は、街の支配権を積極的に争っている。
+ui.reports.gangs.info-dead	この勢力はなくなりました。
+ui.reports.gangs.info-unknown	他の勢力の話も聞いていますが、まだ会っていません。
 ui.reports.gangs.corners	{qty} コーナーを支配
 ui.reports.gangs.corners.1	{qty} コーナーを支配
-ui.reports.gangs.crewcount	Consists of {qty} crew members:
-ui.reports.gangs.crewcount.1	Consists of {qty} crew member:
+ui.reports.gangs.crewcount	クルーは {qty} 人で構成:
+ui.reports.gangs.crewcount.1	クルーは {qty} 人で構成:
 ui.reports.gangs.crewline	<indent=10>{name}</indent>
-ui.reports.requests.header	Pending Requests
-ui.reports.requests.desc	The following lists people who have a request for you.
-ui.reports.requests.desc.location	You can find them at <b>{location}</b>.
+ui.reports.requests.header	保留中のリクエスト
+ui.reports.requests.desc	以下は、あなたへの要望を持つ人のリストです。
+ui.reports.requests.desc.location	<b>{location}</b>で見つけることができます。
 ui.reports.learnskill.header	技術習得のチャンス
 ui.reports.learnskill.desc	以下は、あなたに技術を教えてくれる人と、その人が提供している技術をリストアップしたもの。
 ui.reports.learnskill.desc.empty	技術を押してくれる人はだれもいない。組織のテリトリーを拡張し技術を習得しよう
 ui.reports.learnskill.item.desc	この人物はあなたに{icon}<b>{skillname}</b>を教えたがっている\n\n{skilldesc}
 ui.reports.learnskill.item.formatting	<indent=20>{item}</indent>
-ui.reports.gamblers.header	Gamblers at your Gambling Houses
-ui.reports.gamblers.desc	The following lists all the gamblers in your various gambling houses.
-ui.reports.gamblers.item.desc	Regular at {houseName}.{desc}
-ui.resources.favorite-bar	Favorites
+ui.reports.gamblers.header	あなたのギャンブルハウスのギャンブラー
+ui.reports.gamblers.desc	以下は、あなたの様々なギャンブルハウスにいるすべてのギャンブラーをリストアップしたものです。
+ui.reports.gamblers.item.desc	{houseName}.{desc}でレギュラー。
+ui.resources.favorite-bar	お気に入り
 ui.resources.add-favorite.icon	<sprite name="ui favorite save">
 ui.resources.toggle-favorite.icon.off	<sprite name="ui favorite off">
 ui.resources.toggle-favorite.icon.on	<sprite name="ui favorite on">
-ui.resources.add-favorite.mo	Set currently selected resources as <sprite name="ui favorite save"> favorites.\n\nYou can then use the <sprite name="ui favorite on"> toggle button to the right to show them.
-ui.resources.toggle-favorite.mo	Toggle visibility of all <sprite name="ui favorite save"> favorite resources.
-ui.questbar.header	Missions ({num}/{max})
-ui.questbar.mo	Active missions: {num}\nMission capacity: {max}\n\n<size=80%>Capacity explanation:\n{explanation}</size>
-ui.questbar.mo.extras	{delta} from special opportunities
-ui.overlays.recent	Recent Transactions
+ui.resources.add-favorite.mo	現在選択されているリソースを<sprite name="ui favorite save">お気に入りとして設定する。\n\nそして、右の<sprite name="ui favorite on">トグルボタンで表示させることができます。
+ui.resources.toggle-favorite.mo	すべての<sprite name="ui favorite save">お気に入りリソースの表示/非表示を切り替えます。
+ui.questbar.header	ミッション ({num}/{max})
+ui.questbar.mo	有効なミッション: {num}\nミッション容量: {max}\n\n<size=80%>容量の説明:\n{explanation}</size>
+ui.questbar.mo.extras	特別な機会からの{delta}
+ui.overlays.recent	最近の取引
 ui.overlays.recent.mo	最近売買したお店が表示
 ui.overlays.deliveries	スケジュール配達
 ui.overlays.deliveries.mo	今のスケジュール配達を表示
 ui.overlays.precincts	警察管区
 ui.overlays.precincts.mo	警察署とその管轄区域を表示
 ui.overlays.precincts.confirmed	警察署
-ui.overlays.precincts.sus	Suspected police station
+ui.overlays.precincts.sus	疑惑のある警察署
 ui.overlays.heat	ヒート
 ui.overlays.heat.mo	現在の警察の注意を換気しているヒート値を表示。
 ui.overlays.respect	リスペクト
@@ -1329,12 +1329,12 @@ ui.overlays.zoning.commercial.mo	商業棟をハイライト
 ui.overlays.zoning.industrial	工業
 ui.overlays.zoning.industrial.mo	工業棟をハイライト
 ui.rel.subview	{name} ({rel}， {age})\n{workplace}
-ui.subview.history.header	Recent social history:
-ui.subview.history.none	<indent=20><i>There is no social history available， or your relationship is not high enough</i></indent>
+ui.subview.history.header	最近の社会情勢:
+ui.subview.history.none	<indent=20><i>社会履歴がない、または関係性が十分でない</i></indent>
 ui.subview.history.rel-info	· <indent=20>{date}: {desc}</indent>\n<indent=20><align=right>{expiration}</align></indent>
-ui.subview.history.expire-info	<i>Relevant until {date} ({days} days / {turns} turns)</i>
-ui.subview.infotab.no-traits	Traits: unknown
-ui.combat.header.planning	Initiate Attack
+ui.subview.history.expire-info	<i> {date} まで関連（{days} 日 / {turns} ターン</i>
+ui.subview.infotab.no-traits	特性：不明
+ui.combat.header.planning	攻撃開始
 ui.combat.header.results	戦闘結果
 ui.combat.header.theircrew	敵の構成員
 ui.combat.header.yourcrew	味方の構成員
@@ -1345,25 +1345,25 @@ ui.combat.button.fight	戦う
 ui.combat.button.cancel	キャンセル
 ui.combat.button.close	閉じる
 ui.combat.button.target	ターゲット
-ui.combat.button.method	Method
+ui.combat.button.method	方法
 ui.combat.weapon-damage	{low}-{high}
 ui.combat.explanation	<indent=10><size=75%>{text}</size></indent>
-ui.combat.weapon-explanation	{icon} {name}\n\n{desc}\n\nDamage: {dmg}\n{dmgtext}\n\nHit chance: {hitrate}\n{hittext}
-ui.combat.health	\nResult: <b>{name}</b>
-ui.combat.attacked	{points} <sprite name="ui health"> from {icon} attack by {name}
+ui.combat.weapon-explanation	{icon} {name}\n\n{desc}\n\nダメージ: {dmg}\n{dmgtext}\n\nヒットチャンス: {hitrate}\n{hittext}
+ui.combat.health	\nリザルト: <b>{name}</b>
+ui.combat.attacked	{points} <sprite name="ui health"> {icon}による{name}の攻撃から。
 ui.combat.attacked-long	{victim} lost {points} <sprite name="ui health"> health points\n({icon} attack by {name})
-ui.combat.option.nobody	(don't attack anybody)
-ui.combat.option.nopoints	(out of action points)
-ui.combat.option.nomethod	No method selected
-ui.combat.option.notarget	No target selected
-ui.combat.photo-popup.unsuccessful	<align=center><b>Attack Results</b></align>\n\nAttack was unsuccessful.
-ui.combat.photo-popup.attack	<align=center><b>Attack!</b></align>
-ui.flyout.construction	CONSTRUCTION\nFINISHED
-ui.flyout.prod-complete	PRODUCTION\nCOMPLETE
-ui.flyout.prod-stalled	PRODUCTION\nSTALLED
-ui.flyout.damaged	BUILDING\nDAMAGED
-ui.tickers.leftclick	<b>Left-click</b> to highlight
-ui.tickers.rightclick	<b>Right-click</b> to dismiss
+ui.combat.option.nobody	(誰も攻撃しない)
+ui.combat.option.nopoints	(アクションポイントが足りない)
+ui.combat.option.nomethod	方法が選択されていません
+ui.combat.option.notarget	ターゲットが選択されていません
+ui.combat.photo-popup.unsuccessful	<align=center><b>攻撃結果</b></align>\n\n攻撃は失敗に終わった。
+ui.combat.photo-popup.attack	<align=center><b>攻撃!</b></align>
+ui.flyout.construction	建築\n完了
+ui.flyout.prod-complete	制作\n完了
+ui.flyout.prod-stalled	制作\n止まっている
+ui.flyout.damaged	建物\n損傷している
+ui.tickers.leftclick	<b>左クリック</b> でハイライト
+ui.tickers.rightclick	<b>右クリック</b> で非表示
 ui.tickers.icon.car-new	<sprite name="ui car">
 ui.tickers.icon.car-junk	<sprite name="ui car">
 ui.tickers.icon.car-clunker	<sprite name="ui car">
@@ -1431,56 +1431,56 @@ ui.tickers.icon.casino-available	<sprite name="ui build gambling">
 ui.tickers.icon.casino-in-debt	<sprite name="ui gambling unfunded">
 ui.tickers.icon.casino-amenity-done	<sprite name="ui build gambling">
 ui.tickers.icon.gambling-update	<sprite name="ui gambling general">
-ui.tickers.category.car	Vehicle update
+ui.tickers.category.car	車両アップデート
 ui.tickers.category.combat-results	攻撃！
-ui.tickers.category.copupdate	Police update
+ui.tickers.category.copupdate	警察の最新情報
 ui.tickers.category.crewgain	新しい構成員
-ui.tickers.category.default	Event update
-ui.tickers.category.deliveries	Problem with deliveries
-ui.tickers.category.demands	Status update
-ui.tickers.category.levelup	Crew member gained experience
-ui.tickers.category.loot-available	An offer is available
-ui.tickers.category.loot-expired	An offer has expired
-ui.tickers.category.outpost-start	You started a new front
-ui.tickers.category.outpost-notice	One of your fronts needs urgent attention
-ui.tickers.category.outpost-shutdown	One of your fronts has shut down
-ui.tickers.category.outpost-stolen	One of your fronts has been subverted
-ui.tickers.category.outpost-ai-stolen	Another outfit's front has been subverted
-ui.tickers.category.outpost-exp	Front is increasing your reputation
-ui.tickers.category.outpost-expyes	Consider expanding your territory
-ui.tickers.category.outpost-expno	Consider adding another front
-ui.tickers.category.resource	New resource discovered
-ui.tickers.category.salary	Salary problem
-ui.tickers.category.bizupdate	Business update
-ui.tickers.category.scopeout	Business scoped out
+ui.tickers.category.default	イベントアップデート
+ui.tickers.category.deliveries	配送に関する問題
+ui.tickers.category.demands	ステータス更新
+ui.tickers.category.levelup	クルーが経験を積んだ
+ui.tickers.category.loot-available	オファーがあります
+ui.tickers.category.loot-expired	オファーの期限が切れました
+ui.tickers.category.outpost-start	新しい戦線を開始しました
+ui.tickers.category.outpost-notice	戦線の1つは緊急対応が必要です
+ui.tickers.category.outpost-shutdown	戦線の1つが停止しています
+ui.tickers.category.outpost-stolen	戦線の1つが覆された
+ui.tickers.category.outpost-ai-stolen	別の勢力の前が覆されました
+ui.tickers.category.outpost-exp	戦線はあなたの評価を高めています
+ui.tickers.category.outpost-expyes	テリトリーの拡大を検討する
+ui.tickers.category.outpost-expno	もう一つ戦線の追加を検討する
+ui.tickers.category.resource	新たな資源を発見
+ui.tickers.category.salary	給料の問題
+ui.tickers.category.bizupdate	ビジネスアップデート
+ui.tickers.category.scopeout	ビジネス・スコープアウト
 ui.tickers.category.skillgain	構成員が新しい技術を習得
-ui.tickers.category.stallmodule	Operation stalled
-ui.tickers.category.stallprod	Production stalled
+ui.tickers.category.stallmodule	動作停止中
+ui.tickers.category.stallprod	生産停止中
 ui.tickers.category.building-damage-taken	建物がダメージ受けた
 ui.tickers.category.building-damage-fixed	建物が修理された
 ui.tickers.category.building-damage-destroyed	建物が破壊された
 ui.tickers.category.territory-contract	シマ喪失
 ui.tickers.category.territory-expand	シマ獲得
-ui.tickers.category.tribute-problem	No longer protecting businesses at this node
-ui.tickers.category.quests	Mission update
-ui.tickers.category.resevents	Event update
-ui.tickers.category.newplayer	Meeting update
-ui.tickers.category.gangrequest	Meeting request
-ui.tickers.category.gangattack	Attack imminent
-ui.tickers.category.gangwar-start	Outfit angry
+ui.tickers.category.tribute-problem	このノードでは、もはやビジネスを保護することはできません
+ui.tickers.category.quests	ミッション更新
+ui.tickers.category.resevents	イベントアップデート
+ui.tickers.category.newplayer	ミーティング更新
+ui.tickers.category.gangrequest	ミーティングのお願い
+ui.tickers.category.gangattack	攻撃が迫っている
+ui.tickers.category.gangwar-start	組織が怒っている
 ui.tickers.category.gangwar-end	組織はもう怒ってない
 ui.tickers.category.gangtruce-start	休戦中
 ui.tickers.category.gangtruce-end	休戦期限切れ
-ui.tickers.category.forceclose-human	A business was forced to close
-ui.tickers.category.forceclose-gang	You forced a business to close
-ui.tickers.category.buyout	Dealt with troublemakers
+ui.tickers.category.forceclose-human	廃業に追い込まれた企業
+ui.tickers.category.forceclose-gang	事業を閉鎖に追い込んだ
+ui.tickers.category.buyout	トラブルメーカーへの対応
 ui.tickers.category.loot-retracted	警察官はもう怒ってない
-ui.tickers.category.loot-ready	Offer result is ready
-ui.tickers.category.casino-available	Gambling is now available
+ui.tickers.category.loot-ready	オファー結果の準備ができました
+ui.tickers.category.casino-available	ギャンブルができるようになりました
 ui.tickers.category.casino-in-debt	ギャンブルの運営に資金が必要
 ui.tickers.category.casino-raided	ギャンブルの運営が警察のガサ入れ
 ui.tickers.category.casino-attacked	ギャンブルの運営がライバルの攻撃
-ui.tickers.category.casino-update	Gambling update
+ui.tickers.category.casino-update	ギャンブルの最新情報
 ui.tickers.production-stalled	資源不足のため生産が滞っている。\n\nその原因を探るため工場を点検してください。
 ui.tickers.production-outofroom	倉庫不足のため生産が滞っている。\n\nその原因を探るため工場を点検してください。
 ui.tickers.production-overproduced	事業で、使い切れないほどの資源を生産している。\n\nこの事業は、この過剰在庫を使い切るか廃棄するまで、生産を一時停止します。\n 生産過多：{resources}
@@ -1489,107 +1489,107 @@ ui.tickers.building-damage-taken	この建物の窓や外見が別のギャン�
 ui.tickers.building-damage-fixed	このビルは修理終わった!\n\nマネージャーが修理を終え、これで通常通りの生産ができるようになった。
 ui.tickers.building-damage-destroyed	早朝にビルの一棟が放火された。\n\n全員無事に脱出できましたが、生産設備や在庫はすべて破壊された。\n\nこの建物はもう使えない。
 ui.tickers.building-clear-control	あなたのテリトリーから外れてしまったため、ある事業が突然閉鎖した。\n\nこの建物は二度と使用できないうえに、そこに保管されていた在庫もすべてなくなった。
-ui.tickers.newplayer.goon.message	You met some local troublemakers: {groupname}.\n\nIt's a small operation that you might be able to use to your advantage.
-ui.tickers.newplayer.gang.message	You met a competing outfit: {groupname}.\n\nWhether friendly or not， make no mistake， they seek the same fame， glory， and piles of cash， as you do.
-ui.tickers.newplayer.cops.message	You met some officers from {groupname}.\n\nOfficers will patrol their beat， and keep an eye out for trouble. You can use the "heat" overlay to see which areas are most at risk of unwanted attention.
-ui.tickers.gangrequest.started	{groupname} want to have a word about something.\n\nTo respond， have your people meet their people. They indicated they will be sending someone to a neutral mid-point location to wait for you.\n\nValid until: {date}
+ui.tickers.newplayer.goon.message	地元で出会ったトラブルメーカー: {groupname}.\n\n小回りが利くので、使い勝手がいいかもしれませんね。
+ui.tickers.newplayer.gang.message	出会った競合する組織: {groupname} \n\n友好的であろうとなかろうと、彼らはあなたと同じように名声や栄光、そして大金を求めているのです。
+ui.tickers.newplayer.cops.message	{groupname}の役員に会いましたね。\n\n警官が巡回し、トラブルを未然に防ぎます。また、"ヒート"オーバーレイを使えば、どの地域が最も警戒されやすいかを知ることができます。
+ui.tickers.gangrequest.started	{groupname}は、何かについて話をしたいのですが。\n\n対応としては、自分の部下を相手の部下に会わせることです。彼らは、中立的な中間地点に誰かを送って待っているとのことです。\n\n有効期限: {date}
 ui.tickers.gangrequest.expired	{groupname}からの対話への招待は期限切れとなった。
-ui.tickers.gangattack	You heard through the grapevine that {groupname} are gathering their troops.\n\nBe careful， an attack might be imminent.
-ui.tickers.gangwar.start	{groupname} has become angry at you. They will now start targeting your crew and interests.\n\nIf you want to， you can visit them and try to negotiate a truce.
+ui.tickers.gangattack	{groupname}が軍隊を集めていると人づてに聞いた。\n\n攻撃されるかもしれないので、気をつけてください。
+ui.tickers.gangwar.start	{groupname}があなたに対して怒っています。 彼らは今あなたのクルーと利害関係者をターゲットにし始めます。\n\nもし望むなら、彼らを訪ねて停戦を交渉することもできます。
 ui.tickers.gangwar.end	{groupname}はもうあなたに対して怒っていないし、あなたのクルーや利害関係者を狙うこともない。
 ui.tickers.gangtruce.start	あなたは{groupname}と休戦協定を結んだ。\n\n彼らはまだ怒っているが、あなたが取引を守る限り、あなたへの攻撃は停止する。\n\n休戦の有効期限:{date}まで。
 ui.tickers.gangtruce.end	{groupname}との休戦協定は無効となった。
-ui.tickers.forceclose-human	You forced {name} to close down for a while.\n\nYou can be sure this will be noticed by {groupname}， who were seen frequenting that place.
-ui.tickers.forceclose-gang	{groupname} forced {name} to close down for a while.\n\nThe owner thinks this is retaliation for doing business with you， and will remain closed for a few months.
-ui.tickers.scopeout.business.message	You scoped out a new business:\n<b>{bizname}</b>\n\n<b>Type:</b> {type}\n<b>Owned by:</b> {ownername}
-ui.tickers.scopeout.business.observations	\n\n<b>Observations:</b>\n{recipes}
-ui.tickers.bizupdate.tiedhouse.gained	You've gained exclusivity with the following business: <b>{bizname}</b>.\n\nThey are tied to do business with only you， and no other outfit， for a period of {days} days.
-ui.tickers.bizupdate.tiedhouse.lost	You've lost exclusivity with the following business: <b>{bizname}</b>.
-ui.tickers.safehouse.message.format	<b>Safe House</b>\n\n{message}
-ui.tickers.safehouse.message.canraid.interest	You scoped out a gang safe house! The gang to which it belongs has been eliminated.
-ui.tickers.safehouse.message.canraid	You scoped out the safe house of a local group of hoodlums， which hasn't been used in a while.
-ui.tickers.safehouse.message.cannotraid	This locale looks like somebody's safe house. Be careful， they might not like strangers snooping around.
-ui.tickers.loot.available.message	Someone would like to make you an offer for a reward.
-ui.tickers.loot.retracted.below-threshold.message	An offer made to you has been retracted due to a shift in relationships.
+ui.tickers.forceclose-human	{name}をしばらく閉鎖に追い込みましたね。\n\nその場所に出入りしていた{groupname}の目に留まることは間違いないでしょう。
+ui.tickers.forceclose-gang	{groupname}は{name}をしばらく閉鎖に追い込みました。\n\n店主は取引に対する報復だと考えており、数カ月は休業する予定です。
+ui.tickers.scopeout.business.message	新しいビジネスを開拓した:\n<b>{bizname}</b>\n\n<b>タイプ:</b> {type}\n<b>所有者:</b> {ownername}
+ui.tickers.scopeout.business.observations	\n\n<b>観測結果:</b>\n{recipes}
+ui.tickers.bizupdate.tiedhouse.gained	以下のビジネスで独占権を得ています: <b>{bizname}</b>.\n\n彼らは、 {days} 日の間、あなただけと取引し、他の会社とは取引しないことを約束しています。
+ui.tickers.bizupdate.tiedhouse.lost	以下のビジネスで独占権を失った: <b>{bizname}</b>.
+ui.tickers.safehouse.message.format	<b>セーフハウス</b>\n\n{message}
+ui.tickers.safehouse.message.canraid.interest	ギャングの隠れ家を探したのか！所属する暴力団は排除された。
+ui.tickers.safehouse.message.canraid	地元のチンピラ集団の隠れ家を探したが、しばらく使われていないようだ。
+ui.tickers.safehouse.message.cannotraid	この場所は誰かの隠れ家のようだ。知らない人に覗かれるのが嫌な人たちかもしれないので、気をつけましょう。
+ui.tickers.loot.available.message	誰かがあなたに報酬のオファーをしたいそうです。
+ui.tickers.loot.retracted.below-threshold.message	あなたに提示されたオファーが、人間関係の変化により撤回された。
 ui.tickers.loot.retracted.expired.message	あなたに対してなされた申し出はもはや無効。
-ui.tickers.loot.retracted.raided.message	An offer you had in the works has been disrupted by local police activity.
-ui.tickers.loot.ready.message	An offer made to you has come through. Head over to pick up the fruits of your investment.
+ui.tickers.loot.retracted.raided.message	あなたが計画していたオファーは、地元の警察の活動によって中断されました。
+ui.tickers.loot.ready.message	あなたへのオファーが実現しました。投資した成果を受け取りに行きましょう。
 ui.tickers.outpost-exp	あなたのフロントは、近隣での評価を高めるために努力している。もうすぐ新しいコーナーがあなたのテリトリーに加わるはずだ。
 ui.tickers.outpost-expyes	あなたのテリトリーに新しいコーナーが加わりった！\n\n自分のフロントを訪れ、別の方向への拡大を開始しよう。
-ui.tickers.outpost-expno	You've reached the limits of this front's growth potential.\n\nSet up a new front to expand your territory in a different direction.
-ui.tickers.outpost.steal-protected	Your crew protected one of your fronts from subversion!
+ui.tickers.outpost-expno	このフロントの伸びしろは限界に達していますね。\n\n新たなフロントを張って、別方向に領土を拡大する。
+ui.tickers.outpost.steal-protected	君の仲間は前線の一つを破壊から守ったんだ！
 ui.tickers.outpost.will-steal	ライバルがあなたのフロントを攻撃しようと考えています。\n\nフロントを維持したいのであれば、フロントに人員を配置したほうがいいかもしれません。
-ui.tickers.outpost.shutdown-soon	One of your fronts needs immediate attention!\n\nYou haven't visited them in two months， and they're losing money.\n\nBe sure to visit before the end of the current month， and cover their running expenses， otherwise they will start looking elsewhere.
+ui.tickers.outpost.shutdown-soon	フロントのひとつに早急な対応が必要です!\n\n2カ月も訪問していないのだから、赤字になるのは当たり前だ。\n\n必ず当月末までに訪問し、ランニングコストをカバーしなければ、他を探し始めてしまいます。
 ui.tickers.outpost.shutdown-done	あなたのフロントの1つが閉鎖された!\n\n3ヶ月以上訪問していない上に、ずっと赤字が続いている。\n\n彼らは独自の道を歩むことを決意し、もはやあなたのための支払いを収集することはない。
 ui.tickers.outpost.shutdown-stolen	あなたのフロントが破壊された!\n\nオーナーは突然取引を打ち切り、君のために金を集めることも、君の尊敬を高めることもしなくなった。\n\n{groupname}のクルーもその角でドアをノックしているのを目撃されている。おそらくこれが関係しているのだろう。
-ui.tickers.outpost.ai-stolen	The front managed by {groupname} has mysteriously gone out of business.\n\nThis presents an opportunity for someone else to get in on their former territory.
-ui.tickers.outpost.automation-money-fail	Visited your front {name} per schedule， but did not have {amt} on hand to support it.
+ui.tickers.outpost.ai-stolen	{groupname}が管理していたフロントが謎のまま廃業してしまった。\n\nこれは、かつての自分のテリトリーに、他の誰かが入り込む機会を提供することになる。
+ui.tickers.outpost.automation-money-fail	予定通り{name}を訪問しましたが、手持ちの{amt}が足りませんでした。
 ui.tickers.outpost.automation-front-fail	建物{name}を訪問する予定ですが、その建物はもうあなたのフロントではありません。
 ui.tickers.buyout-hireascrew	地元のトラブルメーカーが有能であることを認め、あなたは彼らを仲間に加えた。\n\n彼らが以前いた場所は、もはや誰のテリトリーでもない。
 ui.tickers.buyout-paytomove	地元のトラブルメーカーが買収され、もう誰にも迷惑をかけないようになった。\n\nかつての彼らのコーナーは、もはや誰のテリトリーでもない。
 ui.tickers.delivery-cops-here	{delivery}の一環として{bizname}で配達を終えることができない。このコーナーに警察がいると、オーナーは不安になる。
-ui.tickers.delivery-cops-near	Unable to finish delivery at {bizname} as part of {delivery}. Police presence in the neighborhood is making the owner nervous.
+ui.tickers.delivery-cops-near	{delivery}の一環として{bizname}で配送を終えることができない。近隣に警察がいるため、オーナーは神経質になっている。
 ui.tickers.delivery-step-removed	配達に失敗：{bizname} は {name} の有効な配達先でなくなったため\n\nこの建物は配達スケジュールから削除された。
 ui.tickers.cop-donation	ゲームのやり方はわかっているはずだ。{name}と{precinctname}はもうあなたのクルーに迷惑をかけたり、地元の企業があなたと話をするのを嫌がったりすることはない。\n\nこの取り決めは{expiration}まで続く。
-ui.tickers.cop-donation-expired	Your previous arrangement with {precinctname} has run its course.\n\nYou can pay another visit to {name} and see if they would be willing to renew it.
-ui.tickers.cop-dono-angry	{name} of {precinctname} is tired of waiting for you to renew your deal.\n\nThey will now resume their regular beat unless you can make it worth their while.
-ui.tickers.fed-hint	You're tipped off a friendly officer about {groupname}， and they will relay the information over to the feds.\nA raid and an investigation should happen in a matter of days.
-ui.tickers.feds-raid-enemy	Following your tip， federal agents descend on one of the buildings belonging to {groupname}， arresting people and destroying illegal production.\n\nOne of their crew members has been detained， and awaits federal trial.
-ui.tickers.feds-raid-human	Federal agents are swarming one of your buildings!\n\nOne of your rivals must have tipped them off about your operations. They are interrogating people and destroying illegal production.\n\nInventory at <b>{bizname}</b> has been <i>destroyed.</i>
-ui.tickers.feds-raid-humancrew	Federal agents detained <b>{crewname}，</b> who now awaits trial in federal penitentary.\n\nYou should talk to a friendly local precinct officer to see if anything can be done.
-ui.tickers.feds-release	Whether due to the lack of evidence， or due to the prosecution's poor performance， the trial ended inconclusively.\n\n{crewname} is free to go.
-ui.tickers.feds-startprison	{crewname} has been found guilty of flagrant violations of the Volstead Act， and sentenced to {years} years in federal prison.\n\nUntil that day they still remain on your payroll， and the money will go to support their unfortunate family.
-ui.tickers.feds-endprison	{crewname} has been released， after serving {years} in federal prison.\n\nAfter an appropriate amount of celebration， you should find a suitable role for your loyal lieutenant， and let them get back into the swing of things.
-ui.tickers.crew-arrested	Police arrested one of your crew members， {name}.\n\nEverything in the vehicle was confiscated. {describe}
-ui.tickers.cop-descend	Police are descending at: {location}! They are detaining anyone who looks remotely suspicious
+ui.tickers.cop-donation-expired	あなたのこれまでの{precinctname}との取り決めは、もう限界です。\n\nもう一度{name}に訪問して、更新してもらえるかどうか確認することができます。
+ui.tickers.cop-dono-angry	{precinctname}の{name}は、あなたの契約更新を待つのにうんざりしています。\n\n彼らは今、あなたがそれに見合うだけのものを提供しない限り、通常の営業を再開するでしょう。
+ui.tickers.fed-hint	{groupname}について友好的な警官に密告され、彼らはその情報をFBIに伝えることになる。\n家宅捜索と捜査は、数日のうちに行われるはずだ。
+ui.tickers.feds-raid-enemy	あなたの情報により、連邦捜査官が{groupname}のビルに潜入し、逮捕と違法製品の破壊を行いました。\n\n乗組員の1人が拘束され、連邦裁判を待っている。
+ui.tickers.feds-raid-human	連邦捜査官が大挙して押し寄せている！\n\nライバルの誰かが、あなたの作戦を密告したのでしょう。彼らは人々を尋問し、違法な生産物を破壊しています。\n\n<b> {bizname} </b>の在庫が<i>破棄されました。</i>
+ui.tickers.feds-raid-humancrew	連邦捜査官が<b>{crewname}，</b>を拘留し、現在連邦刑務所で裁判を待っている。\n\n何かできることがないか、親切な地元の署員さんに相談してみてはいかがでしょうか。
+ui.tickers.feds-release	Whether 証拠不十分、あるいは検察の不手際で、裁判は決着がつかなかった。\n\n{crewname} は自由だ。
+ui.tickers.feds-startprison	{crewname} は、ボルステッド法の重大な違反で有罪とされ、連邦刑務所で{years}年の刑を宣告されました。\n\nその日まで、彼らはあなたの給料をもらっていて、そのお金は彼らの不幸な家族を支えるために使用されます。
+ui.tickers.feds-endprison	連邦刑務所に{years}年 服役していた{crewname}は釈放されました。\n\nそして適度なお祝いをした後、忠実な部下にふさわしい役割を与え、再び軌道に乗せることです。
+ui.tickers.crew-arrested	警察はあなたのクルー{name}を逮捕しました。\n\n車内のものはすべて没収されました。{describe}
+ui.tickers.cop-descend	警察が集まっています: {location}! 少しでも怪しいと思った人を拘束しています。
 ui.tickers.new-corner-control	あなたのリスペクトが高まっている あなたは街の新しい一角を支配するようになった。
 ui.tickers.corner-control-lost	あなたのリスペクトが落ちている! あなたは今、コーナーの支配を失った。
-ui.tickers.biz-tribute-lost	Businesses you were protecting at this node are no longer under your influence.
-ui.tickers.vehicle.junk	One of your vehicles is pretty completely junked!\n\nHeavily damaged vehicles cannot be used for work. It can only taken to the shop - or the scrap yard.
-ui.tickers.vehicle.clunk	One of your vehicles is getting a little banged up!\n\nMake sure to keep up with maintenance， because heavily damaged vehicles cannot be used for work.
-ui.tickers.vehicle.deteriorate	Vehicle condition deteriorated!\n\nDelivery vehicle driven by {driver} is damaged and no longer usable.\n\nScheduled deliveries have been canceled. You will need to repair the vehicle before restarting deliveries.
-ui.tickers.crew.fail-salary	Unable to pay salary for {name}: need at least {salarystr} in the safehouse or any other building you control.
-ui.tickers.crew.mgmt-to-unassigned	WARNING! This crew member can no longer manage {bizname} and has been unassigned!
-ui.tickers.crew.fail-family-support	Unable to pay family support for {name}: need at least {salarystr} in the safehouse.
-ui.tickers.bottle.automation-success	Visited your front， {name}， and collected the bottles at the return rack there.
-ui.tickers.vehicle.automation-fail	Attempted to repair a vehicle as part of a delivery， but did not have enough cash.
-ui.tickers.vehicle.automation-success	Successfully repaired {name}'s vehicle.
-ui.tickers.gambler-repayment-ready	{name}'s debt has come due. Make sure to go collect it at their home.
-ui.tickers.casino-available	Your territory is large enough to support a gambling operation.\n\nVisit some of your fronts， and spend a <sprite name="ui tickets"> favor to find out what kind of gambling operations can be started in the area.
-ui.tickers.casino-needs-money	Your gambling house did not have enough money to run all of its games last turn.
-ui.tickers.casino-raided	Your gambling house was raided by police! They confiscated all the cash they found and broke the {amenity}.
-ui.tickers.casino-raided.no-amenity	Your gambling house was raided by police! They confiscated all the cash they found.
-ui.tickers.casino-attacked	Your gambling house was attacked by {gangname}. They stole your hard-earned profits and busted up the {amenity}!
-ui.tickers.casino-attacked.no-amenity	Your gambling house was attacked by {gangname}. They stole your hard-earned profits and did some damage to the building.
-ui.tickers.casino-amenity-construction-done	Construction has finished on the {amenityName} feature in your gambling house.
-ui.tickers.debtor-new	{name}， a regular at your gambling den， {den}， has fallen deep into your debt. Make sure to go to speak to them about how to square this debt away. 
-ui.tickers.debtor-forgive	You extended credit to {name} and forgave their current debt. If they fall into debt again， your potential rewards improve. However， if they successfully dig out of debt， they might just leave your gambling houses with their winnings.
-ui.tickers.debtor-escape.simple	{name}， a regular at your gambling den， has taken their money and left after making {delta}.
-ui.tickers.debtor-escape.debtor	{name}， a regular at your gambling den， has managed to pull their way out of debt， and are no longer frequenting your casino!
-ui.tickers-list.title	Notification History
-ui.tickers-list.subtitle	Timeline of recent events from the last 30 days.
+ui.tickers.biz-tribute-lost	このノードであなたが保護していたビジネスは、もはやあなたの影響下にはありません。
+ui.tickers.vehicle.junk	1台はかなり完全なジャンク品ですね!\n\n損傷の激しい車は、仕事に使うことができません。ショップに持ち込むか、スクラップ置き場に持っていくしかない。
+ui.tickers.vehicle.clunk	1台がボロボロになっちゃった！\n\n損傷の激しい車は仕事に使えないので、必ず整備しましょう
+ui.tickers.vehicle.deteriorate	車両状態が悪化！\n\n{driver}が運転する配送車両が破損し、使用できなくなった。\n\n予定されていた配送がキャンセルされました。配送を再開する前に、車両を修理する必要があります。
+ui.tickers.crew.fail-salary	{name}の給料が払えない: 最低でも{salarystr}をセーフハウスやあなたが管理している建物に配置する必要があります。
+ui.tickers.crew.mgmt-to-unassigned	警告! このクルーは{bizname}を管理できなくなり、割り当てを解除されました!
+ui.tickers.crew.fail-family-support	{name}の家族扶養費を払えない: 最低でも{salarystr}の給料が必要です。
+ui.tickers.bottle.automation-success	あなたの戦線を{name}が訪ね、そこの返却棚でボトルを回収しました。
+ui.tickers.vehicle.automation-fail	納品で車を修理しようとしたが、現金が足りなかった。
+ui.tickers.vehicle.automation-success	{name}の車の修理に成功しました。
+ui.tickers.gambler-repayment-ready	{name}の借金が返済期限を迎えました。必ず相手の家に取り立てに行くように。
+ui.tickers.casino-available	テリトリーはギャンブルをするのに十分な広さです。\n\n前線に足を運び、<sprite name="ui tickets">の恩恵を受けて、その地域でどのようなギャンブルを始めることができるかを調べます。
+ui.tickers.casino-needs-money	あなたのギャンブルハウスは、前ターンにすべてのゲームを実行するのに十分なお金を持っていませんでした。
+ui.tickers.casino-raided	あなたのギャンブルハウスが警察に踏み込まれた! 彼らは見つけた現金をすべて没収し、{amenity}を壊した。
+ui.tickers.casino-raided.no-amenity	あなたのギャンブルハウスが警察に踏み込まれた! 現金はすべて没収されました。
+ui.tickers.casino-attacked	あなたのギャンブルハウスが{gangname}に攻撃されました。彼らはあなたの稼いだ利益を盗み、{amenity}をぶち壊したのです!
+ui.tickers.casino-attacked.no-amenity	あなたのギャンブルハウスが{gangname}に攻撃されました。彼らはあなたが苦労して稼いだ利益を盗み、建物にもダメージを与えました。
+ui.tickers.casino-amenity-construction-done	あなたのギャンブルハウスにある{amenityName}の工事が終了しました。
+ui.tickers.debtor-new	あなたの賭博場の常連である{name}が、あなたの借金を踏み倒した。この借金を清算する方法について、必ず話しに行くようにしましょう。
+ui.tickers.debtor-forgive	あなたは {name} に信用を拡大し、彼らの現在の負債を免除しました。彼らが再び借金をするようになれば、あなたの潜在的な報酬は向上します。しかし、もし彼らが借金を返すことができれば、あなたのギャンブルハウスから賞金を持って出て行くかもしれません。
+ui.tickers.debtor-escape.simple	{name}，あなたの賭博場の常連が{delta}を作った後、お金を取って出て行った。
+ui.tickers.debtor-escape.debtor	{name}， あなたのギャンブルハウスの常連客が、借金を返済して、もうあなたのカジノに通わなくなった。
+ui.tickers-list.title	通知履歴
+ui.tickers-list.subtitle	最近30日間の出来事をタイムラインで表示
 ui.tickers-list.entry	<b>{title}</b>\n{date}\n\n{description}
 ;; requirements	;; requirements
-ui.requirements.gameturn	Required game turn: {value}
-ui.requirements.city.true	Available in this city
-ui.requirements.city.false	Not available in this city
-ui.requirements.level	Required experience: {name}， level {value}
-ui.requirements.relationship	Required relationship level: {value} pts.
-ui.requirements.ownertrait	Required trait: {name}.
-ui.requirements.convoactions.failinjured	This crew member is injured and cannot work
-ui.requirements.convoactions.failactions	Not enough action points ({actions} required)
-ui.requirements.convoactions.default	This crew member should have action points
-ui.requirements.illegalgoods	Must be trusted enough to talk about illegal items
-ui.requirements.buysell-any.expected	Must have traded with you in the past
-ui.requirements.buysell-any.unexpected	Must not have traded with you in the past
-ui.requirements.buysell-qty	Must have traded: {resource-and-qty}
-ui.requirements.has-qty	Must have total in storage: {resource-and-qty}
-ui.requirements.has-too-many	Not available if you have some already
-ui.requirements.produced-qty	Must have produced: {resource-and-qty}
-ui.requirements.month.pass	Available this time of year
-ui.requirements.month.fail	Not available this time of year
-ui.requirements.tut-yes	Only available in the tutorial
-ui.requirements.tut-no	Not available in the tutorial
+ui.requirements.gameturn	必要なゲームターン: {value}
+ui.requirements.city.true	この都市で利用可能
+ui.requirements.city.false	この都市では使用できません
+ui.requirements.level	必要な経験: {name}， レベル {value}
+ui.requirements.relationship	必要な関係レベル: {value} ポイント.
+ui.requirements.ownertrait	必要な特性: {name}.
+ui.requirements.convoactions.failinjured	このクルーは怪我をしていて働けない
+ui.requirements.convoactions.failactions	アクションポイントが足りない ({actions} 必要)
+ui.requirements.convoactions.default	このクルーはアクションポイントを持っている必要があります
+ui.requirements.illegalgoods	違法なアイテムについて話すのに十分信頼されている必要があります
+ui.requirements.buysell-any.expected	過去にあなたと取引したことがあるに違いありません
+ui.requirements.buysell-any.unexpected	過去にあなたと取引したことがないはずです
+ui.requirements.buysell-qty	取引したに違いない: {resource-and-qty}
+ui.requirements.has-qty	Must 持ち合わせ: {resource-and-qty}
+ui.requirements.has-too-many	既にお持ちの方はご利用いただけません
+ui.requirements.produced-qty	生産している必要がある: {resource-and-qty}
+ui.requirements.month.pass	この時期から利用可能
+ui.requirements.month.fail	この時期にはご利用いただけません
+ui.requirements.tut-yes	チュートリアルのみで使用可能
+ui.requirements.tut-no	チュートリアルでは使用できません
 ui.requirements.skills.expected	その特性を持っていないと行けない
 ui.requirements.skills.unexpected	その特性を持っていては行けない
 ui.requirements.skills.all	これらの特性をすべて持っていないといけない
